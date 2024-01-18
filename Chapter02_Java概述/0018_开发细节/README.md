@@ -8,3 +8,7 @@
 6. 一个源文件中最多只能有一个public类。其它类的个数不限。
 7. 如果源文件包含一个public类，则文件名必须按该类名命名!
 8. 一个源文件中最多只能有一个public类。其它类的个数不限，也可以将main方法写在非public类中，然后指定运行非public 类，这样入口方法就是非public 的main方法
+
+案例演示：**[Hello.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0018_%E5%BC%80%E5%8F%91%E7%BB%86%E8%8A%82/Hello.java)**
+
+[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0018_开发细节)
