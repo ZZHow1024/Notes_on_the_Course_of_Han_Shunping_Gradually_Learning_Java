@@ -1,4 +1,5 @@
 # 0043-0044_浮点数细节
+
 1. 与整数类型类似，Java 浮点类型也有固定的范围和字段长度，不受具体OS的影响。
     1. [float 4 个字节 double 是 8个字节]
 2. Java 的浮点型常量默认为double型，声明float型常量，须后加 ’f’ 或 ‘F’。
@@ -54,3 +55,5 @@ public class FloatDetail{
 	}
 }
 ```
+
+案例演示：**[FloatDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0043-0044_%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%86%E8%8A%82/FloatDetail.java)**
