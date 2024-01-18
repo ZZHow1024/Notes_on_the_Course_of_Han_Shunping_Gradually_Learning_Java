@@ -1,7 +1,7 @@
 # Chapter02
 第二章_Java概述  
 Chapter02_Java Overview  
-@dnx00  
+@[dnx00  ](https://github.com/dnx00)的笔记
 @DNX  
 
 参考课程:
