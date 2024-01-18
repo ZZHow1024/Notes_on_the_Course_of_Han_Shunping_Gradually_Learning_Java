@@ -21,3 +21,5 @@ public class IntDetail{
 	}
 }
 ```
+
+案例演示：**[IntDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0041_%E6%95%B4%E5%9E%8B%E7%BB%86%E8%8A%82/IntDetail.java)**
