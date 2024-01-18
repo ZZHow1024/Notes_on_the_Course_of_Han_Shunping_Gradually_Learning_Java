@@ -1,10 +1,21 @@
 # 0038_加号使用
-变量使用注意事项
+1. 当左右两边都是数值型时，则做加法运算。
+2. 当左右两边有一方为字符串，则做拼接运算。
 
-1. 变量表示内存中的一个存储区域不同的变量，类型不同，占用的空间大小不同。
-    1. 比如: int 4 个字节， double 就是 8个字节,先有基本印象，后面说字节。
-2. 该区域有自己的名称[变量名]和类型[数据类型]。
-3. 变量必须先声明，后使用，即有顺序。
-4. 该区域的数据可以在同一类型范围内不断变化。
-5. 变量在同一个作用域内不能重名。
-6. 变量=变量名+值+数据类型，这一点请大家注意。变量三要素。
+例：	System.out.println(100 + 98);
+		System.out.println("100" + 98);
+
+		System.out.println(100 + 3 + "Hello");
+		System.out.println("Hello" + 100 + 3);
+
+```java
+public class Plus{
+	public static void main(String[] args){
+		System.out.println(100 + 98);//198
+		System.out.println("100" + 98);//10098
+
+		System.out.println(100 + 3 + "Hello");//103Hello
+		System.out.println("Hello" + 100 + 3);//Hello1003
+	}
+}
+```
