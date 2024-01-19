@@ -10,3 +10,8 @@
     
 
 案例演示：**[Var.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0035_%E5%8F%98%E9%87%8F%E6%A6%82%E5%BF%B5/Var.java)**
+
+运行结果：  
+100  
+800  
+  
