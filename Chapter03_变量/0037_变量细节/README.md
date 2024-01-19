@@ -11,3 +11,7 @@
 6. 变量=变量名+值+数据类型，这一点请大家注意。变量三要素。
 
 案例演示：**[VarDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0037_%E5%8F%98%E9%87%8F%E7%BB%86%E8%8A%82/VarDetail.java)**
+
+运行结果：  
+50  
+88  
