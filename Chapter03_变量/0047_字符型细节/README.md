@@ -14,3 +14,14 @@
 5. char类型是可以进行运算的，相当于一个整数，因为它都对应有Unicode码。
 
 案例演示：**[CharDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0047_%E5%AD%97%E7%AC%A6%E5%9E%8B%E7%BB%86%E8%8A%82/CharDetail.java)**
+
+运行结果：  
+c1 = a  
+'a'对应的Unicode码 = 97  
+'人'对应的Unicode码 = 20154  
+Unicode码20154对应的字符 = 人  
+'a' + 10 = 107  
+  
+课堂小测试  
+99  
+c  
