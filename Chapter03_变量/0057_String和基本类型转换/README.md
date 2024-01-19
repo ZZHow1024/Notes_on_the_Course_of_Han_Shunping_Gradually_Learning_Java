@@ -27,19 +27,19 @@
 
 案例演示: **[StringToBasic.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0057_String%E5%92%8C%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/StringToBasic.java)**
 
-运行结果：
+运行结果：  
   
-基本数据类型 -> String测试：
-100 1.1 4.5 true
-
-String -> 对应的基本数据类型测试：
-123
-123.0
-123.0
-123
-123
-123
-true
-
-String -> char测试：
+基本数据类型 -> String测试：  
+100 1.1 4.5 true  
+  
+String -> 对应的基本数据类型测试：  
+123  
+123.0  
+123.0  
+123  
+123  
+123  
+true  
+  
+String -> char测试：  
 1  
