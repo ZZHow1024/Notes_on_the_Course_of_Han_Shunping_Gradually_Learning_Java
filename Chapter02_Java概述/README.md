@@ -19,7 +19,7 @@ Chapter02_Java Overview
 5. 2009年，甲骨文公司宣布收购Sun 。2011，发布java7。
 6. Java之父：**詹姆斯·高斯林**
 
-![James Gosling](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/095fcf95-cdf5-48e8-b9eb-b3c1b8961363/James_Gosling_2008.jpg)
+![James Gosling](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/James_Gosling.jpg)
 
 James Gosling
 
