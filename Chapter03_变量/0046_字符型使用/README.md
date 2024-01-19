@@ -7,3 +7,9 @@
     
 
 案例演示：**[Char.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0046_%E5%AD%97%E7%AC%A6%E5%9E%8B%E4%BD%BF%E7%94%A8/Char.java)**
+
+运行结果：  
+c1 = a  
+c2 =  
+c3 = 人  
+c4 = b  
