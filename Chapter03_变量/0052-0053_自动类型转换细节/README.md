@@ -6,3 +6,5 @@
 4. byte，short，char 他们三者可以计算，在计算时首先转换为int类型。
 5. boolean 不参与转换。
 6. 自动提升原则: 表达式结果的类型自动提升为 操作数中最大的类型。
+
+案例演示：**[AutoConvertDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0052-0053_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E7%BB%86%E8%8A%82/AutoConvertDetail.java)**
