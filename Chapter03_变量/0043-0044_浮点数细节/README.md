@@ -57,3 +57,13 @@ public class FloatDetail{
 ```
 
 案例演示：**[FloatDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0043-0044_%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%86%E8%8A%82/FloatDetail.java)**
+
+运行结果：  
+num5 = 0.123  
+5.12e2 = 512.0  
+5.12E-2 = 0.0512  
+num9 = 2.1234567851  
+num10 = 2.1234567  
+num11 = 2.7  
+num12 = 2.6999999999999997  
+差值非常小，到我的规定精度，认为num11 = num12  
