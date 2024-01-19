@@ -1,7 +1,7 @@
 # Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java
-“韩顺平循序渐进学Java”课程笔记
-
-@DNX
+“韩顺平循序渐进学Java”课程笔记  
+@[dnx00  ](https://github.com/dnx00)的笔记  
+@DNX  
 
 参考课程:
 
