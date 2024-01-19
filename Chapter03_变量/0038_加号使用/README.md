@@ -22,3 +22,9 @@ public class Plus{
 ```
 
 案例演示：**[Plus.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0038_%E5%8A%A0%E5%8F%B7%E4%BD%BF%E7%94%A8/Plus.java)**
+
+运行结果：  
+198  
+10098  
+103Hello  
+Hello1003  
