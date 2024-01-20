@@ -5,9 +5,8 @@
 案例演示：**[MultiplicationTable.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0134-0135_%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0/MultiplicationTable.java)**
 
 运行结果：
-
 1 * 1 = 1  
-1 * 2 = 2&ensp&ensp&ensp&ensp&ensp&ensp&ensp2 * 2 = 4  
+1 * 2 = 2       2 * 2 = 4  
 1 * 3 = 3       2 * 3 = 6       3 * 3 = 9  
 1 * 4 = 4       2 * 4 = 8       3 * 4 = 12      4 * 4 = 16  
 1 * 5 = 5       2 * 5 = 10      3 * 5 = 15      4 * 5 = 20      5 * 5 = 25  
