@@ -87,13 +87,9 @@ public class Plus{
 
 # 0039_数据类型
 
-![Java数据类型.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/6f79efa9-dae7-40e8-ba2f-8b3b5bcbcbb4/Java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.jpg)
-
 注意：String不是基本数据类型，它是一个类。
 
 # 0040_整型使用
-
-![Java整型.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/da8d5313-a2a0-457f-9baa-b4ed4783a4c0/Java%E6%95%B4%E5%9E%8B.jpg)
 
 # 0041_整型细节
 
@@ -124,8 +120,6 @@ public class IntDetail{
 [](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0041_整型细节)
 
 # 0042_浮点数使用
-
-![浮点数的使用.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/968672d5-2f3c-48a1-9b98-ea9104c77818/%E6%B5%AE%E7%82%B9%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8.jpg)
 
 - 说明一下
 1. 关于浮点数在机器中存放形式的简单说明。
@@ -203,8 +197,6 @@ public class FloatDetail{
     1. 包 —> 类 —> 方法。
     2. 直接索引。
 
-![Java类的组织形式](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/e2ed5d73-d5a7-4dcf-88d0-41dd128fabd5/Java%E7%B1%BB.jpg)
-
 Java类的组织形式
 
 # 0046_字符型使用
@@ -275,8 +267,6 @@ Java类的组织形式
 - 介绍
     - 当java程序在进行赋值或者运算时，精度小的类型自动转换为精度大的数据类型这个就是自动类型转换。
 - 数据类型按精度(容量)大小排序为(背，规则)
-
-![自动类型转换.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/c5f26475-d75d-4d58-9eda-d0eb90ed08a7/%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.jpg)
 
 案例演示：**[AutoConvert.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0051_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%9F%BA%E7%A1%80/AutoConvert.java)**
 
