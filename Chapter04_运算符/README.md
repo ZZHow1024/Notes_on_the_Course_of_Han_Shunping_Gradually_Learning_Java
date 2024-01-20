@@ -1,6 +1,6 @@
-# Chapter03
-第三章_变量  
-Chapter03_Variable  
+# Chapter04
+第四章_运算符  
+Chapter04_Operator
 @[dnx00  ](https://github.com/dnx00)的笔记  
 @DNX
 
@@ -26,8 +26,6 @@ Chapter03_Variable
 算术运算符是对数值类型的变量进行运算的，在Java程序中使用的非常多。
 
 - 算术运算符一览
-
-![算术运算符.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/ce0a4915-7c8b-4219-a41f-6d1158ce6834/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6.jpg)
 
 # 0063_算数运算符使用
 
@@ -83,8 +81,6 @@ System.out.println("i2 = " + i2); // 19
 
 - 关系运算符(比较运算符)一览
 
-![关系运算符.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/92c0a0e6-9653-452a-a11a-d94b231e1b48/%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6.jpg)
-
 # 0069_关系运算符使用
 
 - 细节说明
@@ -101,8 +97,6 @@ System.out.println("i2 = " + i2); // 19
 - 逻辑运算符一览
 1. 短路与 &&，短路或 ||，取反 !
 2. 逻辑与 &，逻辑或 |， 逻辑异或 ^
-
-![逻辑运算符.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/cc0a19de-12af-4055-a955-1cf7e042b4da/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.jpg)
 
 # 0071_短路与逻辑与
 
@@ -207,8 +201,6 @@ System.out.println("i2 = " + i2); // 19
 1. 运算符有不同的优先级，所谓优先级就是表达式运算中的运算顺序。如右表，上一行运算符总优先于下一行。
 2. 只有单目运算符、赋值运算符是从右向左运算的。
 
-![优先级.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/56fd5435-7556-4093-99f9-835c8945e86e/%E4%BC%98%E5%85%88%E7%BA%A7.jpg)
-
 # 0081_标识符规则
 
 - 标识符概念
@@ -250,10 +242,6 @@ System.out.println("i2 = " + i2); // 19
 - 关键字
 1. 定义：被Java语言赋予了特殊含义，用做专门用途的字符串（单词）。
 2. 特点：关键字中所有字母都为小写。
-
-![关键字1.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/cf0256bb-3df2-48f2-9cdf-fca36aee3ccf/%E5%85%B3%E9%94%AE%E5%AD%971.jpg)
-
-![关键字2.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/7210dcd7-779f-44bd-95ef-68495e67bae6/%E5%85%B3%E9%94%AE%E5%AD%972.jpg)
 
 - 保留字
 1. 定义：现有Java版本尚未使用，但以后版本可能会作为关键字使用。自己命名标识符时要避免使用这些保留字。
