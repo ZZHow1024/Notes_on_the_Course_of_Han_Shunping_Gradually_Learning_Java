@@ -2,8 +2,6 @@
 
 - 案例：打印 9 * 9 乘法表。
 
-![运行结果](Chapter05_程序控制结构/0134-0135_多重循环练习/运行结果.jpg)
-
 运行结果
 
 案例演示：**[MultiplicationTable.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0134-0135_%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0/MultiplicationTable.java)**
