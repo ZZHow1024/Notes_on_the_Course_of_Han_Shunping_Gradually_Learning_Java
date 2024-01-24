@@ -27,6 +27,8 @@ Chapter04_Operator
 
 - 算术运算符一览
 
+![算术运算符.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fce0a4915-7c8b-4219-a41f-6d1158ce6834%2F%25E7%25AE%2597%25E6%259C%25AF%25E8%25BF%2590%25E7%25AE%2597%25E7%25AC%25A6.jpg?table=block&id=90353fa4-98ef-4c7b-b3dd-2ea2b9febad4&t=90353fa4-98ef-4c7b-b3dd-2ea2b9febad4)
+
 # 0063_算数运算符使用
 
 1. +，-，*，/，%，++，--，重点：/、%、++
@@ -81,6 +83,8 @@ System.out.println("i2 = " + i2); // 19
 
 - 关系运算符(比较运算符)一览
 
+![关系运算符.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F92c0a0e6-9653-452a-a11a-d94b231e1b48%2F%25E5%2585%25B3%25E7%25B3%25BB%25E8%25BF%2590%25E7%25AE%2597%25E7%25AC%25A6.jpg?table=block&id=0c5fdf2c-f49e-4c1b-bea0-ea071b8760c2&t=0c5fdf2c-f49e-4c1b-bea0-ea071b8760c2)
+
 # 0069_关系运算符使用
 
 - 细节说明
@@ -97,6 +101,8 @@ System.out.println("i2 = " + i2); // 19
 - 逻辑运算符一览
 1. 短路与 &&，短路或 ||，取反 !
 2. 逻辑与 &，逻辑或 |， 逻辑异或 ^
+
+![逻辑运算符.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fcc0a19de-12af-4055-a955-1cf7e042b4da%2F%25E9%2580%25BB%25E8%25BE%2591%25E8%25BF%2590%25E7%25AE%2597%25E7%25AC%25A6.jpg?table=block&id=fe40ef39-b87f-4c17-84f1-309671f580b8&t=fe40ef39-b87f-4c17-84f1-309671f580b8)
 
 # 0071_短路与逻辑与
 
@@ -201,6 +207,8 @@ System.out.println("i2 = " + i2); // 19
 1. 运算符有不同的优先级，所谓优先级就是表达式运算中的运算顺序。如右表，上一行运算符总优先于下一行。
 2. 只有单目运算符、赋值运算符是从右向左运算的。
 
+![优先级.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F56fd5435-7556-4093-99f9-835c8945e86e%2F%25E4%25BC%2598%25E5%2585%2588%25E7%25BA%25A7.jpg?table=block&id=b3829578-03cf-42b1-92b1-a77f11e1eb96&t=b3829578-03cf-42b1-92b1-a77f11e1eb96)
+
 # 0081_标识符规则
 
 - 标识符概念
@@ -242,6 +250,10 @@ System.out.println("i2 = " + i2); // 19
 - 关键字
 1. 定义：被Java语言赋予了特殊含义，用做专门用途的字符串（单词）。
 2. 特点：关键字中所有字母都为小写。
+
+![关键字1.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fcf0256bb-3df2-48f2-9cdf-fca36aee3ccf%2F%25E5%2585%25B3%25E9%2594%25AE%25E5%25AD%25971.jpg?table=block&id=4cf3b355-3808-45e5-aff1-5823ee976ca2&t=4cf3b355-3808-45e5-aff1-5823ee976ca2)
+
+![关键字2.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F7210dcd7-779f-44bd-95ef-68495e67bae6%2F%25E5%2585%25B3%25E9%2594%25AE%25E5%25AD%25972.jpg?table=block&id=329ae636-ba42-4f3c-a0a4-4059e8951786&t=329ae636-ba42-4f3c-a0a4-4059e8951786)
 
 - 保留字
 1. 定义：现有Java版本尚未使用，但以后版本可能会作为关键字使用。自己命名标识符时要避免使用这些保留字。
@@ -361,7 +373,7 @@ int n4 = 0x10101;// 十六进制
 3. 负数的反码=它的原码符号位不变，其它位取反(0->1,1->0)。
 4. 负数的补码=它的反码+1，负数的反码 = 负数的补码 - 1。
 5. 0的反码，补码都是0。
-6. java没有无符号数，换言之，java中的数都是有符号的。
+6. java没有无符号数，换言之，Java中的数都是有符号的。
 7. 在计算机运算的时候，都是以补码的方式来运算的。
 8. 当我们看运算结果的时候，要看他的原码。
 
