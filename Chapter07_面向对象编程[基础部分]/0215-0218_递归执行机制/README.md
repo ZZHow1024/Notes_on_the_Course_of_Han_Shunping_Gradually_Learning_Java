@@ -12,6 +12,8 @@ public void test(int n)
 }
 ```
 
+![递归执行机制01.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F0d8e42a8-4001-4a1b-af62-76edfb0d604c%2F%25E9%2580%2592%25E5%25BD%2592%25E6%2589%25A7%25E8%25A1%258C%25E6%259C%25BA%25E5%2588%25B601.jpg?table=block&id=d097c0ee-e725-4a9c-9b5d-36b652e72ad8&t=d097c0ee-e725-4a9c-9b5d-36b652e72ad8)
+
 - 运行结果：
     
     n = 2
