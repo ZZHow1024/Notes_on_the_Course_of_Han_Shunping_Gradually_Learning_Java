@@ -39,7 +39,7 @@ class Cat
 		cat1.color = "白色";
 ```
 
-![对象内存布局](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/4dbb719d-9fb6-47a6-a76d-5037c0d86d88/%E5%AF%B9%E8%B1%A1%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80.jpg)
+![对象内存布局](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F4dbb719d-9fb6-47a6-a76d-5037c0d86d88%2F%25E5%25AF%25B9%25E8%25B1%25A1%25E5%2586%2585%25E5%25AD%2598%25E5%25B8%2583%25E5%25B1%2580.jpg?table=block&id=cf6454a1-d58d-45c2-af16-96d7af0ec52b&t=cf6454a1-d58d-45c2-af16-96d7af0ec52b)
 
 对象内存布局
 
