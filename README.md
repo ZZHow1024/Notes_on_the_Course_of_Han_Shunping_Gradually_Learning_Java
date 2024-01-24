@@ -13,3 +13,32 @@
 接下来的几篇博客将会按章节分享我听韩顺平老师课程的笔记，案例代码会分享到我的GitHub仓库中，更多是我收获到的内容，完整内容请关注韩老师的Bilibili。
 
 持续更新中…
+
+GitHub仓库更新日志：
+
+- 2024年1月16日：
+    - 创建 仓库
+    - 创建 **Chapter01**
+    - 上传 笔记 and 代码
+- 2024年1月18日
+    - 创建 **Chapter02**
+    - 调整 文件命名
+        - **Chapter01 → Chapter02**
+        - **Chapter02 → Chapter03**
+    - 上传 笔记 and 代码
+- 2024年1月19日
+    - 创建 **Chapter01 and** **Chapter04**
+    - 上传 笔记 and 代码
+    - 完成 **Chapter01,** **Chapter02 and Chapter03**
+- 2024年1月20日
+    - 创建 **Chapter05 and** **Chapter06**
+    - 上传 笔记 and 代码
+    - 完成 **Chapter04 and Chapter05**
+- 2024年1月21日
+    - 创建 **Chapter07**
+    - 上传 笔记 and 代码
+    - 完成 **Chapter06**
+- 2024年1月24日
+    - 创建 **Chapter08**
+    - 上传 笔记、代码 and **图片**
+    - 完成 **Chapter07**
