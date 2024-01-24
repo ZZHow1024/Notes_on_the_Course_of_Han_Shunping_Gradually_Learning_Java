@@ -87,9 +87,13 @@ public class Plus{
 
 # 0039_数据类型
 
+![Java数据类型.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F6f79efa9-dae7-40e8-ba2f-8b3b5bcbcbb4%2FJava%25E6%2595%25B0%25E6%258D%25AE%25E7%25B1%25BB%25E5%259E%258B.jpg?table=block&id=683ce177-78aa-4bae-9658-fdfd9f33423d&t=683ce177-78aa-4bae-9658-fdfd9f33423d)
+
 注意：String不是基本数据类型，它是一个类。
 
 # 0040_整型使用
+
+![Java整型.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fda8d5313-a2a0-457f-9baa-b4ed4783a4c0%2FJava%25E6%2595%25B4%25E5%259E%258B.jpg?table=block&id=003ed2ae-2e6d-4371-814f-d59703102f39&t=003ed2ae-2e6d-4371-814f-d59703102f39)
 
 # 0041_整型细节
 
@@ -120,6 +124,8 @@ public class IntDetail{
 [](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0041_整型细节)
 
 # 0042_浮点数使用
+
+![浮点数的使用.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F968672d5-2f3c-48a1-9b98-ea9104c77818%2F%25E6%25B5%25AE%25E7%2582%25B9%25E6%2595%25B0%25E7%259A%2584%25E4%25BD%25BF%25E7%2594%25A8.jpg?table=block&id=a97a7e56-6b13-457a-8e05-219c986771bc&t=a97a7e56-6b13-457a-8e05-219c986771bc)
 
 - 说明一下
 1. 关于浮点数在机器中存放形式的简单说明。
@@ -197,6 +203,8 @@ public class FloatDetail{
     1. 包 —> 类 —> 方法。
     2. 直接索引。
 
+![Java类的组织形式](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fe2ed5d73-d5a7-4dcf-88d0-41dd128fabd5%2FJava%25E7%25B1%25BB.jpg?table=block&id=a0aa1586-8be6-4dcd-9ad8-fbfbcf23d03f&t=a0aa1586-8be6-4dcd-9ad8-fbfbcf23d03f)
+
 Java类的组织形式
 
 # 0046_字符型使用
@@ -267,6 +275,8 @@ Java类的组织形式
 - 介绍
     - 当java程序在进行赋值或者运算时，精度小的类型自动转换为精度大的数据类型这个就是自动类型转换。
 - 数据类型按精度(容量)大小排序为(背，规则)
+
+![自动类型转换.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fc5f26475-d75d-4d58-9eda-d0eb90ed08a7%2F%25E8%2587%25AA%25E5%258A%25A8%25E7%25B1%25BB%25E5%259E%258B%25E8%25BD%25AC%25E6%258D%25A2.jpg?table=block&id=de7dc8fc-2192-463b-8578-0f4f51e47cca&t=de7dc8fc-2192-463b-8578-0f4f51e47cca)
 
 案例演示：**[AutoConvert.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0051_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%9F%BA%E7%A1%80/AutoConvert.java)**
 
