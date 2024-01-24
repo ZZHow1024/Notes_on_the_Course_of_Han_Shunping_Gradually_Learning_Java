@@ -87,7 +87,7 @@ Person p2 = p1; // 把p1赋给p2，让p2指向p1。
 System.out.println(p2.age);
 ```
 
-![对象分配机制.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/53806479-8c0f-4d32-999f-4b830f2b939e/%E5%AF%B9%E8%B1%A1%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6.jpg)
+![对象分配机制.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F53806479-8c0f-4d32-999f-4b830f2b939e%2F%25E5%25AF%25B9%25E8%25B1%25A1%25E5%2588%2586%25E9%2585%258D%25E6%259C%25BA%25E5%2588%25B6.jpg?table=block&id=f3607c9a-a766-494d-8d0c-a77cfb46fe5f&t=f3607c9a-a766-494d-8d0c-a77cfb46fe5f)
 
 # 0199_对象创建过程
 
@@ -129,7 +129,7 @@ public int getSum(int n1, int n2)
 }
 ```
 
-![方法调用机制](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/f4114991-e2c4-4e0f-83e4-107de152f93c/%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E6%9C%BA%E5%88%B6.jpg)
+![方法调用机制](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Ff4114991-e2c4-4e0f-83e4-107de152f93c%2F%25E6%2596%25B9%25E6%25B3%2595%25E8%25B0%2583%25E7%2594%25A8%25E6%259C%25BA%25E5%2588%25B6.jpg?table=block&id=ddb79f09-cc9b-4d03-8203-82a2c6aa3d45&t=ddb79f09-cc9b-4d03-8203-82a2c6aa3d45)
 
 方法调用机制
 
@@ -216,7 +216,7 @@ public void test(int n)
 }
 ```
 
-![递归执行机制01.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/0d8e42a8-4001-4a1b-af62-76edfb0d604c/%E9%80%92%E5%BD%92%E6%89%A7%E8%A1%8C%E6%9C%BA%E5%88%B601.jpg)
+![递归执行机制01.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F0d8e42a8-4001-4a1b-af62-76edfb0d604c%2F%25E9%2580%2592%25E5%25BD%2592%25E6%2589%25A7%25E8%25A1%258C%25E6%259C%25BA%25E5%2588%25B601.jpg?table=block&id=d097c0ee-e725-4a9c-9b5d-36b652e72ad8&t=d097c0ee-e725-4a9c-9b5d-36b652e72ad8)
 
 - 运行结果：
     
@@ -262,7 +262,7 @@ public void test(int n)
 2. 再得到小球路径时，可以先使用（下右上左）再改成（上右下左），看看路径是不是有变化。
 3. 测试回溯现象。
 
-![老鼠出迷宫](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/d15973f1-355c-4790-a739-5d47cf4b999e/%E8%80%81%E9%BC%A0%E5%87%BA%E8%BF%B7%E5%AE%AB.jpg)
+![老鼠出迷宫](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fd15973f1-355c-4790-a739-5d47cf4b999e%2F%25E8%2580%2581%25E9%25BC%25A0%25E5%2587%25BA%25E8%25BF%25B7%25E5%25AE%25AB.jpg?table=block&id=6230a1c6-76d2-47c3-9a4e-ef1932c1a8fd&t=6230a1c6-76d2-47c3-9a4e-ef1932c1a8fd)
 
 老鼠出迷宫
 
@@ -274,7 +274,7 @@ public void test(int n)
 
 - 规则：每次只能移动一个盘子，并且在移动过程中三根杆上都始终保持大盘在下，小盘在上，操作过程中盘子可以置于A、B、C任一杆上。
 
-![汉诺塔](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/1812d4af-47a7-44d8-8fa9-315feba99e54/%E6%B1%89%E8%AF%BA%E5%A1%94.jpg)
+![汉诺塔](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F1812d4af-47a7-44d8-8fa9-315feba99e54%2F%25E6%25B1%2589%25E8%25AF%25BA%25E5%25A1%2594.jpg?table=block&id=3280446c-8fe4-45e1-8800-3f8d1db0fb13&t=3280446c-8fe4-45e1-8800-3f8d1db0fb13)
 
 汉诺塔
 
@@ -286,7 +286,7 @@ public void test(int n)
 
 - 问题表述：在8×8格的国际象棋上摆放8个皇后，使其不能互相攻击，即任意两个皇后都不能处于同一行、同一列或同一斜线上，问有多少种摆法。
 
-![八皇后](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/b7bbce88-73f6-4ffe-b7ca-23c7c14fd2ad/%E5%85%AB%E7%9A%87%E5%90%8E.png)
+![八皇后](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fb7bbce88-73f6-4ffe-b7ca-23c7c14fd2ad%2F%25E5%2585%25AB%25E7%259A%2587%25E5%2590%258E.png?table=block&id=f45c63d5-fcea-444e-9a1c-1e1fddab5cce&t=f45c63d5-fcea-444e-9a1c-1e1fddab5cce)
 
 八皇后
 
