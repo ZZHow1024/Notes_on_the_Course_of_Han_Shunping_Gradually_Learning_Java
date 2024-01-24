@@ -1,6 +1,6 @@
-# 0175-0179_二维数组内存布局+使用
+# 0176-0179_二维数组内存布局+使用
 
-![二维数组内存布局](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/1ba79960-5e1a-489b-85ae-f0296b2383b3/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80.jpg)
+![二维数组内存布局](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F1ba79960-5e1a-489b-85ae-f0296b2383b3%2F%25E4%25BA%258C%25E7%25BB%25B4%25E6%2595%25B0%25E7%25BB%2584%25E5%2586%2585%25E5%25AD%2598%25E5%25B8%2583%25E5%25B1%2580.jpg?table=block&id=d92373a2-634c-4db0-a253-38f4045920b9&t=d92373a2-634c-4db0-a253-38f4045920b9)
 
 二维数组内存布局
 
@@ -56,6 +56,7 @@
     ```java
     int[][] arr = {{1,1,1},{8,8,9},{100}};
     ```
+    
 
 TwoDimensionalArrayMethod03.java运行结果：  
 ==arr中的元素==  
