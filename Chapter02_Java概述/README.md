@@ -118,4 +118,4 @@ DOS介绍：Disk Operating System 磁盘操作系统
 14. type nul[输入空内容到文件]
 15. move[移动文件])
 
-仅作了解
+仅作了解  
