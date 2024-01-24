@@ -238,6 +238,8 @@ for(int i = 0; i < 7; i++)
 
 - 案例：打印 9 * 9 乘法表。
 
+![运行结果](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F617a821d-7ae2-442d-b20d-3353799d007d%2F%25E8%25BF%2590%25E8%25A1%258C%25E7%25BB%2593%25E6%259E%259C.jpg?table=block&id=3024817b-b115-431f-a6be-ad7d1a542b16&t=3024817b-b115-431f-a6be-ad7d1a542b16)
+
 运行结果
 
 案例演示：**[MultiplicationTable.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0134-0135_%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0/MultiplicationTable.java)**
@@ -247,6 +249,8 @@ for(int i = 0; i < 7; i++)
 # 0136_空心金字塔
 
 - 案例：打印空心金字塔。
+
+![运行结果](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F95ccc172-7310-411b-af9f-16de6a260055%2F%25E8%25BF%2590%25E8%25A1%258C%25E7%25BB%2593%25E6%259E%259C.jpg?table=block&id=adf09da8-6ac8-496d-8336-016e4a69666b&t=adf09da8-6ac8-496d-8336-016e4a69666b)
 
 运行结果
 
@@ -259,6 +263,8 @@ for(int i = 0; i < 7; i++)
 - 循环，但是循环的次数不知道 → break，当某个条件满足时，终止循环通过该需求可以说明其它流程控制的必要性，比如break。
 - 案例：随机生成1-100的一个数，直到生成了97这个数，看看你一共用了几次？
 - 提示使用 (int)(Math.random() * 100) + 1;
+
+![运行结果.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fb8edc9cb-21eb-4547-a683-27c76e4ad619%2F%25E8%25BF%2590%25E8%25A1%258C%25E7%25BB%2593%25E6%259E%259C.jpg?table=block&id=d62d09ae-a322-434c-9a39-d1053c6a0498&t=d62d09ae-a322-434c-9a39-d1053c6a0498)
 
 案例演示：**[Break.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0137_break%E9%9C%80%E6%B1%82/Break.java)**
 
