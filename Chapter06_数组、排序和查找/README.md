@@ -101,6 +101,8 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
 1. 基本数据类型赋值，这个值就是具体的数据，而且相互不影响。
 2. 数组在默认情况下是引用传递，赋的值是地址。
 
+![数组赋值机制.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F91c0e447-a6fb-42ff-959a-633e2560fcd4%2F%25E6%2595%25B0%25E7%25BB%2584%25E8%25B5%258B%25E5%2580%25BC%25E6%259C%25BA%25E5%2588%25B6.jpg?table=block&id=1827bf38-d8bc-4df7-992f-3461da81f0b4&t=1827bf38-d8bc-4df7-992f-3461da81f0b4)
+
 # 0165_数组拷贝
 
 - 案例：将int[] arr1 = {10, 20, 30};拷贝到 arr2数组，要求数据空间是独立的。
@@ -180,16 +182,22 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
 
 - 案例：请用二维数组输出如下图形。
     
-    0 0 0 0 0 0  
-    0 0 1 0 0 0  
-    0 2 0 3 0 0  
-    0 0 0 0 0 0  
+    0 0 0 0 0 0
+    
+    0 0 1 0 0 0
+    
+    0 2 0 3 0 0
+    
+    0 0 0 0 0 0
+    
 
 案例演示：**[TwoDimensionalArray.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0175_%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%85%A5%E9%97%A8/TwoDimensionalArray.java)**
 
 [](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0175_二维数组入门)
 
 # 0175-0179_二维数组内存布局+使用
+
+![二维数组内存布局](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F1ba79960-5e1a-489b-85ae-f0296b2383b3%2F%25E4%25BA%258C%25E7%25BB%25B4%25E6%2595%25B0%25E7%25BB%2584%25E5%2586%2585%25E5%25AD%2598%25E5%25B8%2583%25E5%25B1%2580.jpg?table=block&id=d92373a2-634c-4db0-a253-38f4045920b9&t=d92373a2-634c-4db0-a253-38f4045920b9)
 
 二维数组内存布局
 
