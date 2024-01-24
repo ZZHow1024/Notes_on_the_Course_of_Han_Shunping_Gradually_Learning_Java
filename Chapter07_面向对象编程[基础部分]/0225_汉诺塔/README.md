@@ -8,8 +8,6 @@
 
 案例演示：**[HanoiTower.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0225_%E6%B1%89%E8%AF%BA%E5%A1%94/HanoiTower.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0225_汉诺塔)
-
 运行结果：  
 ==汉诺塔演示==  
 请输入要计算的盘数：3  

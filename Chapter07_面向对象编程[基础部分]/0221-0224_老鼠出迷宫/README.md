@@ -10,8 +10,6 @@
 
 案例演示：**[Labyrinth.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0221-0224_%E8%80%81%E9%BC%A0%E5%87%BA%E8%BF%B7%E5%AE%AB/Labyrinth.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0221-0224_老鼠出迷宫)
-
 运行结果：  
 ==起始地图==  
 1 1 1 1 1 1 1  
