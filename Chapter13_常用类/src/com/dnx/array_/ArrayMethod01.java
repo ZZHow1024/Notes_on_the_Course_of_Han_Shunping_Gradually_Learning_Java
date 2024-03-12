@@ -8,7 +8,7 @@ import java.util.Comparator;
  *
  * @author DNX
  */
-public class ArrayMethod {
+public class ArrayMethod01 {
     public static void main(String[] args) {
         Integer[] integers = new Integer[]{9, 7, 5, 3, 1};
 
