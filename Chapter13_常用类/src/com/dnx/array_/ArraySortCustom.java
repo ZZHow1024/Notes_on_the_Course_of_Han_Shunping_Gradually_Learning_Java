@@ -32,7 +32,7 @@ public class ArraySortCustom {
 
                 //改变这里 return 的值可以实现不同的排序法则
                 //return i1 - i2; //从小到大排序
-                return i2 - i1;
+                return i2 - i1; //从大到小排序
             }
         });
         System.out.println("===排序后===");
