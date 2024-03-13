@@ -61,7 +61,7 @@ public class MathMethod {
         }
         System.out.println();
 
-        //8. max 返回最大值，min 返回最小值(返回值类型：)
+        //8. max 返回最大值，min 返回最小值(返回值类型：int)
         System.out.println("8. max min 演示");
         int min = Math.min(1, 9);
         int max = Math.max(11,99);
