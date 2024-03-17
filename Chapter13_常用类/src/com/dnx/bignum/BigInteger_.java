@@ -9,7 +9,7 @@ import java.math.BigInteger;
  */
 public class BigInteger_ {
     public static void main(String[] args) {
-        //案例：BigInteger类演示
+        //案例：BigInteger 类演示
         BigInteger bigInteger1 = new BigInteger("12345678901234567890123");
         BigInteger bigInteger2 = new BigInteger("123");
         System.out.println("bigInteger1 = " + bigInteger1);
