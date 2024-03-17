@@ -15,12 +15,12 @@ public class System_ {
         //提示：
         // 1.exit(0) 表示程序退出
         // 2.0 表示一个状态，表示正常退出。
-      //System.exit(0);
+        //System.exit(0);
         System.out.println("ok" + "\n");
 
         //2. arrayCopy 复制数组元素
         System.out.println("2. arrayCopy 方法演示");
-        int[] arr1 = {1,2,3};
+        int[] arr1 = {1, 2, 3};
         int[] arr2 = new int[3]; //arr2 当前是{0, 0, 0}
         //参数解读：
         // src：源数组
