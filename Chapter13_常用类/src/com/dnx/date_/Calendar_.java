@@ -34,7 +34,13 @@ public class Calendar_ {
         System.out.println(calendar.get(Calendar.YEAR) + "年" +
                 calendar.get(Calendar.MONTH) + 1 + "月" +
                 calendar.get(Calendar.DAY_OF_MONTH) + "日");
-        System.out.println(calendar.get(Calendar.HOUR) + ":" +
+        System.out.println("12小时制" + calendar.get(Calendar.HOUR) + ":" +
+                calendar.get(Calendar.MINUTE) + ":" +
+                calendar.get(Calendar.SECOND));
+
+        //补充：如何显示24小时制的时间
+        //  只需把 Calendar.HOUR 换成 Calendar.HOUR_OF_DAY
+        System.out.println("24小时制" + calendar.get(Calendar.HOUR_OF_DAY) + ":" +
                 calendar.get(Calendar.MINUTE) + ":" +
                 calendar.get(Calendar.SECOND));
     }
