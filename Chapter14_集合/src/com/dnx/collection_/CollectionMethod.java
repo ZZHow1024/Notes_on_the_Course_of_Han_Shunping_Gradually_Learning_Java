@@ -13,7 +13,7 @@ public class CollectionMethod {
     public static void main(String[] args) {
         List list1 = new ArrayList();
 
-        //1. add 添加单个元素
+        //1. add：添加单个元素
         System.out.println("1. add方法演示");
         list1.add("Hello");
         list1.add("World");
