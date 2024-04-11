@@ -18,17 +18,17 @@ public class LinkedHashSetExercise {
             如果 name 和 price 一样，则认为是相同元素，就不能添加。
          */
         LinkedHashSet linkedHashSet = new LinkedHashSet();
-        linkedHashSet.add(new Car("ACar",19999));
-        linkedHashSet.add(new Car("BCar",29999));
-        linkedHashSet.add(new Car("ACar",19999));
-        linkedHashSet.add(new Car("CCar",19999));
-        linkedHashSet.add(new Car("BCar",29999));
+        linkedHashSet.add(new Car("ACar", 19999));
+        linkedHashSet.add(new Car("BCar", 29999));
+        linkedHashSet.add(new Car("ACar", 19999));
+        linkedHashSet.add(new Car("CCar", 19999));
+        linkedHashSet.add(new Car("BCar", 29999));
 
         System.out.println("linkedHashSet = " + linkedHashSet);
     }
 }
 
-class Car{
+class Car {
     private String name;
     private double price;
 
