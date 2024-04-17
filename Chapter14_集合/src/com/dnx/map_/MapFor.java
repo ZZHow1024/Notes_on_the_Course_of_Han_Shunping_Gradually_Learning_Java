@@ -19,15 +19,15 @@ public class MapFor {
 
         //第一组：先取出所有 key，再通过 key 取出对应的 value
         System.out.println("第一组：先取出所有 key，再通过 key 取出对应的 value");
-        Set set = map.keySet();
+        Set keySet = map.keySet();
         //  (1) 增强 for
         System.out.println("(1) 增强 for 遍历");
-        for (Object key : set) {
+        for (Object key : keySet) {
             System.out.println(key + " - " + map.get(key));
         }
         // (2) 迭代器遍历
         System.out.println("(2) 迭代器遍历");
-        Iterator iterator1 = set.iterator();
+        Iterator iterator1 = keySet.iterator();
         while (iterator1.hasNext()) {
             Object next = iterator1.next();
             System.out.println(next + " - " + map.get(next));
