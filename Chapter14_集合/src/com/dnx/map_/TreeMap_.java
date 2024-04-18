@@ -29,7 +29,7 @@ public class TreeMap_ {
 
         System.out.println("treeMap1 = " + treeMap1 + "\n");
 
-        //treeMap2 按字符串长度(从短到长)排序
+        //treeMap2 按字符串长度(从长到短)排序
         System.out.println("treeMap2 按字符串长度(从长到短)排序");
         TreeMap treeMap2 = new TreeMap(new Comparator() {
             @Override
