@@ -11,9 +11,9 @@ import java.util.TreeSet;
 @SuppressWarnings("all")
 public class TreeSet_ {
     public static void main(String[] args) {
-        //案例：按字符串字典序排序 和 按字符串长度排序
-        //treeSet1 按字符串字典序排序
-        System.out.println("treeSet1 按字符串字典序排序");
+        //案例：按字符串字典序(正序)排序 和 按字符串长度(从短到长)排序
+        //treeSet1 按字符串字典序(正序)排序
+        System.out.println("treeSet1 按字符串字典序(正序)排序");
         TreeSet treeSet1 = new TreeSet(new Comparator<Object>() {
             public int compare(Object o1, Object o2) {
                 return ((String) o1).compareTo((String) o2);
