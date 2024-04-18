@@ -14,12 +14,12 @@ public class TreeMap_ {
         //案例：按字符串字典序(倒序)排序 和 按字符串长度(从长到短)排序
         //treeMap1 按字符串字典序(倒序)排序
         System.out.println("treeMap1 按字符串字典序(倒序)排序");
-        TreeMap treeMap1 = new TreeMap(/*new Comparator() {
+        TreeMap treeMap1 = new TreeMap(new Comparator() {
             @Override
             public int compare(Object o1, Object o2) {
                 return ((String) o2).compareTo((String) o1);
             }
-        }*/);
+        });
 
         treeMap1.put("ccc", "3");
         treeMap1.put("ccc", "No"); //字符串一样，发生替换
