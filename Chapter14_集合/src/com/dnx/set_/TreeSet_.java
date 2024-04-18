@@ -38,10 +38,10 @@ public class TreeSet_ {
         });
 
         treeSet2.add("abc");
-        treeSet2.add("def");
+        treeSet2.add("def"); //长度一样，加不进去
         treeSet2.add("a");
         treeSet2.add("abcde");
-        treeSet2.add("vwxyz");
+        treeSet2.add("vwxyz"); //长度一样，加不进去
 
         System.out.println("treeSet2 = " + treeSet2);
     }
