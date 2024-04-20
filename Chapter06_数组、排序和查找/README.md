@@ -1,8 +1,8 @@
 # Chapter06
 第六章_数组、排序和查找  
 Chapter06_Arrays, Sorting, and Searching  
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:  
 
