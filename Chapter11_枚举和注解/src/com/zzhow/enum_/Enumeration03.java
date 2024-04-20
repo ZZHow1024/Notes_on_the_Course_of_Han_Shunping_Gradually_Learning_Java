@@ -1,11 +1,11 @@
-package com.dnx.enum_;
+package com.zzhow.enum_;
 
 /**
  * 0426-0428_enum枚举类
  * 使用enum来实现前面的枚举案例
  * 2024年2月10日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Enumeration03 {
     public static void main(String[] args) {

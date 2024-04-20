@@ -1,10 +1,10 @@
-package com.dnx.enum_;
+package com.zzhow.enum_;
 
 /**
  * 0431_Enum使用细节
  * 2024年2月11日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class EnumDetail {
     public static void main(String[] args) {

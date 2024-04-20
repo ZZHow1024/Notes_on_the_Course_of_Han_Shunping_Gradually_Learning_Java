@@ -1,11 +1,11 @@
-package com.dnx.enum_;
+package com.zzhow.enum_;
 
 /**
  * 0429_Enum成员方法
  * enum常用的方法应用实例
  * 2024年2月10日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class EnumMethod {
     public static void main(String[] args) {

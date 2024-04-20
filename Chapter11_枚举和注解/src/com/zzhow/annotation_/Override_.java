@@ -1,10 +1,10 @@
-package com.dnx.annotation_;
+package com.zzhow.annotation_;
 
 /**
  * 0432_Override注解
  * 2024年2月11日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Override_ {
     public static void main(String[] args) {

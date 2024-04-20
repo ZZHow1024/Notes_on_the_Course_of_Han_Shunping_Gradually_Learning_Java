@@ -1,4 +1,4 @@
-package com.dnx.annotation_;
+package com.zzhow.annotation_;
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * 0434_SuppressWarnings注解
  * 2024年2月11日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class SuppressWarnings_ {
     //提示：

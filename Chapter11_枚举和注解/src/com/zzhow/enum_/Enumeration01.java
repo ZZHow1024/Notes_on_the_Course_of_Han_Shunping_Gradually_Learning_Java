@@ -1,11 +1,11 @@
-package com.dnx.enum_;
+package com.zzhow.enum_;
 
 /**
  * 0424_枚举类引出
  * 要求创建季节(Season)对象
  * 2024年2月10日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 
 public class Enumeration01 {

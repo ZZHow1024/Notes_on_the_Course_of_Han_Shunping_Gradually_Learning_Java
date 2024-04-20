@@ -1,11 +1,11 @@
-package com.dnx.enum_;
+package com.zzhow.enum_;
 
 /**
  * 0425_自定义枚举类
  * 自定义类实现枚举
  * 2024年2月10日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Enumeration02 {
     public static void main(String[] args) {

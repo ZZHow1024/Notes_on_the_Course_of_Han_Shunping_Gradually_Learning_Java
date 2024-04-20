@@ -1,10 +1,10 @@
-package com.dnx.annotation_;
+package com.zzhow.annotation_;
 
 /**
  * 0433_Deprecated注解
  * 2024年2月11日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Deprecated_ {
     public static void main(String[] args) {

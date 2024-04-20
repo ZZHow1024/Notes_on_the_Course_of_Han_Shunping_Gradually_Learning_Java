@@ -1,10 +1,10 @@
-package com.dnx.enum_;
+package com.zzhow.enum_;
 
 /**
  * 0430_Enum课堂练习
  * 2024年2月10日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class EnumExercise {
     public static void main(String[] args) {
