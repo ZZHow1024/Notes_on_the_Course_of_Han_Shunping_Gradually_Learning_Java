@@ -1,8 +1,8 @@
 # Chapter03
 第三章_变量  
 Chapter03_Variable  
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:
 
@@ -30,17 +30,17 @@ Chapter03_Variable
     也可以一步到位
     
 
-案例演示：**[Var.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0035_%E5%8F%98%E9%87%8F%E6%A6%82%E5%BF%B5/Var.java)**
+案例演示：**[Var.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0035_%E5%8F%98%E9%87%8F%E6%A6%82%E5%BF%B5/Var.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0035_变量概念)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0035_变量概念)
 
 # 0036_变量入门
 
 案例：记录 人 的信息的代码
 
-案例演示：**[VarHuman.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0036_%E5%8F%98%E9%87%8F%E5%85%A5%E9%97%A8/VarHuman.java)**
+案例演示：**[VarHuman.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0036_%E5%8F%98%E9%87%8F%E5%85%A5%E9%97%A8/VarHuman.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0036_变量入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0036_变量入门)
 
 # 0037_变量细节
 
@@ -54,9 +54,9 @@ Chapter03_Variable
 5. 变量在同一个作用域内不能重名。
 6. 变量=变量名+值+数据类型，这一点请大家注意。变量三要素。
 
-案例演示：**[VarDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0037_%E5%8F%98%E9%87%8F%E7%BB%86%E8%8A%82/VarDetail.java)**
+案例演示：**[VarDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0037_%E5%8F%98%E9%87%8F%E7%BB%86%E8%8A%82/VarDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0037_变量细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0037_变量细节)
 
 # 0038_加号使用
 
@@ -81,9 +81,9 @@ public class Plus{
 }
 ```
 
-案例演示：**[Plus.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0038_%E5%8A%A0%E5%8F%B7%E4%BD%BF%E7%94%A8/Plus.java)**
+案例演示：**[Plus.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0038_%E5%8A%A0%E5%8F%B7%E4%BD%BF%E7%94%A8/Plus.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0038_加号使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0038_加号使用)
 
 # 0039_数据类型
 
@@ -119,9 +119,9 @@ public class IntDetail{
 }
 ```
 
-案例演示：**[IntDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0041_%E6%95%B4%E5%9E%8B%E7%BB%86%E8%8A%82/IntDetail.java)**
+案例演示：**[IntDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0041_%E6%95%B4%E5%9E%8B%E7%BB%86%E8%8A%82/IntDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0041_整型细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0041_整型细节)
 
 # 0042_浮点数使用
 
@@ -190,9 +190,9 @@ public class FloatDetail{
 }
 ```
 
-案例演示：**[FloatDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0043-0044_%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%86%E8%8A%82/FloatDetail.java)**
+案例演示：**[FloatDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0043-0044_%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%86%E8%8A%82/FloatDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0043-0044_浮点数细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0043-0044_浮点数细节)
 
 # 0045_Java文档
 
@@ -215,9 +215,9 @@ Java类的组织形式
     多个字符我们用字符串String(我们后面详细讲解String)
     
 
-案例演示：**[Char.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0046_%E5%AD%97%E7%AC%A6%E5%9E%8B%E4%BD%BF%E7%94%A8/Char.java)**
+案例演示：**[Char.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0046_%E5%AD%97%E7%AC%A6%E5%9E%8B%E4%BD%BF%E7%94%A8/Char.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0046_字符型使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0046_字符型使用)
 
 # 0047_字符型细节
 
@@ -234,9 +234,9 @@ Java类的组织形式
 4. 可以直接给char赋一个整数，然后输出时，会按照对应的unicode 字符输出 [97]  —>  ‘a’
 5. char类型是可以进行运算的，相当于一个整数，因为它都对应有Unicode码。
 
-案例演示：**[CharDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0047_%E5%AD%97%E7%AC%A6%E5%9E%8B%E7%BB%86%E8%8A%82/CharDetail.java)**
+案例演示：**[CharDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0047_%E5%AD%97%E7%AC%A6%E5%9E%8B%E7%BB%86%E8%8A%82/CharDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0047_字符型细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0047_字符型细节)
 
 # 0048_字符型本质
 
@@ -266,9 +266,9 @@ Java类的组织形式
     3. do-while循环控制语句;
     4. for循环控制语句;
 
-案例演示：**[Boolean.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0050_%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B/Boolean.java)**
+案例演示：**[Boolean.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0050_%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B/Boolean.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0050_布尔类型)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0050_布尔类型)
 
 # 0051_自动类型转换基础
 
@@ -278,9 +278,9 @@ Java类的组织形式
 
 ![自动类型转换.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fc5f26475-d75d-4d58-9eda-d0eb90ed08a7%2F%25E8%2587%25AA%25E5%258A%25A8%25E7%25B1%25BB%25E5%259E%258B%25E8%25BD%25AC%25E6%258D%25A2.jpg?table=block&id=de7dc8fc-2192-463b-8578-0f4f51e47cca&t=de7dc8fc-2192-463b-8578-0f4f51e47cca)
 
-案例演示：**[AutoConvert.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0051_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%9F%BA%E7%A1%80/AutoConvert.java)**
+案例演示：**[AutoConvert.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0051_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%9F%BA%E7%A1%80/AutoConvert.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0051_自动类型转换基础)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0051_自动类型转换基础)
 
 # 0052-0053_自动类型转换细节
 
@@ -291,9 +291,9 @@ Java类的组织形式
 5. boolean 不参与转换。
 6. 自动提升原则: 表达式结果的类型自动提升为 操作数中最大的类型。
 
-案例演示：**[AutoConvertDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0052-0053_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E7%BB%86%E8%8A%82/AutoConvertDetail.java)**
+案例演示：**[AutoConvertDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0052-0053_%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E7%BB%86%E8%8A%82/AutoConvertDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0052-0053_自动类型转换细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0052-0053_自动类型转换细节)
 
 # 0054_强制类型转换基础
 
@@ -301,9 +301,9 @@ Java类的组织形式
 
 自动类型转换的逆过程，将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符()，但可能造成精度降低或溢出,格外要注意。
 
-案例演示：**[ForceConvert.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0054_%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%9F%BA%E7%A1%80/ForceConvert.java)**
+案例演示：**[ForceConvert.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0054_%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%9F%BA%E7%A1%80/ForceConvert.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0054_强制类型转换基础)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0054_强制类型转换基础)
 
 # 0055_强制类型转换细节
 
@@ -312,7 +312,7 @@ Java类的组织形式
 3. char类型可以保存int的常量值，但不能保存int的变量值，需要强制转换。
 4. byte、short和char类型在进行运算时，当做int类型处理。
 
-案例演示：**[ForceConvertDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0055_%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E7%BB%86%E8%8A%82/ForceConvertDetail.java)**
+案例演示：**[ForceConvertDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0055_%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E7%BB%86%E8%8A%82/ForceConvertDetail.java)**
 
 ```java
 //int x = (int)10 * 3.5 + 6 * 1.5;//编译错误 double -> int
@@ -324,7 +324,7 @@ Java类的组织形式
 		char c3 = (char)m;// √
 ```
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0055_强制类型转换细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0055_强制类型转换细节)
 
 # 0056_类型转换练习
 
@@ -379,9 +379,9 @@ s = s-9;         //×，int  → short
     例：`System.out.println(s5.charAt(0));`
     
 
-案例演示: **[StringToBasic.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0057_String%E5%92%8C%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/StringToBasic.java)**
+案例演示: **[StringToBasic.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0057_String%E5%92%8C%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/StringToBasic.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0057_String和基本类型转换)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0057_String和基本类型转换)
 
 # 0058_String转基本类型细节
 
@@ -391,6 +391,6 @@ s = s-9;         //×，int  → short
 
 现象：编译能通过，但运行时会抛出异常，终止运行。
 
-案例演示: **[StringToBasicDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0058_String%E8%BD%AC%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E7%BB%86%E8%8A%82/StringToBasicDetail.java)**
+案例演示: **[StringToBasicDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0058_String%E8%BD%AC%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E7%BB%86%E8%8A%82/StringToBasicDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0058_String转基本类型细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter03_变量/0058_String转基本类型细节)
