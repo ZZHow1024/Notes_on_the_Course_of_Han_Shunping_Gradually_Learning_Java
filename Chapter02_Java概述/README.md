@@ -1,8 +1,8 @@
 # Chapter02
 第二章_Java概述  
 Chapter02_Java Overview  
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:  
 
@@ -25,9 +25,9 @@ James Gosling
 
 # 0016_快速入门
 
-案例演示：**[Hello.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0016_%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Hello.java)** 和 **[HelloExer01.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0016_%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/HelloExer01.java)**
+案例演示：**[Hello.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0016_%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Hello.java)** 和 **[HelloExer01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0016_%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/HelloExer01.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0016_快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0016_快速入门)
 
 # 0018_开发细节
 
@@ -40,9 +40,9 @@ James Gosling
 7. 如果源文件包含一个public类，则文件名必须按该类名命名!
 8. 一个源文件中最多只能有一个public类。其它类的个数不限，也可以将main方法写在非public类中，然后指定运行非public 类，这样入口方法就是非public 的main方法
 
-案例演示：**[Hello.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0018_%E5%BC%80%E5%8F%91%E7%BB%86%E8%8A%82/Hello.java)**
+案例演示：**[Hello.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0018_%E5%BC%80%E5%8F%91%E7%BB%86%E8%8A%82/Hello.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0018_开发细节)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0018_开发细节)
 
 # 0020_转义字符
 
@@ -53,9 +53,9 @@ James Gosling
 5. \’   一个’
 6. \r   一个回车  System.out.println(”DNX\rJava”);
 
-案例演示：**[ChangeChar.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0020_%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/ChangeChar.java)** 和 **[ChangeCharExer01.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0020_%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/ChangeCharExer01.java)**
+案例演示：**[ChangeChar.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0020_%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/ChangeChar.java)** 和 **[ChangeCharExer01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0020_%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/ChangeCharExer01.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0020_转义字符)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0020_转义字符)
 
 # 0023_注释
 
@@ -73,9 +73,9 @@ James Gosling
     `javadoc -d d:\\temp -author -version Comment02.java`
     
 
-案例演示：**[Comment.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0023_%E6%B3%A8%E9%87%8A/Comment.java)**
+案例演示：**[Comment.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter02_Java%E6%A6%82%E8%BF%B0/0023_%E6%B3%A8%E9%87%8A/Comment.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0023_注释)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter02_Java概述/0023_注释)
 
 # 0025_代码规范
 
