@@ -1,7 +1,7 @@
 # Chapter04
 第四章_运算符  
 Chapter04_Operator
-@[dnx00  ](https://github.com/ZZHow1024)的笔记  
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
 @ZZHow1024
 
 参考课程:
@@ -44,9 +44,9 @@ Chapter04_Operator
     
 3. --、+、-、* 是一个道理，完全可以类推。
 
-案例演示：**[ArithmeticOperator.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0063_%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BD%BF%E7%94%A8/ArithmeticOperator.java)**
+案例演示：**[ArithmeticOperator.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0063_%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BD%BF%E7%94%A8/ArithmeticOperator.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0063_算术运算符使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0063_算术运算符使用)
 
 # 0064_算数运算符练习01
 
@@ -92,9 +92,9 @@ System.out.println("i2 = " + i2); // 19
 2. 关系运算符组成的表达式，我们称为关系表达式。 a > b。
 3. 比较运算符 "==" 不能误写成 ”=”
 
-案例演示：**[RelationalOperator.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0069_%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BD%BF%E7%94%A8/RelationalOperator.java)**
+案例演示：**[RelationalOperator.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0069_%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BD%BF%E7%94%A8/RelationalOperator.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0069_关系运算符使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0069_关系运算符使用)
 
 # 0070_逻辑运算符介绍
 
@@ -113,9 +113,9 @@ System.out.println("i2 = " + i2); // 19
 2. & 逻辑与: 不管第一个条件是否为false，第二个条件都要判断，效率更低。
 3. 开发中，基本是使用短路与&&，效率更高。
 
-案例演示：**[And.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0071_%E7%9F%AD%E8%B7%AF%E4%B8%8E%E9%80%BB%E8%BE%91%E4%B8%8E/And.java)**
+案例演示：**[And.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0071_%E7%9F%AD%E8%B7%AF%E4%B8%8E%E9%80%BB%E8%BE%91%E4%B8%8E/And.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0071_短路与逻辑与)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0071_短路与逻辑与)
 
 # 0072_短路或逻辑或
 
@@ -126,9 +126,9 @@ System.out.println("i2 = " + i2); // 19
 2. | 逻辑或: 不管第一个条件是否为true，第二个条件都要判断，效率更低。
 3. 开发中，基本是使用短路或||，效率更高。
 
-案例演示：**[Or.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0072_%E7%9F%AD%E8%B7%AF%E6%88%96%E9%80%BB%E8%BE%91%E6%88%96/Or.java)**
+案例演示：**[Or.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0072_%E7%9F%AD%E8%B7%AF%E6%88%96%E9%80%BB%E8%BE%91%E6%88%96/Or.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0072_短路或逻辑或)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0072_短路或逻辑或)
 
 # 0073_短路非逻辑异或
 
@@ -198,9 +198,9 @@ System.out.println("i2 = " + i2); // 19
 
 - 实现求三个数的最大值。
 
-案例演示：**[TernaryOperatorExer01.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0079_%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0/TernaryOperatorExer01.java)**
+案例演示：**[TernaryOperatorExer01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0079_%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0/TernaryOperatorExer01.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0079_三元运算符练习)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0079_三元运算符练习)
 
 # 0080_运算符优先级
 
@@ -267,9 +267,9 @@ System.out.println("i2 = " + i2); // 19
 3. 调用里面的功能。
 - 实现可以从控制台接收用户信息[姓名，年龄，成绩]。
 
-案例演示：**[Input.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0085_%E9%94%AE%E7%9B%98%E8%BE%93%E5%85%A5/Input.java)**
+案例演示：**[Input.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0085_%E9%94%AE%E7%9B%98%E8%BE%93%E5%85%A5/Input.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0085_键盘输入)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0085_键盘输入)
 
 # 0086_四种进制介绍
 
@@ -286,9 +286,9 @@ int n3 = 01010;  // 八进制
 int n4 = 0x10101;// 十六进制
 ```
 
-案例演示：**[BinaryTest.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0086_%E5%9B%9B%E7%A7%8D%E8%BF%9B%E5%88%B6%E4%BB%8B%E7%BB%8D/BinaryTest.java)**
+案例演示：**[BinaryTest.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0086_%E5%9B%9B%E7%A7%8D%E8%BF%9B%E5%88%B6%E4%BB%8B%E7%BB%8D/BinaryTest.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0086_四种进制介绍)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0086_四种进制介绍)
 
 # 0087_2进制转10进制
 
@@ -399,9 +399,9 @@ int n4 = 0x10101;// 十六进制
     - 4 << 3 = 32 [本质：4 * 2 * 2 * 2 = 32]
     - 15 >> 2 = 3 [本质：15 / 2 / 2 = 3]
 
-案例演示：**[TernaryOperatorDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0099-0100_%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6%E8%AF%A6%E8%A7%A3/TernaryOperatorDetail.java)**
+案例演示：**[TernaryOperatorDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter04_%E8%BF%90%E7%AE%97%E7%AC%A6/0099-0100_%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6%E8%AF%A6%E8%A7%A3/TernaryOperatorDetail.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0099-0100_位运算符详解)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter04_运算符/0099-0100_位运算符详解)
 
 ```java
 //DNX写于2024年1月19日
