@@ -1,8 +1,8 @@
 # Chapter08
 第八章_面向对象编程[中级部分]  
 Chapter08_Object Oriented Programming [Intermediate]  
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:  
 
