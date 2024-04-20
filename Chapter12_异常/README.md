@@ -37,7 +37,7 @@ Chapter12_Exception
     ```
     
 
-案例演示：[**com.zzhow.exception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**Exception_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/Exception_.java)
+案例演示：[**com.zzhow.exception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**Exception_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/Exception_.java)
 
 # 0444_异常基本介绍
 
@@ -72,27 +72,27 @@ Chapter12_Exception
     1. NullPointerException空指针异常
         - 当应用程序试图在需要对象的地方使用 nul 时，抛出该异常。
         
-        案例演示：[**com.zzhow.exception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**NullPointerException_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/NullPointerException_.java)
+        案例演示：[**com.zzhow.exception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**NullPointerException_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/NullPointerException_.java)
         
     2. ArithmeticException数学运算异常
         - 当出现异常的运算条件时，抛出此异常。例如：一个整数“除以零”时，抛出此类的一个实例。
         
-        案例演示：[**com.zzhow.exception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**Exception_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/Exception_.java)
+        案例演示：[**com.zzhow.exception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**Exception_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/Exception_.java)
         
     3. ArrayIndexOutOfBoundsException数组下标越界异常
         - 用非法索引访问数组时抛出的异常。如果索引为负或大于等于数组大小，则该索引为非法索引。
         
-        案例演示：[**com.zzhow.exception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**ArrayIndexOutOfBoundsException_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/ArrayIndexOutOfBoundsException_.java)
+        案例演示：[**com.zzhow.exception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**ArrayIndexOutOfBoundsException_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/ArrayIndexOutOfBoundsException_.java)
         
     4. ClassCastException类型转换异常
         - 当试图将对象强制转换为不是实例的子类时，抛出该异常。
         
-        案例演示：[**com.zzhow.exception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**ClassCastException_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/ClassCastException_.java)
+        案例演示：[**com.zzhow.exception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**ClassCastException_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/ClassCastException_.java)
         
     5. NumberFormatException数字格式不正确异常
         - 当应用程序试图将字符串转换成一种数值类型，但该字符串不能转换为适当格式时，抛出该异常 —> 使用异常我们可以确保输入是满足条件数字。
         
-        案例演示：[**com.zzhow.exception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**NumberFormatException_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/NumberFormatException_.java)
+        案例演示：[**com.zzhow.exception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_) 中的 [**NumberFormatException_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/exception_/NumberFormatException_.java)
         
 
 # 0447_异常课堂练习
@@ -196,7 +196,7 @@ Chapter12_Exception
 
 - 案例：如果用户输入的不是一个整数，就提示他反复输入，直到输入一个整数为止。
 
-案例演示：[**com.zzhow.trycatch_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/trycatch_) 中的 [**TryCatchExercise.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/trycatch_/TryCatchExercise.java)
+案例演示：[**com.zzhow.trycatch_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/trycatch_) 中的 [**TryCatchExercise.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/trycatch_/TryCatchExercise.java)
 
 # 0452_throws入门案例
 
@@ -204,7 +204,7 @@ Chapter12_Exception
     1. 如果一个方法(中的语句执行时)可能生成某种异常，但是并不能确定如何处理这种异常，则此方法应显示地声明抛出异常，表明该方法将不对这些异常进行处理，而由该方法的调用者负责处理。
     2. 在方法声明中用throws语句可以声明抛出异常的列表，throws后面的异常类型可以是方法中产生的异常类型，也可以是它的父类。
 
-案例演示：[**com.zzhow.throws_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/throws_) 中的 [**Throws.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/throws_/Throws.java)
+案例演示：[**com.zzhow.throws_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/throws_) 中的 [**Throws.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/throws_/Throws.java)
 
 # 0453_throws使用细节
 
@@ -235,7 +235,7 @@ class AgeException extends RuntimeException {
 }
 ```
 
-案例演示：[**com.zzhow.customexception_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/customexception_) 中的 [**CustomException.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/customexception_/CustomException.java)
+案例演示：[**com.zzhow.customexception_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/customexception_) 中的 [**CustomException.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter12_%E5%BC%82%E5%B8%B8/src/com/dnx/customexception_/CustomException.java)
 
 # 0455_throwVSthrows
 
