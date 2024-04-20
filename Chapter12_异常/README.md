@@ -1,8 +1,8 @@
 # Chapter12
 第十二章_异常  
 Chapter12_Exception  
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[zzhow0  ](https://github.com/zzhow0)的笔记  
+@ZZHow
 
 参考课程:  
 
