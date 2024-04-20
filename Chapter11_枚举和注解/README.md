@@ -17,7 +17,7 @@ Chapter11_Enumeration and Annotation
     1. 季节的值是有限的几个值(spring, summer, autumn, winter)
     2. 只读，不需要修改。
 
-案例演示：[**com.zzhow.enum_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**Enumeration01.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/Enumeration01.java)
+案例演示：[**com.zzhow.enum_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**Enumeration01.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/Enumeration01.java)
 
 # 0425_自定义枚举类
 
@@ -36,7 +36,7 @@ Chapter11_Enumeration and Annotation
     3. 对外暴露对象(通过为对象添加public final static修饰符)。
     4. 可以提供 getXxx方法，但是不要提供 setXxx。
 
-案例演示：[**com.zzhow.enum_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**Enumeration02.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/Enumeration02.java)
+案例演示：[**com.zzhow.enum_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**Enumeration02.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/Enumeration02.java)
 
 # 0426-0428_enum枚举类
 
@@ -46,7 +46,7 @@ Chapter11_Enumeration and Annotation
     2. public static final Season03 SPRING = new Season03("春天","温暖"); 直接使用SPRING("春天","温暖");
     3. 如果有多个常量(对象)，使用逗号间隔即可。
 
-案例演示：[**com.zzhow.enum_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**Enumeration03.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/Enumeration03.java)
+案例演示：[**com.zzhow.enum_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**Enumeration03.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/Enumeration03.java)
 
 - enum关键字实现枚举注意事项：
     1. 当我们使用enum关键字开发一个枚举类时，默认会继承Enum类，且是一个final类[使用javap来证明]。
@@ -65,7 +65,7 @@ Chapter11_Enumeration and Annotation
 5. valueOf：将字符串转换成枚举对象，要求字符串必须为已有的常量名，否则报异常。
 6. compareTo：比较两个枚举常量，比较的就是编号，返回前边的编号减后边的编号。
 
-案例演示：[**com.zzhow.enum_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**EnumMethod.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/EnumMethod.java)
+案例演示：[**com.zzhow.enum_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**EnumMethod.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/EnumMethod.java)
 
 # 0430_Enum课堂练习
 
@@ -78,7 +78,7 @@ Chapter11_Enumeration and Annotation
     Enum课堂练习
     
 
-案例演示：[**com.zzhow.enum_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**EnumExercise.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/EnumExercise.java)
+案例演示：[**com.zzhow.enum_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**EnumExercise.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/EnumExercise.java)
 
 # 0431_Enum使用细节
 
@@ -91,7 +91,7 @@ Chapter11_Enumeration and Annotation
         `}` 
         
 
-案例演示：[**com.zzhow.enum_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**EnumDetail.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/EnumDetail.java)
+案例演示：[**com.zzhow.enum_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_) 中的 [**EnumDetail.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/enum_/EnumDetail.java)
 
 # 0432_Override注解
 
@@ -132,7 +132,7 @@ Chapter11_Enumeration and Annotation
     @interface 不是 interface，而是注解类，是JDK5.0之后加入的。
     
 
-案例演示：[**com.zzhow.annotation_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_) 中的 [**Override_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_/Override_.java)
+案例演示：[**com.zzhow.annotation_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_) 中的 [**Override_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_/Override_.java)
 
 # 0433_Deprecated注解
 
@@ -148,7 +148,7 @@ Chapter11_Enumeration and Annotation
     3. @Target(value={CONSTRUCTOR, FIELD, LOCAL_ VARIABLE, METHOD, PACKAGE, PARAMETER, TYPE})。
     4. @Deprecated 的作用可以做到新旧版本的兼容和过渡。
 
-案例演示：[**com.zzhow.annotation_](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_)** 中的 [**Deprecated_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_/Deprecated_.java)
+案例演示：[**com.zzhow.annotation_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_)** 中的 [**Deprecated_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_/Deprecated_.java)
 
 # 0434_SuppressWarnings注解
 
@@ -160,7 +160,7 @@ Chapter11_Enumeration and Annotation
     4. @SuppressWarnings 可以修饰的程序元素写在了源码中的@Target位置。
     5. 生成@SupperssWarnings 时，不用背，直接点击左侧的黄色提示，就可以选择(注意可以指定生成的位置)。
 
-案例演示：[**com.zzhow.annotation_**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_) 中的 [**SuppressWarnings_.java**](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_/SuppressWarnings_.java)
+案例演示：[**com.zzhow.annotation_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_) 中的 [**SuppressWarnings_.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter11_%E6%9E%9A%E4%B8%BE%E5%92%8C%E6%B3%A8%E8%A7%A3/src/com/dnx/annotation_/SuppressWarnings_.java)
 
 # 0435_四种元注解
 
