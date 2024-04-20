@@ -3,7 +3,7 @@ package com.zzhow.list_;
 /**
  * 2024年4月4日
  *
- * @author ZZHow
+ * @author ZZHow1024
  */
 public class LinkedList_ {
     public static void main(String[] args) {
@@ -79,7 +79,7 @@ public class LinkedList_ {
  * 定义一个 Node 类，Node对象
  * 表示双向链表的一个结点
  *
- * @author DNX
+ * @author ZZHow1024
  */
 class Node {
     public Object item; //数据域

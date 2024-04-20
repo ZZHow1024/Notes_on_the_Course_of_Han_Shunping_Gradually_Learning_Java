@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 2024年4月9日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class HashSetStructure {
     public static void main(String[] args) {

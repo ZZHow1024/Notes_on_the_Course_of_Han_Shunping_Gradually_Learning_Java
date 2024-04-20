@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 2024年3月28日
  *
- * @author ZZHow
+ * @author ZZHow1024
  */
 @SuppressWarnings("all")
 public class CollectionExercise {

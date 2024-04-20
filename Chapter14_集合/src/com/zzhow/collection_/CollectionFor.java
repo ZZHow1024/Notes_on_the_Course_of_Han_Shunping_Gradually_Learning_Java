@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * 2024年3月27日
  *
- * @author ZZHow
+ * @author ZZHow1024
  */
 @SuppressWarnings("all")
 public class CollectionFor {

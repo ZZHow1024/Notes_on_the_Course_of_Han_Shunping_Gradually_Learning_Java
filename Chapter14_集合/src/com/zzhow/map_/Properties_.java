@@ -5,7 +5,7 @@ import java.util.Properties;
 /**
  * 2024年4月18日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Properties_ {
     public static void main(String[] args) {

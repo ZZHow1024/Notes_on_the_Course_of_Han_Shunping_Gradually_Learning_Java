@@ -6,7 +6,7 @@ import java.util.Objects;
 /**
  * 2024年4月11日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 @SuppressWarnings("all")
 public class LinkedHashSetExercise {

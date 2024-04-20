@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 2024年4月2日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 @SuppressWarnings("all")
 public class ListExercise02 {

@@ -7,7 +7,7 @@ import java.util.Iterator;
 /**
  * 2024年3月27日
  *
- * @author ZZHow
+ * @author ZZHow1024
  */
 @SuppressWarnings("all")
 public class CollectionIterator {
