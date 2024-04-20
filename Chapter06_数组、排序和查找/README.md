@@ -25,9 +25,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
 
 - 案例：一个养鸡场有6只鸡，它们的体重分别是3kg，5kg，1kg，3.4kg，2kg，50kg。请问这六只鸡的总体重是多少？平均体重是多少？请你编一个程序。
 
-案例演示：**[Array.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0156_%E6%95%B0%E7%BB%84%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Array.java)**
+案例演示：**[Array.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0156_%E6%95%B0%E7%BB%84%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Array.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0156_数组快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0156_数组快速入门)
 
 # 0157-0159_数组使用
 
@@ -45,9 +45,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
     
 - 案例：编写程序录入5位同学的成绩，录入完成后输出。
 
-案例演示：**[ArrayMethod01.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0157-0159_%E6%95%B0%E7%BB%84%E4%BD%BF%E7%94%A8/ArrayMethod01.java)**
+案例演示：**[ArrayMethod01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0157-0159_%E6%95%B0%E7%BB%84%E4%BD%BF%E7%94%A8/ArrayMethod01.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0157-0159_数组使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0157-0159_数组使用)
 
 - 使用方式2-动态初始化
     
@@ -107,9 +107,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
 
 - 案例：将int[] arr1 = {10, 20, 30};拷贝到 arr2数组，要求数据空间是独立的。
 
-案例演示：**[ArrayCopy.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0165_%E6%95%B0%E7%BB%84%E6%8B%B7%E8%B4%9D/ArrayCopy.java)**
+案例演示：**[ArrayCopy.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0165_%E6%95%B0%E7%BB%84%E6%8B%B7%E8%B4%9D/ArrayCopy.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0165_数组拷贝)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0165_数组拷贝)
 
 # 0166-0167_数组翻转
 
@@ -117,26 +117,26 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
 - 方法1：找规律反转。
 - 方法2：使用逆序赋值方式。
 
-案例演示：**[ArrayReverse01.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0166-0167_%E6%95%B0%E7%BB%84%E7%BF%BB%E8%BD%AC/ArrayReverse01.java)** 和 **[ArrayReverse02.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0166-0167_%E6%95%B0%E7%BB%84%E7%BF%BB%E8%BD%AC/ArrayReverse02.java)**
+案例演示：**[ArrayReverse01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0166-0167_%E6%95%B0%E7%BB%84%E7%BF%BB%E8%BD%AC/ArrayReverse01.java)** 和 **[ArrayReverse02.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0166-0167_%E6%95%B0%E7%BB%84%E7%BF%BB%E8%BD%AC/ArrayReverse02.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0166-0167_数组翻转)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0166-0167_数组翻转)
 
 # 0168-0169_数组扩容
 
 - 案例：实现动态的给数组添加元素效果，实现对数组扩容。
 - int[] arr = {1,2,3};补一个4到数组最后，且用户可以选择是否继续扩容(y / n)。
 
-案例演示：**[ArrayAdd.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0168-0169_%E6%95%B0%E7%BB%84%E6%89%A9%E5%AE%B9/ArrayAdd.java)**
+案例演示：**[ArrayAdd.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0168-0169_%E6%95%B0%E7%BB%84%E6%89%A9%E5%AE%B9/ArrayAdd.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0168-0169_数组扩容)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0168-0169_数组扩容)
 
 # 0170_数组缩减
 
 - 案例：有一个数组int[] arr = {1,2,3,4,5}; 可以将该数组进行缩减，提示用户是否继续缩减，每次缩减最后那个元素。当只剩下最后一个元素时，提示不能再缩减。
 
-案例演示：**[ArrayReduce.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0170_%E6%95%B0%E7%BB%84%E7%BC%A9%E5%87%8F/ArrayReduce.java)**
+案例演示：**[ArrayReduce.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0170_%E6%95%B0%E7%BB%84%E7%BC%A9%E5%87%8F/ArrayReduce.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0170_数组缩减)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0170_数组缩减)
 
 # 0171_排序介绍
 
@@ -163,9 +163,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
 
 - 案例：冒泡排序，{24,69,80,57,13}。
 
-案例演示：**[BubbleSort.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0173_%E5%86%92%E6%B3%A1%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/BubbleSort.java)**
+案例演示：**[BubbleSort.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0173_%E5%86%92%E6%B3%A1%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/BubbleSort.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0173_冒泡代码实现)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0173_冒泡代码实现)
 
 # 0174_查找
 
@@ -174,9 +174,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
     2. 二分查找
 - 案例：有一个数列，James、Robert、John、Michael、William，从键盘中任意输入一个名称，判断数列中是否包含此名称，如果找到了就提示找到了，并给出下标值。[顺序查找案例]
 
-案例演示：**[SeqSearch.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0174_%E6%9F%A5%E6%89%BE/SeqSearch.java)**
+案例演示：**[SeqSearch.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0174_%E6%9F%A5%E6%89%BE/SeqSearch.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0174_查找)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0174_查找)
 
 # 0175_二维数组入门
 
@@ -191,9 +191,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
     0 0 0 0 0 0
     
 
-案例演示：**[TwoDimensionalArray.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0175_%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%85%A5%E9%97%A8/TwoDimensionalArray.java)**
+案例演示：**[TwoDimensionalArray.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0175_%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%85%A5%E9%97%A8/TwoDimensionalArray.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0175_二维数组入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0175_二维数组入门)
 
 # 0175-0179_二维数组内存布局+使用
 
@@ -242,9 +242,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
         3 3 3
         
 
-案例演示：**[TwoDimensionalArrayMethod03.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0175-0179_%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80%2B%E4%BD%BF%E7%94%A8/TwoDimensionalArrayMethod03.java)**
+案例演示：**[TwoDimensionalArrayMethod03.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0175-0179_%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80%2B%E4%BD%BF%E7%94%A8/TwoDimensionalArrayMethod03.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0175-0179_二维数组内存布局+使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0175-0179_二维数组内存布局+使用)
 
 - 使用方式4：静态初始化。
     1. 定义 类型 数组名 = {{值1,值2,…},{值1,值2,…},{值1,值2,…}};
@@ -279,9 +279,9 @@ double[] hens = {3, 5, 1, 3.4, 2, 50};
         arr[i][j] = arr[i - 1][j] + arr[i - 1][j - 1];
         
 
-案例演示：**[YangHui.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0181_%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/YangHui.java)**
+案例演示：**[YangHui.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter06_%E6%95%B0%E7%BB%84%E3%80%81%E6%8E%92%E5%BA%8F%E5%92%8C%E6%9F%A5%E6%89%BE/0181_%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/YangHui.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0181_杨辉三角)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter06_数组、排序和查找/0181_杨辉三角)
 
 # 0182_二维数组细节
 
