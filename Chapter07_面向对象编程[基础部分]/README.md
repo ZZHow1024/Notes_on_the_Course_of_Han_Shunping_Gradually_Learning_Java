@@ -1,8 +1,8 @@
 # Chapter07
 第七章_面向对象编程[基础部分]  
 Chapter07_Object Oriented Programming [Fundamentals]  
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:  
 
