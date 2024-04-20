@@ -1,8 +1,8 @@
 # Chapter04
 第四章_运算符  
 Chapter04_Operator
-@[dnx00  ](https://github.com/dnx00)的笔记  
-@DNX
+@[dnx00  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:
 
