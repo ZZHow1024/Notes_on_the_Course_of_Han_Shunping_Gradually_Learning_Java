@@ -36,9 +36,9 @@ Chapter05_ProgramControlStructure
 - 特别说明：如果执行代码块中只有一条语句，则可以不用{ }，建议写上{ }。
 - 案例：编写一个程序，可以输入人的年龄，如果该同志的年龄大于18岁，就输出“年龄大于18岁！”。
 
-案例演示：**[If01.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0104_%E5%8D%95%E5%88%86%E6%94%AF%E4%BD%BF%E7%94%A8/If01.java)**
+案例演示：**[If01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0104_%E5%8D%95%E5%88%86%E6%94%AF%E4%BD%BF%E7%94%A8/If01.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0104_单分支使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0104_单分支使用)
 
 # 0106_双分支使用
 
@@ -58,9 +58,9 @@ Chapter05_ProgramControlStructure
 - 特别说明：如果执行代码块中只有一条语句，则可以不用{ }，建议写上{ }。
 - 案例：编写一个程序，可以输入人的年龄，如果该同志的年龄大于18岁，就输出“年龄大于18岁！”，否则输出“年龄小于或等于18岁！”。
 
-案例演示：**[If02.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0106_%E5%8F%8C%E5%88%86%E6%94%AF%E4%BD%BF%E7%94%A8/If02.java)**
+案例演示：**[If02.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0106_%E5%8F%8C%E5%88%86%E6%94%AF%E4%BD%BF%E7%94%A8/If02.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0106_双分支使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0106_双分支使用)
 
 # 0109_多分支使用
 
@@ -120,9 +120,9 @@ if(){
     不要超过3层（可读性不好）。
     
 
-案例演示：**[NestedIf.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0112_%E5%B5%8C%E5%A5%97%E5%88%86%E6%94%AF/NestedIf.java)**
+案例演示：**[NestedIf.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0112_%E5%B5%8C%E5%A5%97%E5%88%86%E6%94%AF/NestedIf.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0112_嵌套分支)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0112_嵌套分支)
 
 # 0114_switch基本语法
 
@@ -154,9 +154,9 @@ break;
 
 - 案例：编写一个程序，该程序可以接收一个字符，比如:a,b,c,d,e,f,g，a表示星期一，b表示星期二…
 
-案例演示：**[Switch.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0114_switch%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Switch.java)**
+案例演示：**[Switch.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0114_switch%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Switch.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0114_switch快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0114_switch快速入门)
 
 # 0117_switch细节
 
@@ -242,9 +242,9 @@ for(int i = 0; i < 7; i++)
 
 运行结果
 
-案例演示：**[MultiplicationTable.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0134-0135_%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0/MultiplicationTable.java)**
+案例演示：**[MultiplicationTable.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0134-0135_%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0/MultiplicationTable.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0134-0135_多重循环练习)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0134-0135_多重循环练习)
 
 # 0136_空心金字塔
 
@@ -254,9 +254,9 @@ for(int i = 0; i < 7; i++)
 
 运行结果
 
-案例演示：**[Star.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0136_%E7%A9%BA%E5%BF%83%E9%87%91%E5%AD%97%E5%A1%94/Star.java)**
+案例演示：**[Star.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0136_%E7%A9%BA%E5%BF%83%E9%87%91%E5%AD%97%E5%A1%94/Star.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0136_空心金字塔)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0136_空心金字塔)
 
 # 0137_break需求
 
@@ -266,9 +266,9 @@ for(int i = 0; i < 7; i++)
 
 ![运行结果.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fb8edc9cb-21eb-4547-a683-27c76e4ad619%2F%25E8%25BF%2590%25E8%25A1%258C%25E7%25BB%2593%25E6%259E%259C.jpg?table=block&id=d62d09ae-a322-434c-9a39-d1053c6a0498&t=d62d09ae-a322-434c-9a39-d1053c6a0498)
 
-案例演示：**[Break.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0137_break%E9%9C%80%E6%B1%82/Break.java)**
+案例演示：**[Break.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0137_break%E9%9C%80%E6%B1%82/Break.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0137_break需求)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0137_break需求)
 
 # 0138_break执行流程
 
@@ -322,9 +322,9 @@ System.out.println("abc".equals(name));//true
 [推荐下面的写法，可以避免空指针。]
 ```
 
-案例演示：**[BreakExer.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0141-0142_break%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A0/BreakExer.java)**
+案例演示：**[BreakExer.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter05_%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/0141-0142_break%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A0/BreakExer.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0141-0142_break课堂练习)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter05_程序控制结构/0141-0142_break课堂练习)
 
 # 0143_continue执行流程
 
