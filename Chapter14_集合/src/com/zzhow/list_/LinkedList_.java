@@ -3,7 +3,7 @@ package com.zzhow.list_;
 /**
  * 2024年4月4日
  *
- * @author DNX
+ * @author ZZHow
  */
 public class LinkedList_ {
     public static void main(String[] args) {

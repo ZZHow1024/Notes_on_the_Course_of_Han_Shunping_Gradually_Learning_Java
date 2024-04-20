@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 2024年3月28日
  *
- * @author DNX
+ * @author ZZHow
  */
 @SuppressWarnings("all")
 public class CollectionExercise {
