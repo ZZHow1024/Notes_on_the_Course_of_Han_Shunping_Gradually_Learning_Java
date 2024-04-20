@@ -25,9 +25,9 @@ class Cat
 
 - 案例：面向对象的方式解决养猫问题。
 
-案例演示：**[Object.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0193_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Object.java)**
+案例演示：**[Object.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0193_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Object.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0193_面向对象快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0193_面向对象快速入门)
 
 # 0194_对象内存布局
 
@@ -109,9 +109,9 @@ System.out.println(p2.age);
     3. 添加cal02 成员方法,该方法可以接收一个数n，计算从 1 + … + n 的结果。
     4. 添加getSum成员方法，可以计算两个数的和。
 
-案例演示：**[Method.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0201-0202_%E6%96%B9%E6%B3%95%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Method.java)**
+案例演示：**[Method.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0201-0202_%E6%96%B9%E6%B3%95%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Method.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0201-0202_方法快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0201-0202_方法快速入门)
 
 # 0203_方法调用机制
 
@@ -192,9 +192,9 @@ public int getSum(int n1, int n2)
 
 - 案例：编写一个方法copyPerson，可以复制一个Person对象，返回复制的对象。要求得到新对象和原来的对象是两个独立的对象，只是他们的属性相同。
 
-案例演示：**[CloneObject.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0213_%E5%85%8B%E9%9A%86%E5%AF%B9%E8%B1%A1/CloneObject.java)**
+案例演示：**[CloneObject.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0213_%E5%85%8B%E9%9A%86%E5%AF%B9%E8%B1%A1/CloneObject.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0213_克隆对象)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0213_克隆对象)
 
 # 0214_递归解决什么问题
 
@@ -229,9 +229,9 @@ public void test(int n)
 - 案例1：打印问题。
 - 案例2：计算阶乘。
 
-案例演示：**[Recursion.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0215-0218_%E9%80%92%E5%BD%92%E6%89%A7%E8%A1%8C%E6%9C%BA%E5%88%B6/Recursion.java)**
+案例演示：**[Recursion.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0215-0218_%E9%80%92%E5%BD%92%E6%89%A7%E8%A1%8C%E6%9C%BA%E5%88%B6/Recursion.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0215-0218_递归执行机制)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0215-0218_递归执行机制)
 
 - 递归重要规则
 1. 执行一个方法时，就创建一个新的受保护的独立空间（栈空间）。
@@ -244,17 +244,17 @@ public void test(int n)
 
 - 案例：请使用递归的方式求出斐波那契数1,1,2,3,5,8,13...给你一个整数n，求出它的值是多少。
 
-案例演示：**[FibonacciNumber.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0219_%E9%80%92%E5%BD%92%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0/FibonacciNumber.java)**
+案例演示：**[FibonacciNumber.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0219_%E9%80%92%E5%BD%92%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0/FibonacciNumber.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0219_递归斐波那契数)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0219_递归斐波那契数)
 
 # 0220_猴子吃桃
 
 - 案例：猴子吃桃子问题，有一堆桃子，猴子第一天吃了其中的一半，每天猴子都吃其中的一半，然后再多吃一个。当到第10天时，想再吃时（即还没吃）发现只有1个桃子了。问题：第n（1 ≤ n ≤ 10）天共有多少个桃子?
 
-案例演示：**[MonkeysEatPeaches.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0220_%E7%8C%B4%E5%AD%90%E5%90%83%E6%A1%83/MonkeysEatPeaches.java)**
+案例演示：**[MonkeysEatPeaches.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0220_%E7%8C%B4%E5%AD%90%E5%90%83%E6%A1%83/MonkeysEatPeaches.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0220_猴子吃桃)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0220_猴子吃桃)
 
 # 0221-0224_老鼠出迷宫
 
@@ -266,9 +266,9 @@ public void test(int n)
 
 老鼠出迷宫
 
-案例演示：**[Labyrinth.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0221-0224_%E8%80%81%E9%BC%A0%E5%87%BA%E8%BF%B7%E5%AE%AB/Labyrinth.java)**
+案例演示：**[Labyrinth.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0221-0224_%E8%80%81%E9%BC%A0%E5%87%BA%E8%BF%B7%E5%AE%AB/Labyrinth.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0221-0224_老鼠出迷宫)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0221-0224_老鼠出迷宫)
 
 # 0225_汉诺塔
 
@@ -278,9 +278,9 @@ public void test(int n)
 
 汉诺塔
 
-案例演示：**[HanoiTower.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0225_%E6%B1%89%E8%AF%BA%E5%A1%94/HanoiTower.java)**
+案例演示：**[HanoiTower.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0225_%E6%B1%89%E8%AF%BA%E5%A1%94/HanoiTower.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0225_汉诺塔)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0225_汉诺塔)
 
 # 0226_八皇后
 
@@ -290,9 +290,9 @@ public void test(int n)
 
 八皇后
 
-案例演示：**[EightEmpresses.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0226_%E5%85%AB%E7%9A%87%E5%90%8E/EightEmpresses.java)**
+案例演示：**[EightEmpresses.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0226_%E5%85%AB%E7%9A%87%E5%90%8E/EightEmpresses.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0226_八皇后)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0226_八皇后)
 
 # 0227_重载介绍
 
@@ -323,9 +323,9 @@ public void test(int n)
     calculate(int n1, int n2, int n3) // 三个int
     
 
-案例演示：**[OverLoad.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0228_%E9%87%8D%E8%BD%BD%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/OverLoad.java)**
+案例演示：**[OverLoad.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0228_%E9%87%8D%E8%BD%BD%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/OverLoad.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0228_重载快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0228_重载快速入门)
 
 # 0229_重载使用细节
 
@@ -352,9 +352,9 @@ public void test(int n)
 
 - 案例：DnxMethod类，sum方法。要求可以计算2个数的和，3个数的和，4个数的和，5个数的和…
 
-案例演示：**[VarParameter.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0233_%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E4%BD%BF%E7%94%A8/VarParameter.java)**
+案例演示：**[VarParameter.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0233_%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E4%BD%BF%E7%94%A8/VarParameter.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0233_可变参数使用)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0233_可变参数使用)
 
 # 0234_可变参数细节
 
@@ -410,9 +410,9 @@ public void test(int n)
 
 - 案例：在创建人类的对象时，就直接指定这个对象的年龄和姓名。[用构造方法来实现]
 
-案例演示：**[Constructor.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0240_%E6%9E%84%E9%80%A0%E5%99%A8%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Constructor.java)**
+案例演示：**[Constructor.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0240_%E6%9E%84%E9%80%A0%E5%99%A8%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/Constructor.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0240_构造器快速入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0240_构造器快速入门)
 
 # 0241-0242_构造器使用细节
 
@@ -445,9 +445,9 @@ public void test(int n)
 
 - 案例：使用this解决变量命名问题（构造器中的形参不能与类的属性一样的问题）。
 
-案例演示：**[This.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0246_this%E5%85%A5%E9%97%A8/This.java)**
+案例演示：**[This.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter07_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86%5D/0246_this%E5%85%A5%E9%97%A8/This.java)**
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0246_this入门)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0246_this入门)
 
 # 0247_this本质
 
@@ -472,4 +472,4 @@ this本质
 4. 访问构造器语法：this(参数列表); 注意只能在构造器中使用（只能在构造器中访问另外一个构造器），且必须是第一条语句。
 5. this不能在类定义的外部使用，只能在类定义的方法中使用。
 
-[](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0221-0224_老鼠出迷宫)
+[](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter07_面向对象编程[基础部分]/0221-0224_老鼠出迷宫)
