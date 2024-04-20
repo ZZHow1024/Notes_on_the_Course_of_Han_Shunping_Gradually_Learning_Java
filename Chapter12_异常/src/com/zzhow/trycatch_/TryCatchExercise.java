@@ -1,4 +1,4 @@
-package com.dnx.trycatch_;
+package com.zzhow.trycatch_;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 0451_tryCatch最佳实践
  * 2024年2月14日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class TryCatchExercise {
     //案例：如果用户输入的不是一个整数，

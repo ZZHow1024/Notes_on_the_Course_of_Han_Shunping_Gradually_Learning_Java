@@ -1,4 +1,4 @@
-package com.dnx.throws_;
+package com.zzhow.throws_;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
  * 0452_throws入门案例
  * 2024年2月14日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Throws {
     public static void main(String[] args) throws FileNotFoundException{

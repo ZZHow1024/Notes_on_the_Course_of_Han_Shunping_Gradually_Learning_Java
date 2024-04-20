@@ -1,4 +1,4 @@
-package com.dnx.customexception_;
+package com.zzhow.customexception_;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 0454_自定义异常
  * 2024年2月15日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class CustomException {
     public static void main(String[] args) {

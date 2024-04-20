@@ -1,11 +1,11 @@
-package com.dnx.exception_;
+package com.zzhow.exception_;
 
 /**
  * 0446_五大运行时异常
  * NumberFormatException数字格式不正确异常
  * 2024年2月13日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class NumberFormatException_ {
     public static void main(String[] args) {

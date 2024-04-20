@@ -1,11 +1,11 @@
-package com.dnx.exception_;
+package com.zzhow.exception_;
 
 /**
  * 0446_五大运行时异常
  * ArrayIndexOutOfBoundsException数组下标越界异常
  * 2024年2月13日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class ArrayIndexOutOfBoundsException_ {
     public static void main(String[] args) {

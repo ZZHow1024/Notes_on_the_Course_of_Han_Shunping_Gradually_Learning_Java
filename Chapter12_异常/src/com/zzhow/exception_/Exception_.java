@@ -1,10 +1,10 @@
-package com.dnx.exception_;
+package com.zzhow.exception_;
 
 /**
  * 0443_异常处理入门
  * 2024年2月13日
  *
- * @author DNX
+ * @author ZZHow1024
  */
 public class Exception_ {
     public static void main(String[] args) {
