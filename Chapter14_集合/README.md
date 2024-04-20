@@ -1,8 +1,8 @@
 # Chapter14
 第十四章_集合  
 Chapter14_Aggregation  
-@[zzhow0  ](https://github.com/zzhow0)的笔记  
-@ZZHow
+@[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
+@ZZHow1024
 
 参考课程:
 
