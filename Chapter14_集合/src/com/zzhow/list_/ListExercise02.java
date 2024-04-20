@@ -1,9 +1,7 @@
-package com.dnx.list_;
+package com.zzhow.list_;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
 
 /**
  * 2024年4月2日
