@@ -2,7 +2,7 @@
 第十三章_常用类  
 Chapter13_CommonClasses  
 @[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
-@ZZHow1024
+@ZZHow
 
 参考课程:
 
