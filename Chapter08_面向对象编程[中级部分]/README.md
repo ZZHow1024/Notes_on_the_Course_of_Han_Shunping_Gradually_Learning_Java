@@ -200,7 +200,7 @@ Chapter08_Object Oriented Programming [Intermediate]
 
 - 案例：小学生和大学生考试成绩演示。
 
-案例演示：[**com.zzhow.extend_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/extend_)
+案例演示：[**com.zzhow.extend_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/extend_)
 
 # 0288-0292_继承使用细节
 
@@ -337,7 +337,7 @@ class Son extends Father { // Father 的子类
 
 - 案例：使用多态的机制来解决主人喂食物的问题。
 
-案例演示：[**com.zzhow.polymorphic_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/polymorphic_) 中的 [**Poly.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/polymorphic_/Poly.java)
+案例演示：[**com.zzhow.polymorphic_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/polymorphic_) 中的 [**Poly.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/polymorphic_/Poly.java)
 
 # 0309_向上转型
 
@@ -389,7 +389,7 @@ class Son extends Father { // Father 的子类
 - 案例：现有一个继承结构如下，要求创建1个Person对象、2个Student 对象和2个Teacher对象，统一放在数组中，并调用每个对象say方法。
 - 案例升级：调用子类特有的方法，比如Teacher 有一个 teach 方法，Student 有一个 study 方法。
 
-案例演示：[**com.zzhow.polyarr_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/polyarr_)
+案例演示：[**com.zzhow.polyarr_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/polyarr_)
 
 # 0317_多态参数
 
@@ -398,7 +398,7 @@ class Son extends Father { // Father 的子类
 - 案例升级：测试类中添加一个方法showEmpAnnal(Employee e)，实现获取任何员工对象的年工资,并在main方法中调用该方法 [e.getAnnual0]。
 - 案例再升级：测试类中添加一个方法，testWork,如果是普通员工，则调用work方法，如果是经理，则调用manage方法。
 
-案例演示：[**com.zzhow.polyparameter_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/polyparameter_)
+案例演示：[**com.zzhow.polyparameter_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/polyparameter_)
 
 # 0318_==运算符
 
@@ -408,7 +408,7 @@ class Son extends Father { // Father 的子类
     2. ==：如果判断基本类型，判断的是值是否相等。示例: int i=10; double d=10.0;
     3. ==：如果判断引用类型，判断的是地址是否相等，即判定是不是同一个对象。
 
-案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_)中的**[Equals.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_/Equals.java)**
+案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_)中的**[Equals.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_/Equals.java)**
 
 # 0319_查看JDK原码
 
@@ -418,7 +418,7 @@ class Son extends Father { // Father 的子类
     
 - 如何查看JDK原码？光标放在equals方法上，按下Ctrl + B，即可查看。
 
-案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_)中的**[Equals.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_/Equals.java)**
+案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_)中的**[Equals.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_/Equals.java)**
 
 # 0320_子类重写equals方法
 
@@ -427,7 +427,7 @@ class Son extends Father { // Father 的子类
     比如：Integer,String
     
 
-案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_)中的**[EqualsExercise.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_/EqualsExercise.java)**
+案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_)中的**[EqualsExercise.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_/EqualsExercise.java)**
 
 # 0321-0323_equals课堂练习
 
@@ -442,7 +442,7 @@ class Person{
 }
 ```
 
-案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_)中的**[EqualsExercise.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/object_/EqualsExercise.java)**
+案例演示：[**com.zzhow.object_**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_)中的**[EqualsExercise.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/object_/EqualsExercise.java)**
 
 # 0324_hashCode
 
@@ -504,6 +504,6 @@ class Person{
 
 - 将面向过程的代码修改成面向对象的，编写SmallChangeSysOOP.java 类，并使用SmallChangeSysApp.java 完成测试。
 
-项目：[**com.zzhow.smallchange**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/smallchange)中的**[SmallChangeSys.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/smallchange/SmallChangeSys.java)**为面向过程版。
+项目：[**com.zzhow.smallchange**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/smallchange)中的**[SmallChangeSys.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/smallchange/SmallChangeSys.java)**为面向过程版。
 
-[**com.zzhow.smallchange.oop**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/smallchange/oop)为面向对象版。
+[**com.zzhow.smallchange.oop**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter08_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E4%B8%AD%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/zzhow/smallchange/oop)为面向对象版。
