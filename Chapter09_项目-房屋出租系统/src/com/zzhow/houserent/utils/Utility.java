@@ -1,4 +1,4 @@
-package com.dnx.houserent.utils;
+package com.zzhow.houserent.utils;
 
 //作者：韩顺平
 

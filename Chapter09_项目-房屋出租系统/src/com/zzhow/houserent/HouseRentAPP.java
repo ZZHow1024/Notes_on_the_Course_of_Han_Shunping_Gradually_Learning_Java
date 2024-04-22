@@ -1,9 +1,9 @@
-package com.dnx.houserent;
+package com.zzhow.houserent;
 
-import com.dnx.houserent.view.HouseView;
+import com.zzhow.houserent.view.HouseView;
 
 /**
- * @author DNX
+ * @author ZZHow
  * 2024年2月3日
  */
 

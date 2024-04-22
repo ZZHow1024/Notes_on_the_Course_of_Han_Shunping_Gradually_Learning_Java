@@ -1,9 +1,9 @@
-package com.dnx.houserent.service;
+package com.zzhow.houserent.service;
 
-import com.dnx.houserent.domain.House;
+import com.zzhow.houserent.domain.House;
 
 /**
- * @author DNX
+ * @author ZZHow
  * 2024年2月3日
  */
 

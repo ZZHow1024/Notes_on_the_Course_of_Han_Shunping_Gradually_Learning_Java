@@ -1,7 +1,7 @@
-package com.dnx.houserent.domain;
+package com.zzhow.houserent.domain;
 
 /**
- * @author DNX
+ * @author ZZHow
  * 2024年2月3日
  * House的对象表示一个房屋信息
  */

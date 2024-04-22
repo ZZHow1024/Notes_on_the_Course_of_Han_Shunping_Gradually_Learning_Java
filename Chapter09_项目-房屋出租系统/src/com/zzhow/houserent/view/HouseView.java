@@ -1,11 +1,11 @@
-package com.dnx.houserent.view;
+package com.zzhow.houserent.view;
 
-import com.dnx.houserent.domain.House;
-import com.dnx.houserent.service.HouseService;
-import com.dnx.houserent.utils.Utility;
+import com.zzhow.houserent.domain.House;
+import com.zzhow.houserent.service.HouseService;
+import com.zzhow.houserent.utils.Utility;
 
 /**
- * @author DNX
+ * @author ZZHow
  * 2024年2月3日
  * 1.显示界面
  * 2.接收用户的输入

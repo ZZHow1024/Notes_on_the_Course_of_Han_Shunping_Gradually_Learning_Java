@@ -1,7 +1,7 @@
-package com.dnx.houserent.utils;
+package com.zzhow.houserent.utils;
 
 /**
- * @author DNX
+ * @author ZZHow
  * 2024年2月3日
  */
 
