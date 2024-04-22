@@ -2,7 +2,7 @@
 第十章_面向对象编程[高级部分]  
 Chapter10_Object Oriented Programming [Advanced]  
 @[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
-@ZZHow1024
+@ZZHow
 
 参考课程:  
 
