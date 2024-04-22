@@ -23,11 +23,11 @@ Chapter14_Aggregation
 
 # 0499_集合体系图
 
-![Collection接口实现子类](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/5a272425-dac3-4a75-b34c-24f183d948dd/Collection%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0%E5%AD%90%E7%B1%BB.png)
+![Collection接口实现子类](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F5a272425-dac3-4a75-b34c-24f183d948dd%2FCollection%25E6%258E%25A5%25E5%258F%25A3%25E5%25AE%259E%25E7%258E%25B0%25E5%25AD%2590%25E7%25B1%25BB.png?table=block&id=76e7f04d-b03a-4093-8e1f-648f09c3b5a7&t=76e7f04d-b03a-4093-8e1f-648f09c3b5a7&width=598&cache=v2)
 
 Collection接口实现子类
 
-![Map接口实现子类](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/65f4a6d0-7aa1-4ea1-bbd6-75bd41ee4fb2/Map%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0%E5%AD%90%E7%B1%BB.png)
+![Map接口实现子类](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F65f4a6d0-7aa1-4ea1-bbd6-75bd41ee4fb2%2FMap%25E6%258E%25A5%25E5%258F%25A3%25E5%25AE%259E%25E7%258E%25B0%25E5%25AD%2590%25E7%25B1%25BB.png?table=block&id=e4777a8a-eb8d-4fc1-87b2-575781258d29&t=e4777a8a-eb8d-4fc1-87b2-575781258d29&width=598&cache=v2)
 
 Map接口实现子类
 
@@ -62,7 +62,7 @@ Map接口实现子类
 - Collection 接口遍历元素方式1 - 使用 lterator(选代器)：
     - 基本介绍
         
-        ![Iterator](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/831cbf05-e56a-4409-a11e-821bc19f4223/Iterator.png)
+        ![Iterator](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F831cbf05-e56a-4409-a11e-821bc19f4223%2FIterator.png?table=block&id=1f7982ab-9092-4559-bb2e-5ebe128ab015&t=1f7982ab-9092-4559-bb2e-5ebe128ab015&width=542&cache=v2)
         
         Iterator
         
@@ -129,7 +129,7 @@ Map接口实现子类
     3. List 容器中的元素都对应一个整数型的序号记载其在容器中的位置，可以根据序号存取容器中的元素。
     4. JDK API 中 List 接口的实现类有：
         
-        ![List 接口](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/ea861ccf-5504-4ba0-8446-2f405488ada5/List%E6%8E%A5%E5%8F%A3.png)
+        ![List 接口](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fea861ccf-5504-4ba0-8446-2f405488ada5%2FList%25E6%258E%25A5%25E5%258F%25A3.png?table=block&id=16b6c2db-5235-480e-95af-075c61e461e3&t=16b6c2db-5235-480e-95af-075c61e461e3&width=542&cache=v2)
         
         List 接口
         
@@ -196,7 +196,7 @@ Map接口实现子类
 
 1. Vector 类的定义说明 public class Vector<E>
     
-    ![Vector](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/502c92a0-3800-4bdd-8335-266acec1e776/Vector.png)
+    ![Vector](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F502c92a0-3800-4bdd-8335-266acec1e776%2FVector.png?table=block&id=c024b80c-e953-41a9-8c80-6fe36798b084&t=c024b80c-e953-41a9-8c80-6fe36798b084&width=570&cache=v2)
     
     Vector
     
@@ -365,11 +365,11 @@ class Node {
         3. EntrySet 中，定义的类型是 Map.Entry，但是实际上存放的还是 HashMap$Node这时因为 `static class Node<K, V> implements Map.Entry<K, V>`
         4. 把 HashMap$Node 对象 存放到entrySet 就方便我们的遍历，因为 Map.Entry 提供了重要方法 K  `getKey();` V `getValue();`
     
-    ![HashMap$Node](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/8592f58d-a183-451e-822c-56a193def9b7/HashMap.png)
+    ![HashMap$Node](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F8592f58d-a183-451e-822c-56a193def9b7%2FHashMap.png?table=block&id=780e0d55-03ba-4247-a5fa-eb07f188977c&t=780e0d55-03ba-4247-a5fa-eb07f188977c&width=570&cache=v2)
     
     HashMap$Node
     
-    ![KeySet-Values](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/541851b8-7fc4-4c24-bd85-dbbe82231dce/KeySet-Values.png)
+    ![KeySet-Values](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F541851b8-7fc4-4c24-bd85-dbbe82231dce%2FKeySet-Values.png?table=block&id=73c9a30e-9a95-4fdd-a3f6-959d300e630f&t=73c9a30e-9a95-4fdd-a3f6-959d300e630f&width=570&cache=v2)
     
     KeySet-Values
     
@@ -419,7 +419,7 @@ class Node {
 
 # 0536_HashMap底层机制
 
-![HashMap底层机制](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/d5c577e0-af49-45ff-913c-c1a6fad679f0/HashMap%E5%BA%95%E5%B1%82%E6%9C%BA%E5%88%B6.png)
+![HashMap底层机制](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fd5c577e0-af49-45ff-913c-c1a6fad679f0%2FHashMap%25E5%25BA%2595%25E5%25B1%2582%25E6%259C%25BA%25E5%2588%25B6.png?table=block&id=6183f73c-7bb5-40a4-bcff-c1345ae98f03&t=6183f73c-7bb5-40a4-bcff-c1345ae98f03&width=1481&cache=v2)
 
 HashMap底层机制
 
