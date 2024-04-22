@@ -2,7 +2,7 @@
 第十二章_异常  
 Chapter12_Exception  
 @[zzhow1024  ](https://github.com/zzhow1024)的笔记  
-@ZZHow1024
+@ZZHow
 
 参考课程:  
 
