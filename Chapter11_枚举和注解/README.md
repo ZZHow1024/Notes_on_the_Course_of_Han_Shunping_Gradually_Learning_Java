@@ -2,7 +2,7 @@
 第十一章_枚举和注解  
 Chapter11_Enumeration and Annotation  
 @[ZZHow1024  ](https://github.com/ZZHow1024)的笔记  
-@ZZHow1024
+@ZZHow
 
 参考课程:  
 
