@@ -1,9 +1,9 @@
-package com.dnx.interface_;
+package com.zzhow.interface_;
 
 /**
  * 演示多态数组
  * 2024年2月6日
- * @author DNX
+ * @author ZZHow
  */
 
 public class InterfacePolyArr {

@@ -1,9 +1,9 @@
-package com.dnx.single_;
+package com.zzhow.single_;
 
 /**
  * 演示懒汉式单例模式
  * 2024年2月5日
- * @author DNX
+ * @author ZZHow
  */
 
 public class SingleTon02 {

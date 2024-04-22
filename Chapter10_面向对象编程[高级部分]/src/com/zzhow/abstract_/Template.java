@@ -1,5 +1,5 @@
-package com.dnx.abstract_;
-//DNX写于2024年2月5日
+package com.zzhow.abstract_;
+//ZZHow写于2024年2月5日
 
 //抽象类-模板设计模式
 public abstract class Template {

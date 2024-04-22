@@ -15,7 +15,7 @@ Chapter10_Object Oriented Programming [Advanced]
 - 案例：有一群小孩在玩堆雪人，不时有新的小孩加入，请问如何知道现在共有多少人在玩？编写程序解决。
 - 提示：类变量可以通过类名来访问。
 
-案例演示：[com.dnx.static_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_) 中的 [ChildGame.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_/ChildGame.java)
+案例演示：[com.zzhow.static_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_) 中的 [ChildGame.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_/ChildGame.java)
 
 # 0375_类变量内存剖析
 
@@ -88,7 +88,7 @@ Chapter10_Object Oriented Programming [Advanced]
     
 - 案例：统计学费总和
 
-案例演示：[com.dnx.static_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_) 中的 [StaticMethod.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_/StaticMethod.java)
+案例演示：[com.zzhow.static_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_) 中的 [StaticMethod.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/static_/StaticMethod.java)
 
 # 0379_类方法最佳实践
 
@@ -228,7 +228,7 @@ Chapter10_Object Oriented Programming [Advanced]
 
 饿汉式的弊端：饿汉式可能造成创建了对象但没有使用。
 
-案例演示：[com.dnx.single_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_) 中的 [SingleTon01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_/SingleTon01.java)
+案例演示：[com.zzhow.single_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_) 中的 [SingleTon01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_/SingleTon01.java)
 
 # 0392_单例模式懒汉式
 
@@ -238,7 +238,7 @@ Chapter10_Object Oriented Programming [Advanced]
 2. 定义一个static静态属性对象
 3. 提供一个public的static方法getInstance，返回对象
 
-案例演示：[com.dnx.single_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_) 中的 [SingleTon02.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_/SingleTon02.java)
+案例演示：[com.zzhow.single_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_) 中的 [SingleTon02.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/single_/SingleTon02.java)
 
 - 饿汉式VS懒汉式
     1. 二者最主要的区别在于创建对象的时机不同：饿汉式是在类加载就创建了对象实例，而懒汉式是在使用时才创建。
@@ -255,7 +255,7 @@ Chapter10_Object Oriented Programming [Advanced]
     3. 当不希望类的的某个属性的值被修改时
     4. 当不希望某个局部变量被修改时
 
-案例演示：[com.dnx.final_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/final_) 中的 [Final01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/final_/Final.java)
+案例演示：[com.zzhow.final_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/final_) 中的 [Final01.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/final_/Final.java)
 
 # 0394-0395_final使用细节
 
@@ -291,7 +291,7 @@ Chapter10_Object Oriented Programming [Advanced]
 - 把Animal做成抽象类，可以让子类Cat类实现抽象类。
 - 当一个类中存在抽象方法时，需要将该类声明为abstract类。
 
-案例演示：[com.dnx.abstract_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_) 中的 [Abstract.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_/Abstract.java)
+案例演示：[com.zzhow.abstract_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_) 中的 [Abstract.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_/Abstract.java)
 
 # 0398-0399_抽象类细节
 
@@ -348,13 +348,13 @@ Chapter10_Object Oriented Programming [Advanced]
     ```
     
 
-案例演示：[com.dnx.abstract_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_) 中的 [TestTemplate.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_/TestTemplate.java)
+案例演示：[com.zzhow.abstract_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_) 中的 [TestTemplate.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/abstract_/TestTemplate.java)
 
 # 0402_接口快速入门
 
 - 案例：模拟现实生活中手机和相机插入电脑的USB接口。
 
-案例演示：[com.dnx.interface_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_) 中的 [Interface.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_/Interface.java)
+案例演示：[com.zzhow.interface_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_) 中的 [Interface.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_/Interface.java)
 
 # 0403_接口基本介绍
 
@@ -413,7 +413,7 @@ Chapter10_Object Oriented Programming [Advanced]
     
     案例：给 Usb 数组中，存放 Phone_ 和 Camera_ 对象，Phone 类还有一个特有的方法 call()。遍历Usb数组，如果是Phone对象，除了调用Usb 接口定义的方法外，还需要调用Phone 特有方法 call()
     
-    案例演示：[com.dnx.interface_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_) 中的 [InterfacePolyArr.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_/InterfacePolyArr.java)
+    案例演示：[com.zzhow.interface_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_) 中的 [InterfacePolyArr.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_/InterfacePolyArr.java)
     
 3. 接口存在多态传递现象
 
@@ -421,7 +421,7 @@ Chapter10_Object Oriented Programming [Advanced]
 
 - 案例：演示多态传递现象
 
-案例演示：[com.dnx.interface_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_) 中的 [InterfacePolyPass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_/InterfacePolyPass.java)
+案例演示：[com.zzhow.interface_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_) 中的 [InterfacePolyPass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/interface_/InterfacePolyPass.java)
 
 # 0412_四种内部类
 
@@ -445,7 +445,7 @@ Chapter10_Object Oriented Programming [Advanced]
     ```
     
 
-案例演示：[com.dnx.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [InnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/InnerClass.java)
+案例演示：[com.zzhow.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [InnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/InnerClass.java)
 
 - 内部类的分类：
     - 定义在外部类局部位置上（比如方法内）：
@@ -467,7 +467,7 @@ Chapter10_Object Oriented Programming [Advanced]
     6. 外部其他类———不能访问———>局部内部类（因为局部内部类地位是一个局部变量）
     7. 如果外部类和局部内部类的成员重名时，默认遵循就近原则，如果想访问外部类的成员，则可以使用 外部类名.this.成员 去访问
 
-案例演示：[com.dnx.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [LocalInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/LocalInnerClass.java)
+案例演示：[com.zzhow.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [LocalInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/LocalInnerClass.java)
 
 # 0415_匿名内部类本质
 
@@ -487,11 +487,11 @@ Chapter10_Object Oriented Programming [Advanced]
     ```
     
 
-案例演示：[com.dnx.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [AnonymousLocalInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/AnonymousLocalInnerClass.java)
+案例演示：[com.zzhow.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [AnonymousLocalInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/AnonymousLocalInnerClass.java)
 
 # 0416_匿名内部类使用
 
-案例演示：[com.dnx.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [AnonymousLocalInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/AnonymousLocalInnerClass.java)
+案例演示：[com.zzhow.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [AnonymousLocalInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/AnonymousLocalInnerClass.java)
 
 # 0417_匿名内部类细节
 
@@ -518,7 +518,7 @@ Chapter10_Object Oriented Programming [Advanced]
     3. 访问方式3：`new Outer03().new Inner03();`
 7. 如果外部类和内部类的成员重名时，内部类访问成员默认遵循就近原则，如果想访问外部类的成员，则可以使用(外部类名.this.成员)去访问。
 
-案例演示：[com.dnx.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [MemberInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/MemberInnerClass.java)
+案例演示：[com.zzhow.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [MemberInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/MemberInnerClass.java)
 
 # 0421-0422_静态内部类
 
@@ -533,7 +533,7 @@ Chapter10_Object Oriented Programming [Advanced]
     3. 访问方式3：在外部类中编写一个静态方法，可以返回 Inner04 对象。`Outer04.*getInner04*();` 
 6. 如果外部类和静态内部类的成员重名时，静态内部类访问的时，默认遵循就近原则，如果想访问外部类的成员，则可以使用(外部类名.成员)去访问。
 
-案例演示：[com.dnx.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [StaticInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/StaticInnerClass.java)
+案例演示：[com.zzhow.innerclass_](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_) 中的 [StaticInnerClass.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter10_%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%5B%E9%AB%98%E7%BA%A7%E9%83%A8%E5%88%86%5D/src/com/dnx/innerclass_/StaticInnerClass.java)
 
 ## 内部类总结：
 

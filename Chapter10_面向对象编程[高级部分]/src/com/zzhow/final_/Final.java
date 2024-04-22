@@ -1,5 +1,5 @@
-package com.dnx.final_;
-//DNX写于2024年2月5日
+package com.zzhow.final_;
+//ZZHow写于2024年2月5日
 
 public class Final {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
-package com.dnx.static_;
-//DNX写于2024年2月3日
+package com.zzhow.static_;
+//ZZHow写于2024年2月3日
 
 public class ChildGame {
     public static void main(String[] args) {

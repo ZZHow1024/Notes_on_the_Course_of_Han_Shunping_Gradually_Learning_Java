@@ -1,10 +1,10 @@
-package com.dnx.interface_;
+package com.zzhow.interface_;
 
 /**
  * 演示接口的多态传递现象
  * 2024年2月6日
  *
- * @author DNX
+ * @author ZZHow
  */
 
 public class InterfacePolyPass {

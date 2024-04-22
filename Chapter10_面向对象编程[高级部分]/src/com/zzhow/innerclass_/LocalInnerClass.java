@@ -1,9 +1,9 @@
-package com.dnx.innerclass_;
+package com.zzhow.innerclass_;
 
 /**
  * 局部内部类演示
  * 2024年2月6日
- * @author DNX
+ * @author ZZHow
  */
 
 public class LocalInnerClass {

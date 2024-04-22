@@ -1,10 +1,10 @@
-package com.dnx.innerclass_;
+package com.zzhow.innerclass_;
 
 /**
  * 成员内部类演示
  * 2024年2月8日
  *
- * @author DNX
+ * @author ZZHow
  */
 
 public class MemberInnerClass {
