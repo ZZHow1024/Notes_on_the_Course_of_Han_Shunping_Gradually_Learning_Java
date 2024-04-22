@@ -10,10 +10,6 @@ Chapter14_Aggregation
 
 [https://www.bilibili.com/video/BV1fh411y7R8]
 
-本章IDEA Project：
-
-[Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/Chapter14_集合 at main · ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter14_集合)
-
 # 0498_集合介绍
 
 - 数组的不足之处：
