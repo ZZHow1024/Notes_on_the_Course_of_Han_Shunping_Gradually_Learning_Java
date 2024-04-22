@@ -1,5 +1,5 @@
-package com.dnx.object_;
-//DNX写于2024年1月27日
+package com.zzhow.object_;
+//ZZHow写于2024年1月27日
 
 public class Equals {
     public static void main(String[] args) {

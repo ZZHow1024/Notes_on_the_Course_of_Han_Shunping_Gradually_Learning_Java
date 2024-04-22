@@ -1,5 +1,5 @@
-package com.dnx.polyarr_;
-//DNX写于2024年1月27日
+package com.zzhow.polyarr_;
+//ZZHow写于2024年1月27日
 
 public class Student extends Person {
     public double score;

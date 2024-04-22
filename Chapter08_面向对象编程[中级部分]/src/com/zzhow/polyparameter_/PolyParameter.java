@@ -1,5 +1,5 @@
-package com.dnx.polyparameter_;
-//DNX写于2024年1月27日
+package com.zzhow.polyparameter_;
+//ZZHow写于2024年1月27日
 
 public class PolyParameter {
     public static void main(String[] args) {

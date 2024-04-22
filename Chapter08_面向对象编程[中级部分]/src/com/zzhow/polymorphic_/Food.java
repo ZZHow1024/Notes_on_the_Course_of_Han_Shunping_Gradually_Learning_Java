@@ -1,5 +1,5 @@
-package com.dnx.polymorphic_;
-//DNX写于2024年1月26日
+package com.zzhow.polymorphic_;
+//ZZHow写于2024年1月26日
 
 public class Food {
     private String name;

@@ -1,4 +1,4 @@
-//DNX写于2024年1月26日
+//ZZHow写于2024年1月26日
 public class DynamicBinding {
     public static void main(String[] args) {
         A a = new B();

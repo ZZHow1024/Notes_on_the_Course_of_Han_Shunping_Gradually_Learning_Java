@@ -1,4 +1,4 @@
-package com.dnx.smallchange.oop;
+package com.zzhow.smallchange.oop;
 //DNX写于2024年1月29日
 
 import java.text.SimpleDateFormat;
@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 /**
- * @author DNX
+ * @author ZZHow
  * 该类是完成零钱通的各个功能的类
  * 使用OOP（面向对象编程）
  * 将各个功能对应一个方法。

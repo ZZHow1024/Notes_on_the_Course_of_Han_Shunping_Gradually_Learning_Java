@@ -1,5 +1,5 @@
-package com.dnx.extend_;
-//DNX写于2024年1月25日
+package com.zzhow.extend_;
+//ZZHow写于2024年1月25日
 
 //让 Pupil 继承 Student 类
 public class Pupil extends Student {

@@ -1,5 +1,5 @@
-package com.dnx.smallchange;
-//DNX写于2024年1月28日
+package com.zzhow.smallchange;
+//ZZHow写于2024年1月28日
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

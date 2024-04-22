@@ -1,5 +1,5 @@
-package com.dnx.smallchange.oop;
-//DNX写于2024年1月29日
+package com.zzhow.smallchange.oop;
+//ZZHow写于2024年1月29日
 
 /**
  * @author DNX

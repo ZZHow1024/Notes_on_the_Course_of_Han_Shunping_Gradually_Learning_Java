@@ -1,5 +1,5 @@
-package com.dnx.extend_;
-//DNX写于2024年1月25日
+package com.zzhow.extend_;
+//ZZHow写于2024年1月25日
 
 public class Extends {
     public static void main(String[] args) {
