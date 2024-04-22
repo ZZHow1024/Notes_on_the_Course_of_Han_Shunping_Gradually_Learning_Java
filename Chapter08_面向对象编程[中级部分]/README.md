@@ -8,7 +8,7 @@ Chapter08_Object Oriented Programming [Intermediate]
 
 【***韩顺平* 循序渐进学Java】**
 
-[https://www.bilibili.com/video/BV1fh411y7R8/?p=1]
+[https://www.bilibili.com/video/BV1fh411y7R8]
 
 # 0265-0267_IDEA使用
 
