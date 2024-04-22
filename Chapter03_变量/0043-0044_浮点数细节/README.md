@@ -1,19 +1,19 @@
-# 0043-0044_浮点数细节
+# 0043-0044\_浮点数细节
 
-1. 与整数类型类似，Java 浮点类型也有固定的范围和字段长度，不受具体OS的影响。
-    1. [float 4 个字节 double 是 8个字节]
-2. Java 的浮点型常量默认为double型，声明float型常量，须后加 ’f’ 或 ‘F’。
+1. 与整数类型类似，Java 浮点类型也有固定的范围和字段长度，不受具体 OS 的影响。
+   1. [float 4 个字节 double 是 8 个字节]
+2. Java 的浮点型常量默认为 double 型，声明 float 型常量，须后加 ’f’ 或 ‘F’。
 3. 浮点型常量有两种表示形式
-    1. 十进制数形式，如：
-        1. 5.12
-        2. 512.0f
-        3. .512(必须有小数点)
-    2. 科学计数法形式，如：
-        1. 5.12e2   [5.12*10的2次方]
-        2. 5.12E-2  [5.12/10的2次方]
-4. 通常情况下，应该使用double型，因为它比float型更精确。
-    1. double num9 = 2.1234567851;
-    2. float num10 = 2.1234567851F;
+   1. 十进制数形式，如：
+      1. 5.12
+      2. 512.0f
+      3. .512(必须有小数点)
+   2. 科学计数法形式，如：
+      1. 5.12e2 [5.12*10 的 2 次方]
+      2. 5.12E-2 [5.12/10 的 2 次方]
+4. 通常情况下，应该使用 double 型，因为它比 float 型更精确。
+   1. double num9 = 2.1234567851;
+   2. float num10 = 2.1234567851F;
 5. 浮点数使用陷阱：2.7 和 8.1/3 比较。
 
 样例：
@@ -56,7 +56,7 @@ public class FloatDetail{
 }
 ```
 
-案例演示：**[FloatDetail.java](https://github.com/dnx00/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0043-0044_%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%86%E8%8A%82/FloatDetail.java)**
+案例演示：**[FloatDetail.java](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter03_%E5%8F%98%E9%87%8F/0043-0044_%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%86%E8%8A%82/FloatDetail.java)**
 
 运行结果：  
 num5 = 0.123  
@@ -66,4 +66,4 @@ num9 = 2.1234567851
 num10 = 2.1234567  
 num11 = 2.7  
 num12 = 2.6999999999999997  
-差值非常小，到我的规定精度，认为num11 = num12  
+差值非常小，到我的规定精度，认为 num11 = num12

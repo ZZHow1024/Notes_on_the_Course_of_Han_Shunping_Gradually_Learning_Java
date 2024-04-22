@@ -1,4 +1,4 @@
-//DNX写于2024年1月16日
+//ZZHow写于2024年1月16日
 public class IntDetail{
 	public static void main(String[] args){
 

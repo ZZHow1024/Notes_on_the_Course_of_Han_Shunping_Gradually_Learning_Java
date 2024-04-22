@@ -1,4 +1,4 @@
-//DNX写于2024年1月16日
+//ZZHow写于2024年1月16日
 public class VarDetail{
 	public static void main(String[] args){
 		//变量必须先声明，后使用，即有顺序。

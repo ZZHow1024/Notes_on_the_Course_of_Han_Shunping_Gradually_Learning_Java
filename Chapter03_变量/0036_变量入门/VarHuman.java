@@ -1,4 +1,4 @@
-//DNX写于2024年1月16日
+//ZZHow写于2024年1月16日
 public class VarHuman{
 	//编写一个main方法
 	public static void main(String[] args){

@@ -1,4 +1,4 @@
-//DNX写于2024年1月17日
+//ZZHow写于2024年1月17日
 public class Boolean{
 	public static void main(String[] args){
 

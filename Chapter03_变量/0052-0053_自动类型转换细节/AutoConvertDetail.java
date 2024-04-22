@@ -1,4 +1,4 @@
-//DNX写于2024年1月17日
+//ZZHow写于2024年1月17日
 public class AutoConvertDetail{
 	public static void main(String[] args){
 		//细节1：有多种类型的数据混合运算时，
