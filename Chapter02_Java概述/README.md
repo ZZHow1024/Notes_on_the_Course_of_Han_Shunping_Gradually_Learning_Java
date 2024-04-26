@@ -3,7 +3,7 @@
 第二章\_Java 概述  
 Chapter02_Java Overview  
 @[ZZHow1024 ](https://github.com/ZZHow1024)的笔记  
-@ZZHow1024
+@ZZHow
 
 参考课程:
 
