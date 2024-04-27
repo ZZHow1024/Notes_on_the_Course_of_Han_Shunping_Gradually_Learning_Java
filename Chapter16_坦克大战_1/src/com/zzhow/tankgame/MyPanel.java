@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.Vector;
 
 /**
  * 2024年4月27日
@@ -13,13 +14,21 @@ import java.awt.event.KeyListener;
  * 游戏绘图区域
  */
 public class MyPanel extends JPanel implements KeyListener {
-
     //定义我方坦克
     MyTank myTank = null;
 
+    //定义敌方坦克
+    int enemyTankQuantity = 3;
+    Vector<EnemyTank> enemyTanks = new Vector<>();
+
     public MyPanel() {
         //初始化我方坦克
-        this.myTank = new MyTank(100, 100, Tank.UPWARD, 1);
+        this.myTank = new MyTank(450, 300, Tank.UPWARD, 1);
+
+        //初始化敌方坦克
+        for (int i = 0; i < enemyTankQuantity; i++) {
+            enemyTanks.add(new EnemyTank((i + 1) * 100 + 250, 100, Tank.DOWNWARD, 1));
+        }
     }
 
     @Override
@@ -31,7 +40,11 @@ public class MyPanel extends JPanel implements KeyListener {
         g.fillRect(0, 0, 1000, 750);
 
         //画出坦克：调用 drawTank() 方法
+        //①画出我方坦克
         drawTank(myTank.getX(), myTank.getY(), g, myTank.getDirection(), MyTank.TYPE);
+        //②画出敌方坦克
+        for (EnemyTank enemyTank : enemyTanks)
+            drawTank(enemyTank.getX(), enemyTank.getY(), g, enemyTank.getDirection(), EnemyTank.TYPE);
     }
 
     /**
