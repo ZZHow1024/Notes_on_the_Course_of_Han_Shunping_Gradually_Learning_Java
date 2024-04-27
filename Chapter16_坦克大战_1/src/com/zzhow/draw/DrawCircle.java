@@ -35,7 +35,7 @@ public class DrawCircle extends JFrame {
     }
 }
 
-//定义 MyPanel 类，继承 JPanel 类，画图形，就在画板上
+//定义 MyPanel 类，继承 JPanel 类，画图形，在画板上
 class MyPanel extends JPanel {
     //绘图方法
     @Override
