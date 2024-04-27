@@ -10,7 +10,14 @@ package com.zzhow.tankgame;
 public class MyTank extends Tank {
     public static final int TYPE = 0;
 
+    public MyTank() {
+    }
+
     public MyTank(int x, int y) {
         super(x, y);
+    }
+
+    public MyTank(int x, int y, int direction, int speed) {
+        super(x, y, direction, speed);
     }
 }
