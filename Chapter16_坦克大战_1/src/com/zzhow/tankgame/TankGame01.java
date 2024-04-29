@@ -1,6 +1,7 @@
 package com.zzhow.tankgame;
 
 import javax.swing.*;
+import java.util.Objects;
 
 /**
  * 2024年4月27日
@@ -19,9 +20,11 @@ public class TankGame01 extends JFrame {
 
     public TankGame01() {
         myPanel = new MyPanel();
+        ImageIcon imageIcon = new ImageIcon(Objects.requireNonNull(MyPanel.class.getResource("/logo64.png")));
 
         this.add(myPanel);
         this.addKeyListener(myPanel);
+        this.setIconImage(imageIcon.getImage());
         this.setTitle("Tank Game 1.0");
         this.setSize(1000, 750);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
