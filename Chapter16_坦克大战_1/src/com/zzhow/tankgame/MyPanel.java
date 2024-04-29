@@ -15,7 +15,11 @@ import java.util.Vector;
  */
 public class MyPanel extends JPanel implements KeyListener {
     //定义我方坦克
-    MyTank myTank = null;
+    private MyTank myTank = null;
+
+    //加载图片
+    private Image image = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo.png"));
+    private Image image64 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo64.png"));
 
     //定义敌方坦克
     int enemyTankQuantity = 3;
@@ -23,7 +27,7 @@ public class MyPanel extends JPanel implements KeyListener {
 
     public MyPanel() {
         //初始化我方坦克
-        this.myTank = new MyTank(450, 300, Tank.UPWARD, 1);
+        this.myTank = new MyTank(450, 300, Tank.UPWARD, 3);
 
         //初始化敌方坦克
         for (int i = 0; i < enemyTankQuantity; i++) {
@@ -38,6 +42,13 @@ public class MyPanel extends JPanel implements KeyListener {
         //画出游戏区域：灰色填充矩形
         g.setColor(Color.GRAY);
         g.fillRect(0, 0, 1000, 750);
+
+        g.drawImage(image, 320, 210, 300, 300, this);
+        g.setColor(Color.BLACK);
+        g.setFont(new Font("MiSans", Font.BOLD, 30));
+        g.drawString("Tank Game 1.0", 5, 30);
+        g.setFont(new Font("MiSans", Font.BOLD, 50));
+        g.drawString("@author ZZHow", 260, 700);
 
         //画出坦克：调用 drawTank() 方法
         //①画出我方坦克
@@ -75,6 +86,8 @@ public class MyPanel extends JPanel implements KeyListener {
                 g.fill3DRect(x + 30, y, 10, 60, false);
                 g.fill3DRect(x + 10, y + 10, 20, 40, false);
                 g.fillOval(x + 10, y + 20, 20, 20);
+                if (type == MyTank.TYPE)
+                    g.drawImage(image64, x + 10, y + 20, 20, 20, this);
                 if (direction == Tank.UPWARD)
                     g.drawLine(x + 20, y + 30, x + 20, y);
                 else
@@ -86,6 +99,8 @@ public class MyPanel extends JPanel implements KeyListener {
                 g.fill3DRect(x, y + 30, 60, 10, false);
                 g.fill3DRect(x + 10, y + 10, 40, 20, false);
                 g.fillOval(x + 20, y + 10, 20, 20);
+                if (type == MyTank.TYPE)
+                    g.drawImage(image64, x + 20, y + 10, 20, 20, this);
                 if (direction == Tank.LEFT)
                     g.drawLine(x + 30, y + 20, x, y + 20);
                 else
