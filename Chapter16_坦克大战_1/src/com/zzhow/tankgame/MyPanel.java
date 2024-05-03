@@ -17,13 +17,27 @@ public class MyPanel extends JPanel implements KeyListener {
     //定义我方坦克
     private MyTank myTank = null;
 
-    //加载图片
-    private Image image = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo.png"));
-    private Image image64 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo64.png"));
+    //图片资源
+    private Image image = null;
+    private Image image64 = null;
 
     //定义敌方坦克
     int enemyTankQuantity = 3;
     Vector<EnemyTank> enemyTanks = new Vector<>();
+
+    {
+        //加载图片
+        try {
+            image = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo.png"));
+        } catch (Exception e) {
+            System.out.println("未找到 logo.png");
+        }
+        try {
+            image64 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo64.png"));
+        } catch (Exception e) {
+            System.out.println("未找到 logo64.png");
+        }
+    }
 
     public MyPanel() {
         //初始化我方坦克
