@@ -26,10 +26,16 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
     //图片资源
     private Image image = null;
     private Image image64 = null;
+    private Image bomb1 = null;
+    private Image bomb2 = null;
+    private Image bomb3 = null;
 
     //定义敌方坦克
-    int enemyTankQuantity = 3;
+    int enemyTankQuantity = 3; //敌方坦克数量
     Vector<EnemyTank> enemyTanks = new Vector<>();
+
+    //定义炸弹集合
+    Vector<Bomb> bombs = new Vector<>();
 
     {
         //加载图片
@@ -42,6 +48,21 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             image64 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/logo64.png"));
         } catch (Exception e) {
             System.out.println("未找到 logo64.png");
+        }
+        try {
+            bomb1 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb_1.gif"));
+        } catch (Exception e) {
+            System.out.println("未找到 bomb_1.gif");
+        }
+        try {
+            bomb2 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb_2.gif"));
+        } catch (Exception e) {
+            System.out.println("未找到 bomb_2.gif");
+        }
+        try {
+            bomb3 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb_3.gif"));
+        } catch (Exception e) {
+            System.out.println("未找到 bomb_3.gif");
         }
     }
 
@@ -117,6 +138,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         if (myTank.bullet != null && myTank.bullet.isLive()) {
             g.fillOval(myTank.bullet.getX(), myTank.bullet.getY(), 6, 6);
         }
+
+        //如果 bombs 集合中有对象，就画出
+        
     }
 
     /**
@@ -196,13 +220,40 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
     }
 
+    //判断我方子弹是否击中敌方坦克
+    public void hitTank(Bullet bullet, EnemyTank enemyTank) {
+        switch (enemyTank.getDirection()) {
+            case MyPanel.UPWARD:
+            case MyPanel.DOWNWARD:
+                if (enemyTank.getX() < bullet.getX() && bullet.getX() < enemyTank.getX() + 40
+                        && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 60) {
+                    bullet.setLive(false);
+                    enemyTank.setLive(false);
+
+                    //创建 Bomb 对象，加入到 bombs 集合
+                    bombs.add(new Bomb(enemyTank.getX(), enemyTank.getY()));
+                }
+                break;
+            case MyPanel.LEFT:
+            case MyPanel.RIGHT:
+                if (enemyTank.getX() < bullet.getX() && bullet.getX() < enemyTank.getX() + 60
+                        && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 40) {
+                    bullet.setLive(false);
+                    enemyTank.setLive(false);
+                    //创建 Bomb 对象，加入到 bombs 集合
+                    bombs.add(new Bomb(enemyTank.getX(), enemyTank.getY()));
+                }
+                break;
+        }
+    }
+
     @Override
     public void run() {
         while (true) {
             //判断是否击中了敌方坦克
             if (myTank.bullet != null && myTank.bullet.isLive())
                 for (EnemyTank enemyTank : enemyTanks)
-                    MyTank.hitTank(myTank.bullet, enemyTank);
+                    hitTank(myTank.bullet, enemyTank);
 
             this.repaint();
 
