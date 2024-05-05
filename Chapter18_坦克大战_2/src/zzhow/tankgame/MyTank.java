@@ -42,26 +42,4 @@ public class MyTank extends Tank {
         //启动 Bullet 线程
         new Thread(bullet).start();
     }
-
-    //判断我方子弹是否击中敌方坦克
-    public static void hitTank(Bullet bullet, EnemyTank enemyTank) {
-        switch (enemyTank.getDirection()) {
-            case MyPanel.UPWARD:
-            case MyPanel.DOWNWARD:
-                if (enemyTank.getX() < bullet.getX() && bullet.getX() < enemyTank.getX() + 40
-                        && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 60) {
-                    bullet.setLive(false);
-                    enemyTank.setLive(false);
-                }
-                break;
-            case MyPanel.LEFT:
-            case MyPanel.RIGHT:
-                if (enemyTank.getX() < bullet.getX() && bullet.getX() < enemyTank.getX() + 60
-                        && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 40) {
-                    bullet.setLive(false);
-                    enemyTank.setLive(false);
-                }
-                break;
-        }
-    }
 }
