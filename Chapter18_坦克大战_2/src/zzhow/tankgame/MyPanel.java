@@ -140,7 +140,20 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         }
 
         //如果 bombs 集合中有对象，就画出
-        
+        for (int i = 0; i < bombs.size(); i++) {
+            //取出炸弹
+            Bomb bomb = bombs.get(i);
+            //根据当前 bomb 的 life 值画出对应的图片
+            if (bomb.getLife() > 6)
+                g.drawImage(bomb1, bomb.getX(), bomb.getY(), 60, 60, this);
+            else if (3 < bomb.getLife() && bomb.getLife() <= 6)
+                g.drawImage(bomb2, bomb.getX(), bomb.getY(), 60, 60, this);
+            else
+                g.drawImage(bomb3, bomb.getX(), bomb.getY(), 60, 60, this);
+            //炸弹生命值减少
+            bomb.lifeDown();
+            //如果 bomb 的 life 值为 0，就从 bombs 集合中删除
+        }
     }
 
     /**
