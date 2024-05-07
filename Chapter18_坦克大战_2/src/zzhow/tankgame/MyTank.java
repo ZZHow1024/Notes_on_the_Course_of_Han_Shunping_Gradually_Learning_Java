@@ -1,5 +1,7 @@
 package zzhow.tankgame;
 
+import java.util.concurrent.CopyOnWriteArrayList;
+
 /**
  * 2024/5/3
  *
@@ -8,8 +10,12 @@ package zzhow.tankgame;
  * 我方坦克
  */
 public class MyTank extends Tank {
+    public static final int BULLET_NUMBER_MAX = 5;
     public static final int TYPE = 0;
-    Bullet bullet = null;
+    public static int currentBulletNumber = BULLET_NUMBER_MAX;
+    private Bullet bullet = null;
+    //    private Vector<Bullet> bullets = new Vector<>(); 弃用 Vector
+    private final CopyOnWriteArrayList<Bullet> bullets = new CopyOnWriteArrayList<>(); //使用线程安全的 CopyOnWriteArrayList
 
     public MyTank() {
     }
@@ -23,6 +29,7 @@ public class MyTank extends Tank {
     }
 
     public void shootBullet() {
+        --MyTank.currentBulletNumber;
         //创建 Bullet 对象
         switch (this.getDirection()) {
             case MyPanel.UPWARD:
@@ -41,5 +48,12 @@ public class MyTank extends Tank {
 
         //启动 Bullet 线程
         new Thread(bullet).start();
+
+        //放入 Vector 集合中
+        bullets.add(bullet);
+    }
+
+    public CopyOnWriteArrayList<Bullet> getBullets() {
+        return bullets;
     }
 }
