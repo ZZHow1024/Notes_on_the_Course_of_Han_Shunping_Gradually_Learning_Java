@@ -26,9 +26,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
     //图片资源
     private Image image = null;
     private Image image64 = null;
-    private Image bomb1 = null;
-    private Image bomb2 = null;
-    private Image bomb3 = null;
+    private Image bomb0 = null;
 
     //定义敌方坦克
     int enemyTankQuantity = 3; //敌方坦克数量
@@ -50,19 +48,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             System.out.println("未找到 logo64.png");
         }
         try {
-            bomb1 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb_1.gif"));
+            bomb0 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb.gif"));
         } catch (Exception e) {
-            System.out.println("未找到 bomb_1.gif");
-        }
-        try {
-            bomb2 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb_2.gif"));
-        } catch (Exception e) {
-            System.out.println("未找到 bomb_2.gif");
-        }
-        try {
-            bomb3 = Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb_3.gif"));
-        } catch (Exception e) {
-            System.out.println("未找到 bomb_3.gif");
+            System.out.println("未找到 bomb.gif");
         }
     }
 
@@ -143,16 +131,13 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         for (int i = 0; i < bombs.size(); i++) {
             //取出炸弹
             Bomb bomb = bombs.get(i);
-            //根据当前 bomb 的 life 值画出对应的图片
-            if (bomb.getLife() > 6)
-                g.drawImage(bomb1, bomb.getX(), bomb.getY(), 60, 60, this);
-            else if (3 < bomb.getLife() && bomb.getLife() <= 6)
-                g.drawImage(bomb2, bomb.getX(), bomb.getY(), 60, 60, this);
-            else
-                g.drawImage(bomb3, bomb.getX(), bomb.getY(), 60, 60, this);
+            //绘制爆炸动图
+            g.drawImage(bomb0, bomb.getX(), bomb.getY(), 60, 60, this);
             //炸弹生命值减少
             bomb.lifeDown();
             //如果 bomb 的 life 值为 0，就从 bombs 集合中删除
+            if (bomb.getLife() == 0)
+                bombs.remove(bomb);
         }
     }
 

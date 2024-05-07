@@ -8,7 +8,7 @@ package zzhow.tankgame;
 public class Bomb {
     private int x; //炸弹横坐标
     private int y; //炸弹纵坐标
-    private int life; //炸弹生命周期
+    private int life = 18; //炸弹生命周期
     private boolean isLive = true; //炸弹是否存活
 
     public Bomb() {
