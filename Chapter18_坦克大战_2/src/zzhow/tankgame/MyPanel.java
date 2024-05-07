@@ -102,6 +102,8 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         g.setColor(Color.BLACK);
         g.setFont(new Font("MiSans", Font.BOLD, 30));
         g.drawString("Tank Game 2.0", 5, 30);
+        g.setFont(new Font("MiSans", Font.BOLD, 20));
+        g.drawString("Bullet Number：" + MyTank.currentBulletNumber + " / " + MyTank.BULLET_NUMBER_MAX, 5, 60);
         g.setFont(new Font("MiSans", Font.BOLD, 50));
         g.drawString("@author ZZHow", 260, 700);
 
