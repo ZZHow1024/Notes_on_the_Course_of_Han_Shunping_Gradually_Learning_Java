@@ -60,7 +60,11 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
         //初始化敌方坦克
         for (int i = 0; i < enemyTankQuantity; i++) {
-            EnemyTank enemyTank = new EnemyTank((i + 1) * 100 + 250, 100, MyPanel.DOWNWARD, 1);
+            //创建一个敌方坦克
+            EnemyTank enemyTank = new EnemyTank((i + 1) * 100 + 250, 100, MyPanel.DOWNWARD, 3);
+            //启动敌方坦克线程，让敌方坦克运动
+            new Thread(enemyTank).start();
+            //设置敌方坦克的子弹方向
             Bullet bullet = switch (enemyTank.getDirection()) {
                 case MyPanel.UPWARD ->
                         new Bullet(enemyTank.getX() + 17, enemyTank.getY() - 3, enemyTank.getDirection());

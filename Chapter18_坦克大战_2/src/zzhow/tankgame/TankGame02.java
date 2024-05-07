@@ -10,15 +10,15 @@ import java.util.Objects;
  * @version 2.0
  * 游戏入口
  */
-public class TankGame01 extends JFrame {
+public class TankGame02 extends JFrame {
     MyPanel myPanel = null;
 
     public static void main(String[] args) {
         //启动游戏
-        new TankGame01();
+        new TankGame02();
     }
 
-    public TankGame01() {
+    public TankGame02() {
         myPanel = new MyPanel();
         ImageIcon imageIcon;
         try {
