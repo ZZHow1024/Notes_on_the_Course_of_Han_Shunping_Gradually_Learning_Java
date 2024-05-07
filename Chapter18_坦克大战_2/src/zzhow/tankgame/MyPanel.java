@@ -14,6 +14,10 @@ import java.util.Vector;
  * 游戏绘图区域
  */
 public class MyPanel extends JPanel implements KeyListener, Runnable {
+    //游戏区域的高和宽
+    public static final int WIDTH = 1000;
+    public static final int HEIGHT = 750;
+
     //方向常量
     public static final int UPWARD = 0;
     public static final int DOWNWARD = 1;
@@ -91,7 +95,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
         //画出游戏区域：灰色填充矩形
         g.setColor(Color.GRAY);
-        g.fillRect(0, 0, 1000, 750);
+        g.fillRect(0, 0, MyPanel.WIDTH, MyPanel.HEIGHT);
 
         g.drawImage(image, 320, 210, 300, 300, this);
         g.setColor(Color.BLACK);

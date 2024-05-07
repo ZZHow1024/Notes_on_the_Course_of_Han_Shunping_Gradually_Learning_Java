@@ -60,27 +60,31 @@ public class Tank {
         this.speed = speed;
     }
 
-    public void moveUp(){
-        if(direction != MyPanel.UPWARD)
+    public void moveUp() {
+        if (direction != MyPanel.UPWARD)
             this.direction = MyPanel.UPWARD;
-        y -= this.speed;
+        if (0 < y)
+            this.y -= this.speed;
     }
 
-    public void moveDown(){
-        if(direction != MyPanel.DOWNWARD)
+    public void moveDown() {
+        if (direction != MyPanel.DOWNWARD)
             this.direction = MyPanel.DOWNWARD;
-        y += this.speed;
+        if (y + 60 < MyPanel.HEIGHT)
+            this.y += this.speed;
     }
 
-    public void moveLeft(){
-        if(direction != MyPanel.LEFT)
+    public void moveLeft() {
+        if (direction != MyPanel.LEFT)
             this.direction = MyPanel.LEFT;
-        x -= this.speed;
+        if (0 < x)
+            this.x -= this.speed;
     }
 
-    public void moveRight(){
-        if(direction != MyPanel.RIGHT)
+    public void moveRight() {
+        if (direction != MyPanel.RIGHT)
             this.direction = MyPanel.RIGHT;
-        x += this.speed;
+        if (x + 60 < MyPanel.WIDTH)
+            this.x += this.speed;
     }
 }
