@@ -30,7 +30,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
     //定义敌方坦克
     int enemyTankQuantity = 3; //敌方坦克数量
-    Vector<EnemyTank> enemyTanks = new Vector<>();
+    final Vector<EnemyTank> enemyTanks = new Vector<>();
 
     //定义炸弹集合
     Vector<Bomb> bombs = new Vector<>();
@@ -219,7 +219,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
     }
 
     //判断我方子弹是否击中敌方坦克
-    public void hitTank(Bullet bullet, EnemyTank enemyTank) {
+    public boolean hitTank(Bullet bullet, EnemyTank enemyTank) {
         switch (enemyTank.getDirection()) {
             case MyPanel.UPWARD:
             case MyPanel.DOWNWARD:
@@ -230,6 +230,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
                     //创建 Bomb 对象，加入到 bombs 集合
                     bombs.add(new Bomb(enemyTank.getX(), enemyTank.getY()));
+
+                    //击中，返回 true
+                    return true;
                 }
                 break;
             case MyPanel.LEFT:
@@ -238,20 +241,33 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
                         && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 40) {
                     bullet.setLive(false);
                     enemyTank.setLive(false);
+
                     //创建 Bomb 对象，加入到 bombs 集合
                     bombs.add(new Bomb(enemyTank.getX(), enemyTank.getY()));
+
+                    //击中，返回 true
+                    return true;
                 }
                 break;
         }
+
+        //未击中，返回 false
+        return false;
     }
 
     @Override
     public void run() {
         while (true) {
             //判断是否击中了敌方坦克
-            if (myTank.bullet != null && myTank.bullet.isLive())
-                for (EnemyTank enemyTank : enemyTanks)
-                    hitTank(myTank.bullet, enemyTank);
+            if (myTank.bullet != null && myTank.bullet.isLive()) {
+//                Iterator<EnemyTank> iterator = enemyTanks.iterator();
+//                while (iterator.hasNext()) {
+//                    EnemyTank enemyTank = iterator.next();
+//                    if (hitTank(myTank.bullet, enemyTank))
+//                        iterator.remove();
+//                }
+                enemyTanks.removeIf(enemyTank -> hitTank(myTank.bullet, enemyTank));
+            }
 
             this.repaint();
 
