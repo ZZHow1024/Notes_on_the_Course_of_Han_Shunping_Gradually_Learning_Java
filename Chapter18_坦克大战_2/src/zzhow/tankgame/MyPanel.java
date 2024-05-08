@@ -34,6 +34,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
     private Image bomb0 = null;
 
     //定义敌方坦克
+    public static int enemyTankTotalNumber = 3;
     int enemyTankQuantity = 3; //敌方坦克数量
     final Vector<EnemyTank> enemyTanks = new Vector<>();
 
@@ -105,6 +106,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         g.drawString("Tank Game 2.0", 5, 30);
         g.setFont(new Font("MiSans", Font.BOLD, 20));
         g.drawString("Bullet Number：" + MyTank.currentBulletNumber + " / " + MyTank.BULLET_NUMBER_MAX, 5, 60);
+        g.drawString("Enemy Tank Number：" + this.enemyTanks.size() + " / " + MyPanel.enemyTankTotalNumber, 5, 85);
         g.setFont(new Font("MiSans", Font.BOLD, 50));
         g.drawString("@author ZZHow", 260, 700);
 
