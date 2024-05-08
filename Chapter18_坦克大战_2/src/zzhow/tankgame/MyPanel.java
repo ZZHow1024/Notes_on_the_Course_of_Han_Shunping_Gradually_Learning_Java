@@ -69,21 +69,22 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             EnemyTank enemyTank = new EnemyTank((i + 1) * 100 + 250, 100, MyPanel.DOWNWARD, 3);
             //启动敌方坦克线程，让敌方坦克运动
             new Thread(enemyTank).start();
-            //设置敌方坦克的子弹方向
-            Bullet bullet = switch (enemyTank.getDirection()) {
-                case MyPanel.UPWARD ->
-                        new Bullet(enemyTank.getX() + 17, enemyTank.getY() - 3, enemyTank.getDirection());
-                case MyPanel.DOWNWARD ->
-                        new Bullet(enemyTank.getX() + 17, enemyTank.getY() + 57, enemyTank.getDirection());
-                case MyPanel.LEFT -> new Bullet(enemyTank.getX() - 3, enemyTank.getY() + 17, enemyTank.getDirection());
-                case MyPanel.RIGHT ->
-                        new Bullet(enemyTank.getX() + 57, enemyTank.getY() + 17, enemyTank.getDirection());
-                default -> null;
-            };
-
-            //给敌方坦克加入一颗子弹
-            enemyTank.getBullets().add(bullet);
-            new Thread(bullet).start();
+//            //设置敌方坦克的子弹方向
+//            Bullet bullet = switch (enemyTank.getDirection()) {
+//                case MyPanel.UPWARD ->
+//                        new Bullet(enemyTank.getX() + 17, enemyTank.getY() - 3, enemyTank.getDirection());
+//                case MyPanel.DOWNWARD ->
+//                        new Bullet(enemyTank.getX() + 17, enemyTank.getY() + 57, enemyTank.getDirection());
+//                case MyPanel.LEFT -> new Bullet(enemyTank.getX() - 3, enemyTank.getY() + 17, enemyTank.getDirection());
+//                case MyPanel.RIGHT ->
+//                        new Bullet(enemyTank.getX() + 57, enemyTank.getY() + 17, enemyTank.getDirection());
+//                default -> null;
+//            };
+//
+//            //给敌方坦克加入一颗子弹
+//            enemyTank.getBullets().add(bullet);
+//            new Thread(bullet).start();
+            //以上功能改到 EnemyTank 类中的 shootBullet() 方法
 
             //添加敌方坦克
             enemyTanks.add(enemyTank);
@@ -127,6 +128,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
                         g.fillOval(bullet.getX(), bullet.getY(), 6, 6);
                     } else {
                         enemyTank.getBullets().remove(bullet);
+                        ++EnemyTank.currentBulletNumber;
                     }
                 }
             }
