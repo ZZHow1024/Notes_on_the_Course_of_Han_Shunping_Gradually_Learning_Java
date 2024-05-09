@@ -17,7 +17,7 @@ public class EnemyTank extends Tank implements Runnable {
     public static int currentBulletNumber = BULLET_NUMBER_MAX;
     //  private final Vector<Bullet> bullets = new Vector<>(); //弃用 Vector
     private final CopyOnWriteArrayList<Bullet> bullets = new CopyOnWriteArrayList<>();
-    private boolean isLive = true;
+    //  private boolean isLive = true; //已提升至父类 Tank 中
 
     public EnemyTank() {
     }
@@ -34,13 +34,13 @@ public class EnemyTank extends Tank implements Runnable {
         return bullets;
     }
 
-    public boolean isLive() {
-        return isLive;
-    }
-
-    public void setLive(boolean live) {
-        isLive = live;
-    }
+//    public boolean isLive() {
+//        return isLive;
+//    }
+//
+//    public void setLive(boolean live) {
+//        isLive = live;
+//    }
 
     public void shootBullet() {
         if (EnemyTank.currentBulletNumber > 0) {
@@ -65,7 +65,7 @@ public class EnemyTank extends Tank implements Runnable {
 
     @Override
     public void run() {
-        while (isLive) {
+        while (isLive()) {
             //随机改变坦克方向 0、1、2、3
             Random random = new Random();
             setDirection(random.nextInt(4));

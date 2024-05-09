@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.Iterator;
 import java.util.Vector;
 
 /**
@@ -111,8 +110,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         g.drawString("@author ZZHow", 260, 700);
 
         //画出坦克：调用 drawTank() 方法
-        //①画出我方坦克
-        drawTank(myTank.getX(), myTank.getY(), g, myTank.getDirection(), MyTank.TYPE);
+        //①画出我方坦克（补充判断是否存活）
+        if(myTank.isLive())
+            drawTank(myTank.getX(), myTank.getY(), g, myTank.getDirection(), MyTank.TYPE);
         //②画出敌方坦克和子弹
         for (int i = 0; i < enemyTanks.size(); i++) {
             EnemyTank enemyTank = enemyTanks.get(i);
@@ -242,18 +242,18 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
     }
 
-    //判断我方子弹是否击中敌方坦克
-    public boolean hitTank(Bullet bullet, EnemyTank enemyTank) {
-        switch (enemyTank.getDirection()) {
+    //判断我方子弹是否击中坦克
+    public boolean hitTank(Bullet bullet, Tank tank) {
+        switch (tank.getDirection()) {
             case MyPanel.UPWARD:
             case MyPanel.DOWNWARD:
-                if (enemyTank.getX() < bullet.getX() && bullet.getX() < enemyTank.getX() + 40
-                        && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 60) {
+                if (tank.getX() < bullet.getX() && bullet.getX() < tank.getX() + 40
+                        && tank.getY() < bullet.getY() && bullet.getY() < tank.getY() + 60) {
                     bullet.setLive(false);
-                    enemyTank.setLive(false);
+                    tank.setLive(false);
 
                     //创建 Bomb 对象，加入到 bombs 集合
-                    bombs.add(new Bomb(enemyTank.getX(), enemyTank.getY()));
+                    bombs.add(new Bomb(tank.getX(), tank.getY()));
 
                     //击中，返回 true
                     return true;
@@ -261,13 +261,13 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
                 break;
             case MyPanel.LEFT:
             case MyPanel.RIGHT:
-                if (enemyTank.getX() < bullet.getX() && bullet.getX() < enemyTank.getX() + 60
-                        && enemyTank.getY() < bullet.getY() && bullet.getY() < enemyTank.getY() + 40) {
+                if (tank.getX() < bullet.getX() && bullet.getX() < tank.getX() + 60
+                        && tank.getY() < bullet.getY() && bullet.getY() < tank.getY() + 40) {
                     bullet.setLive(false);
-                    enemyTank.setLive(false);
+                    tank.setLive(false);
 
                     //创建 Bomb 对象，加入到 bombs 集合
-                    bombs.add(new Bomb(enemyTank.getX(), enemyTank.getY()));
+                    bombs.add(new Bomb(tank.getX(), tank.getY()));
 
                     //击中，返回 true
                     return true;
@@ -292,6 +292,14 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 //                        iterator.remove();
 //                }
                     enemyTanks.removeIf(enemyTank -> hitTank(bullet, enemyTank));
+                }
+            }
+
+            //判断是否击中了我方坦克
+            for(EnemyTank enemyTank : enemyTanks) {
+                for(Bullet bullet : enemyTank.getBullets()) {
+                    if (bullet != null && bullet.isLive() && myTank.isLive() && hitTank(bullet, myTank))
+                        myTank.setLive(false);
                 }
             }
 

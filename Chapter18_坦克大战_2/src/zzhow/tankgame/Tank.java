@@ -12,6 +12,7 @@ public class Tank {
     private int y = 0; //坦克纵坐标
     private int direction = MyPanel.UPWARD; //坦克方向
     private int speed = 1; //坦克速度
+    private boolean isLive = true;
 
     public Tank() {
     }
@@ -58,6 +59,14 @@ public class Tank {
 
     public void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    public boolean isLive() {
+        return isLive;
+    }
+
+    public void setLive(boolean live) {
+        isLive = live;
     }
 
     public void moveUp() {
