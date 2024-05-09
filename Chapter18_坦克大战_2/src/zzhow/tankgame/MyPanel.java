@@ -231,7 +231,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             myTank.moveDown();
         else if (e.getKeyCode() == KeyEvent.VK_D)
             myTank.moveRight();
-        else if (e.getKeyCode() == KeyEvent.VK_SPACE && (MyTank.currentBulletNumber > 0))
+        else if (e.getKeyCode() == KeyEvent.VK_SPACE && myTank.isLive() && (MyTank.currentBulletNumber > 0))
             myTank.shootBullet();
 
         repaint();
