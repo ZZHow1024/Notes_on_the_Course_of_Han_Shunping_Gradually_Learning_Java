@@ -131,7 +131,7 @@ Chapter14_Aggregation
     
 - 示意图
     
-    ![Java 事件监听机制示意图](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/ccb12063-822b-451e-a2e0-dc8611180546/Java%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E6%9C%BA%E5%88%B6%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+    ![Java 事件监听机制示意图](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/a3c59ae1-252e-4807-a053-fea2852f2d7f/%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8%E6%8E%A5%E5%8F%A3.png)
     
     Java 事件监听机制示意图
     
@@ -141,7 +141,7 @@ Chapter14_Aggregation
     3. 事件：承载事件源状态改变时的对象，比如当键盘事件、鼠标事件、窗口事件等等，会生成一个事件对象，该对象保存着当前事件很多信息，比如 KeyEvent 对象有被按下键的 Code 值。java.awt.event 包和 javax.swing.event 包中定义了各种事件类型
     4. 事件类型：
         
-        ![事件类型](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/a726ee4e-4f75-43b3-aab5-7d61ee220497/%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B.png)
+        ![事件类型](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fa726ee4e-4f75-43b3-aab5-7d61ee220497%2F%25E4%25BA%258B%25E4%25BB%25B6%25E7%25B1%25BB%25E5%259E%258B.png?table=block&id=74a10488-8c5a-4a5e-98a7-72f10e646110&t=74a10488-8c5a-4a5e-98a7-72f10e646110&width=541&cache=v2)
         
         事件类型
         
@@ -151,7 +151,7 @@ Chapter14_Aggregation
         3. 事件监听器接口有多种，不同的事件监听器接口可以监听不同的事件，一个类可以实现多个监听接口
         4. 这些接口在 java.awt.event 包和 javax.swing.event 包中定义。
         
-        ![事件监听器接口](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/a3c59ae1-252e-4807-a053-fea2852f2d7f/%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8%E6%8E%A5%E5%8F%A3.png)
+        ![事件监听器接口](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fa3c59ae1-252e-4807-a053-fea2852f2d7f%2F%25E4%25BA%258B%25E4%25BB%25B6%25E7%259B%2591%25E5%2590%25AC%25E5%2599%25A8%25E6%258E%25A5%25E5%258F%25A3.png?table=block&id=b6cf02a9-3de8-4476-b1ba-d651e70c8777&t=b6cf02a9-3de8-4476-b1ba-d651e70c8777&width=307&cache=v2)
         
         事件监听器接口
         
