@@ -12,7 +12,7 @@
 
 持续更新中…
 
-详细内容请访问ZZHow Blog：blog.zzhow.com/article/hspJava
+详细内容请访问：[循序渐进学Java笔记合集 | ZZHow Blog](https://blog.zzhow.com/article/hspJava)
 
 GitHub仓库更新日志：
 
