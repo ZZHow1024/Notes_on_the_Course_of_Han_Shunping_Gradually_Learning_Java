@@ -14,8 +14,10 @@ public class Directory_ {
         m3();
     }
 
+    /**
+     * 判断 D:\new.txt 是否存在，如果存在就删除
+     */
     public static void m1() {
-        // 判断 D:\new.txt 是否存在，如果存在就删除
         String parentPath = "D:\\";
         String fileName = "new.txt";
 
@@ -30,8 +32,10 @@ public class Directory_ {
             System.out.println(fileName + " 不存在");
     }
 
+    /**
+     * 判断 D:\demo 目录是否存在，存在就删除，否则提示不存在
+     */
     public static void m2() {
-        //判断 D:\demo 目录是否存在，存在就删除，否则提示不存在
         String directoryPath = "D:\\demo";
 
         File directory = new File(directoryPath);
@@ -48,8 +52,10 @@ public class Directory_ {
             System.out.println(directoryPath + " 不存在");
     }
 
+    /**
+     * 判断 D:\demo\a\b\c 目录是否存在，如果存在就提示已经存在，否则就创建
+     */
     public static void m3() {
-        //判断 D:\demo\a\b\c 目录是否存在，如果存在就提示已经存在，否则就创建
         String directoryPath = "D:\\demo\\a\\b\\c";
 
         File directory = new File(directoryPath);
