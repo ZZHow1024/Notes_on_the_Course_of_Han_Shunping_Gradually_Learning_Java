@@ -15,7 +15,7 @@ public class FileInformation {
     //获取文件信息
     public static void fileInfo() {
         //创建文件对象
-        File file = new File("E:\\", "news.txt");
+        File file = new File("E:\\", "new.txt");
 
         //getName() 获取文件名
         System.out.println("文件名：" + file.getName());
