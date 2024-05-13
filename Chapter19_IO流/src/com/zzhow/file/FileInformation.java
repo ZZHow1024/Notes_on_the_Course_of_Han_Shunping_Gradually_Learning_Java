@@ -12,7 +12,9 @@ public class FileInformation {
         fileInfo();
     }
 
-    //获取文件信息
+    /**
+     * 获取文件信息
+     */
     public static void fileInfo() {
         //创建文件对象
         File file = new File("E:\\", "new.txt");
