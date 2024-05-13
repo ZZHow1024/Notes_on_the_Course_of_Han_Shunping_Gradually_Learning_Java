@@ -10,14 +10,18 @@ import java.io.IOException;
  * 演示创建文件
  */
 public class FileCreate {
+    /**
+     * 案例：在 D 盘下，创建文件 news1.txt、news2.txt、news3.txt，用三种不同方式创建
+     */
     public static void main(String[] args) {
-        // 案例：在 D 盘下，创建文件 news1.txt、news2.txt、news3.txt，用三种不同方式创建
         create1();
         create2();
         create3();
     }
 
-    // 方式 1：new File(String pathname) //根据路径构建一个 File 对象
+    /**
+     * 方式 1：new File(String pathname) 根据路径构建一个 File 对象
+     */
     public static void create1() {
         String filePath = "D:\\news1.txt";
         File file = new File(filePath);
@@ -32,7 +36,9 @@ public class FileCreate {
         }
     }
 
-    // 方法 2：new File(File parent, String child) //根据父目录文件 + 子路径构建
+    /**
+     * 方法 2：new File(File parent, String child) 根据父目录文件 + 子路径构建
+     */
     public static void create2() {
         File parentFile = new File("D:\\");
         String filePath = "news2.txt";
@@ -49,7 +55,9 @@ public class FileCreate {
         }
     }
 
-    //方法 3：new File(String parent, String child) //根据父目录 + 子路径构建
+    /**
+     * 方法 3：new File(String parent, String child) 根据父目录 + 子路径构建
+     */
     public static void create3() {
         String parentPath = "D:\\";
         String fileName = "news3.txt";
