@@ -108,7 +108,7 @@ Chapter17_Fundamentals of multithreading
     5. `setPriority()` //更改线程的优先级
     6. `getPriority()` //获取线程的优先级
         
-        ![ThreadPriorities](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/b6539f33-f0a1-4808-8d8a-c2592f120179/ThreadPriorities.png)
+        ![ThreadPriorities](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fb6539f33-f0a1-4808-8d8a-c2592f120179%2FThreadPriorities.png?table=block&id=bc24051b-b6cd-426c-8930-f62f02275bf9&t=bc24051b-b6cd-426c-8930-f62f02275bf9&width=652&cache=v2)
         
         ThreadPriorities
         
@@ -157,7 +157,7 @@ Chapter17_Fundamentals of multithreading
 
 - JDK 中用 Thread.State 枚举表示了线程的几种状态
     
-    ![ThreadState](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/d509569f-e817-4288-bd0b-9b27f34de544/ThreadState.png)
+    ![ThreadState](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fd509569f-e817-4288-bd0b-9b27f34de544%2FThreadState.png?table=block&id=0d0193b6-6e46-44b2-bdce-572ac20f8b1b&t=0d0193b6-6e46-44b2-bdce-572ac20f8b1b&width=708&cache=v2)
     
     ThreadState
     
