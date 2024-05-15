@@ -8,7 +8,7 @@ import java.io.*;
  * @author ZZHow
  * 案例：综合使用 BufferedReader 与 BufferedWriter 进行文件拷贝
  */
-public class BufferedCopy {
+public class BufferedCopy01 {
     public static void main(String[] args) {
         String srcFilePath = "D:\\hello.txt";
         String destFilePath = "D:\\hello1.txt";
@@ -21,6 +21,8 @@ public class BufferedCopy {
                 if ((line = bufferedReader.readLine()) != null)
                     bufferedWriter.newLine();
             }
+
+            System.out.println("拷贝成功");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
