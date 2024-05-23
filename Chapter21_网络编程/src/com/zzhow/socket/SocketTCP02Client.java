@@ -12,7 +12,7 @@ import java.net.Socket;
  * @author ZZHow
  * 客户端
  * 客户端连接到服务器端，发送 “Hello, server!”，然后退出
- * 补充：接收服务器发来的消息
+ * 补充：接收服务器端发来的消息并输出
  */
 public class SocketTCP02Client {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class SocketTCP02Client {
              OutputStream outputStream = socket.getOutputStream();
              InputStream inputSteam = socket.getInputStream()) {
 
-            System.out.println("服务端连接成功");
+            System.out.println("服务器端连接成功");
 
             // 发送消息
             outputStream.write(message.getBytes());
