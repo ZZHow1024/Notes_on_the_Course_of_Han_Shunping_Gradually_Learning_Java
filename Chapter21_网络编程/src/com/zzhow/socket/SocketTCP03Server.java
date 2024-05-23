@@ -23,10 +23,8 @@ public class SocketTCP03Server {
         try (ServerSocket serverSocket = new ServerSocket(9999)) {
             // 阻塞等待客户端连接
             try (Socket socket = serverSocket.accept();
-                 InputStream inputStream = socket.getInputStream();
-                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
-                 OutputStream outputStream = socket.getOutputStream();
-                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream))) {
+                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()))) {
 
                 System.out.println("客户端已连接");
 
