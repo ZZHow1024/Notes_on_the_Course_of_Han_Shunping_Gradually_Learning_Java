@@ -14,6 +14,7 @@ import java.net.Socket;
  */
 public class SocketTCP01Server {
     public static void main(String[] args) {
+        System.out.println("---服务端---");
         System.out.println("正在监听 9999 端口，等待连接");
 
         try (ServerSocket serverSocket = new ServerSocket(9999)) {
@@ -39,7 +40,7 @@ public class SocketTCP01Server {
             System.err.println("服务器启动失败: " + e.getMessage());
         }
 
-        System.out.println("服务器关闭，程序退出");
+        System.out.println("服务端关闭，程序退出");
     }
 }
 
