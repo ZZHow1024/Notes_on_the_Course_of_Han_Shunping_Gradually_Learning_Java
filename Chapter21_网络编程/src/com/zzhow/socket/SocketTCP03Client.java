@@ -20,10 +20,8 @@ public class SocketTCP03Client {
         System.out.println("---客户端---");
         // 使用 try-with-resources 语句管理资源
         try (Socket socket = new Socket(InetAddress.getLocalHost(), 9999);
-             OutputStream outputStream = socket.getOutputStream();
-             BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream));
-             InputStream inputSteam = socket.getInputStream();
-             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputSteam))) {
+             BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
             System.out.println("服务器端连接成功");
 
