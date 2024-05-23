@@ -16,6 +16,8 @@ import java.net.Socket;
  */
 public class SocketTCP02Server {
     public static void main(String[] args) {
+        String message = "Hello, client!";
+
         System.out.println("---服务器端---");
         System.out.println("正在监听 9999 端口，等待连接");
 
@@ -37,7 +39,7 @@ public class SocketTCP02Server {
                 System.out.println("\n---停止打印信息");
 
                 // 补充：向客户端发送信息
-                outputStream.write("Hello, client!".getBytes());
+                outputStream.write(message.getBytes());
                 // 补充：设置结束标记
                 socket.shutdownOutput();
             } catch (IOException e) {
