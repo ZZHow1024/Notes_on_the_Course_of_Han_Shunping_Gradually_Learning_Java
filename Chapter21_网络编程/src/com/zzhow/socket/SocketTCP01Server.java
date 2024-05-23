@@ -9,12 +9,12 @@ import java.net.Socket;
  * 2024/5/20
  *
  * @author ZZHow
- * 服务端
+ * 服务器端
  * 服务器端接收到客户端发送的信息，输出，然后退出
  */
 public class SocketTCP01Server {
     public static void main(String[] args) {
-        System.out.println("---服务端---");
+        System.out.println("---服务器端---");
         System.out.println("正在监听 9999 端口，等待连接");
 
         try (ServerSocket serverSocket = new ServerSocket(9999)) {
@@ -37,10 +37,10 @@ public class SocketTCP01Server {
                 System.err.println("客户端通信发生错误: " + e.getMessage());
             }
         } catch (IOException e) {
-            System.err.println("服务器启动失败: " + e.getMessage());
+            System.err.println("服务器端启动失败: " + e.getMessage());
         }
 
-        System.out.println("服务端关闭，程序退出");
+        System.out.println("服务器端关闭，程序退出");
     }
 }
 
