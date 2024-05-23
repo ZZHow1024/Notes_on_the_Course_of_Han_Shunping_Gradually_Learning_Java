@@ -21,7 +21,7 @@ public class SocketTCP01Client {
         try (Socket socket = new Socket(InetAddress.getLocalHost(), 9999);
              OutputStream outputStream = socket.getOutputStream()) {
 
-            System.out.println("服务端连接成功");
+            System.out.println("服务器端连接成功");
 
             // 发送消息
             outputStream.write(message.getBytes());
@@ -39,11 +39,11 @@ public class SocketTCP01Client {
     public static void main(String[] args) {
         String message = "Hello, server!";
 
-        //1. 连接服务端
+        //1. 连接服务器端
         Socket socket = null;
         try {
             socket = new Socket(InetAddress.getLocalHost(), 9999);
-            System.out.println("服务端连接成功");
+            System.out.println("服务器端连接成功");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
