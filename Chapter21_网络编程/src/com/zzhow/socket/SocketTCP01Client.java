@@ -16,6 +16,7 @@ public class SocketTCP01Client {
     public static void main(String[] args) {
         String message = "Hello, server!";
 
+        System.out.println("---客户端---");
         // 使用 try-with-resources 语句管理资源
         try (Socket socket = new Socket(InetAddress.getLocalHost(), 9999);
              OutputStream outputStream = socket.getOutputStream()) {
@@ -29,7 +30,7 @@ public class SocketTCP01Client {
             System.err.println("I/O 错误: " + e.getMessage());
         }
 
-        System.out.println("程序退出");
+        System.out.println("客户端关闭，程序退出");
     }
 }
 
