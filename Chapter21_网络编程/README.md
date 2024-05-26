@@ -41,7 +41,7 @@ Chapter21_Network programming
     7. 于IPv4最大的问题在于网络地址资源有限，严重制约了互联网的应用和发展。IPv6的使用，不仅能解决网络地址资源数量的问题，而且也解决了多种接入设备连入互联韩的障碍
 - IPv4 地址分类：
     
-    ![IPv4地址分类](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/ce2cfd99-0339-4caa-a23a-7e1a8abba09f/IPv4%E5%9C%B0%E5%9D%80%E5%88%86%E7%B1%BB.png)
+    ![IPv4地址分类](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fce2cfd99-0339-4caa-a23a-7e1a8abba09f%2FIPv4%25E5%259C%25B0%25E5%259D%2580%25E5%2588%2586%25E7%25B1%25BB.png?table=block&id=c48f42eb-3dda-44ba-9e8b-db5cebf772ed&t=c48f42eb-3dda-44ba-9e8b-db5cebf772ed&width=670&cache=v2)
     
     IPv4地址分类
     
@@ -68,7 +68,7 @@ Chapter21_Network programming
     - 协议(TCP/IP)
     - TCP/IP (Transmission Control Protocol/lnternet Protocol)的简写，中文译名为传输控制协议/因特网互联协议，又叫网络通讯协议，这个协议是 Internet 最基本的协议、Internet 国际互联网络的基础，简单地说，就是由网络层的 IP 协议和传输层的 TCP 协议组成的。
     
-    ![网络通信协议](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b165318-6383-451c-8845-110b786c9f0a/dc019860-d5ef-4794-99f0-16fb1859639a/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.png)
+    ![网络通信协议](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2Fdc019860-d5ef-4794-99f0-16fb1859639a%2F%25E7%25BD%2591%25E7%25BB%259C%25E9%2580%259A%25E4%25BF%25A1%25E5%258D%258F%25E8%25AE%25AE.png?table=block&id=9737cf08-1701-4326-9417-3308df60bfb8&t=9737cf08-1701-4326-9417-3308df60bfb8&width=624&cache=v2)
     
     网络通信协议
     
@@ -154,7 +154,7 @@ Chapter21_Network programming
     - 客户端接收到服务端发送的 “收到图片"，再退出
     - 该程序要求使用 StreamUtils.java
 
-案例演示：[**com.zzhow.upload](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter21_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/com/zzhow/upload)** 中的 [**TCPFileUploadServer.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter21_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/com/zzhow/upload/TCPFileUploadServer.java) 与 [**TCPFileUploadClient.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter21_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/com/zzhow/upload/TCPFileUploadClient.java)
+案例演示：[**com.zzhow.upload**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/tree/main/Chapter21_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/com/zzhow/upload)** 中的 [**TCPFileUploadServer.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter21_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/com/zzhow/upload/TCPFileUploadServer.java) 与 [**TCPFileUploadClient.java**](https://github.com/ZZHow1024/Notes_on_the_Course_of_Han_Shunping_Gradually_Learning_Java/blob/main/Chapter21_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/com/zzhow/upload/TCPFileUploadClient.java)
 
 # 0674_netstat
 
