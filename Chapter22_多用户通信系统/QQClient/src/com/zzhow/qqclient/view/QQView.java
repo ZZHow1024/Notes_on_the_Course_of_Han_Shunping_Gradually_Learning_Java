@@ -1,6 +1,8 @@
 package com.zzhow.qqclient.view;
 
+import com.zzhow.qqclient.service.UserClientService;
 import com.zzhow.qqclient.utils.Utility;
+import com.zzhow.qqcommon.User;
 
 import java.util.jar.JarOutputStream;
 
@@ -14,6 +16,7 @@ import java.util.jar.JarOutputStream;
 public class QQView {
     private boolean loop = true;
     private String userID;
+    private UserClientService userClientService = new UserClientService(); //用于用户登录注册的对象
 
     //显示主菜单
     public void mainMenu() {
@@ -33,12 +36,11 @@ public class QQView {
                     System.out.print("请输入密码：");
                     String password = Utility.readString(50);
 
-                    //TODO 假设登录成功，进入二级菜单
-                    if (true) {
+                    if (userClientService.checkUser(userID, password)) {
                         System.out.println("===欢迎" + this.userID + "===");
                         secondaryMenu();
                     } else {
-                        System.out.println("用户名或密码错误，登录失败");
+                        System.out.println("登录失败");
                     }
                 }
                 case "9" -> {
