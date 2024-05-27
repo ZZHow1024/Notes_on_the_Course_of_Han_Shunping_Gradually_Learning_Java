@@ -2,9 +2,6 @@ package com.zzhow.qqclient.view;
 
 import com.zzhow.qqclient.service.UserClientService;
 import com.zzhow.qqclient.utils.Utility;
-import com.zzhow.qqcommon.User;
-
-import java.util.jar.JarOutputStream;
 
 /**
  * 2024/5/27
