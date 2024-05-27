@@ -9,6 +9,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 2024/5/27
@@ -20,8 +21,36 @@ public class QQServer {
     public static final int PORT = 9999;
     private ServerSocket serverSocket;
     private Socket socket;
+    //创建集合，存放多个合法用户
+    //ConcurrentHashMap 是线程安全的 HashMap
+    private static ConcurrentHashMap<String, User> validUser = new ConcurrentHashMap<>();
+
+    static {
+        validUser.put("test", new User("test", "test"));
+        validUser.put("admin", new User("admin", "admin"));
+        validUser.put("101", new User("101", "1234"));
+        validUser.put("102", new User("102", "2345"));
+        validUser.put("103", new User("103", "3456"));
+        validUser.put("104", new User("104", "4567"));
+        validUser.put("105", new User("105", "5678"));
+    }
+
+    //验证用户方法
+    private boolean checkUser(String userID, String password) {
+        User user = validUser.get(userID);
+
+        if (user == null)
+            return false;
+
+        if (password.equals(user.getPassword()))
+            return true;
+
+        return false;
+    }
 
     public QQServer() {
+        System.out.println("===网络通讯系统（服务器端）===");
+
         try {
             serverSocket = new ServerSocket(PORT);
             System.out.println("服务器端已启动，正在" + PORT + "端口监听");
@@ -37,9 +66,11 @@ public class QQServer {
                 User user = (User) objectInputStream.readObject();
                 //验证登录
                 Message message = new Message();
-                if ("admin".equals(user.getUserID()) && "000".equals(user.getPassword())) {
+                if (checkUser(user.getUserID(), user.getPassword())) {
                     message.setMessageType(MessageType.MESSAGE_LOGIN_SUCCEEDED);
-                    System.out.println(user.getUserID() + " 登录成功");
+                    objectOutputStream.writeObject(message);
+                    objectOutputStream.flush();
+                    System.out.println("userID = \"" + user.getUserID() + "\"" + ", 登录成功");
 
                     //创建线程与客户端保持通信
                     ServerConnectClientThread serverConnectClientThread = new ServerConnectClientThread(socket, user.getUserID());
@@ -49,10 +80,11 @@ public class QQServer {
                     ManageServerConnectClientThread.addServerConnectClientThread(user.getUserID(), serverConnectClientThread);
                 } else {
                     message.setMessageType(MessageType.MESSAGE_LOGIN_FAILED);
+                    objectOutputStream.writeObject(message);
+                    objectOutputStream.flush();
                     socket.close();
-                    System.out.println(user.getUserID() + "登录失败");
+                    System.out.println("userID = \"" + user.getUserID() + "\", password = \"" + user.getPassword() + "\", 登录失败");
                 }
-                objectOutputStream.writeObject(message);
             }
         } catch (IOException | ClassNotFoundException e) {
             System.out.println(e.getMessage());
