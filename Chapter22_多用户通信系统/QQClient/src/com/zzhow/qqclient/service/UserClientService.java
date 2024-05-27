@@ -25,7 +25,7 @@ public class UserClientService {
 
     public boolean connectServer() {
         try {
-            Socket socket = new Socket(InetAddress.getByName(IP), PORT);
+            socket = new Socket(InetAddress.getByName(IP), PORT);
             return true;
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -57,8 +57,10 @@ public class UserClientService {
         }
 
         //发送 user 对象
-        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
-             ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream())) {
+        try {
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
+            ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
+
             //发送对象
             objectOutputStream.writeObject(user);
 
@@ -67,6 +69,7 @@ public class UserClientService {
 
             //判断是否登录成功
             if (MessageType.MESSAGE_LOGIN_SUCCEEDED.equals(message.getMessageType())) {
+                //System.out.println("Login Succeed");
                 //创建与服务器端保持通信的线程 -> 再创建一个类 ClientConnectServerThread
                 ClientConnectServerThread clientConnectServerThread = new ClientConnectServerThread(socket);
                 //启动客户端线程
@@ -76,11 +79,14 @@ public class UserClientService {
 
                 return true;
             } else {
+                //System.out.println("Login Failed");
                 socket.close();
+
                 return false;
             }
         } catch (IOException | ClassNotFoundException e) {
             System.out.println(e.getMessage());
+            System.exit(-1);
         }
 
         return false;
