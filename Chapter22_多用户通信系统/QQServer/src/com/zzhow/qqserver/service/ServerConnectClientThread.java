@@ -16,25 +16,22 @@ import java.net.Socket;
 public class ServerConnectClientThread extends Thread {
     private Socket socket;
     private String userID;
-    private ObjectInputStream objectInputStream;
 
     public ServerConnectClientThread(Socket socket, String userID) {
         this.socket = socket;
         this.userID = userID;
-        try {
-            objectInputStream = new ObjectInputStream(socket.getInputStream());
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
     }
 
     @Override
     public void run() {
         while (true) {
             try {
+                System.out.println("等待接收客户端的数据");
+                ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
                 Message message = (Message) objectInputStream.readObject();
             } catch (IOException | ClassNotFoundException e) {
-                System.out.println(e.getMessage());
+                System.out.println("异常信息：" + e.getMessage());
+                break;
             }
         }
     }
