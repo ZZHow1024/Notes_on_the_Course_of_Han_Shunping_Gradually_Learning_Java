@@ -14,16 +14,7 @@ import java.net.Socket;
  * 与服务器端保持通信的线程
  */
 public class ClientConnectServerThread extends Thread {
-    private Socket socket = null;
-    private ObjectInputStream oos = null;
-
-    {
-        try {
-            oos = new ObjectInputStream(socket.getInputStream());
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-    }
+    private Socket socket;
 
     public ClientConnectServerThread(Socket socket) {
         this.socket = socket;
@@ -43,9 +34,11 @@ public class ClientConnectServerThread extends Thread {
         while (true) {
             //若服务器没有发送 Message 对象，线程会阻塞在这里
             try {
-                Message message = (Message) oos.readObject();
+                System.out.println("等待接收服务器端的数据");
+                ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
+                Message message = (Message) ois.readObject();
             } catch (IOException | ClassNotFoundException e) {
-                System.out.println(e.getMessage());
+                System.out.println("异常信息：" + e.getMessage());
             }
         }
     }
