@@ -8,6 +8,6 @@ package com.zzhow.qqcommon;
  * 消息类型
  */
 public interface MessageType {
-    int MESSAGE_LOGIN_SUCCEEDED = 1; //登录成功消息
-    int MESSAGE_LOGIN_FAILED = 2; //登录失败消息
+    String MESSAGE_LOGIN_SUCCEEDED = "1"; //登录成功消息
+    String MESSAGE_LOGIN_FAILED = "2"; //登录失败消息
 }
