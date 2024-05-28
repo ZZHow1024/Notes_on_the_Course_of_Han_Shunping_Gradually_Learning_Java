@@ -14,7 +14,7 @@ import java.net.Socket;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 1.0
+ * @Version 2.0
  * 完成用户登录验证和用户注册等功能
  */
 public class UserClientService {
@@ -65,6 +65,7 @@ public class UserClientService {
         try {
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
             objectOutputStream.writeObject(logoutMessage);
+            System.out.println("客户端已退出");
             System.exit(0);
         } catch (IOException e) {
             System.out.println(e.getMessage());

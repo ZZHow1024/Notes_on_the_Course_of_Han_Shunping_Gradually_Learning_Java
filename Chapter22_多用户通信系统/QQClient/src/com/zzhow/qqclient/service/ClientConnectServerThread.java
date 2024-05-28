@@ -11,7 +11,7 @@ import java.net.Socket;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 1.0
+ * @Version 2.0
  * 与服务器端保持通信的线程
  */
 public class ClientConnectServerThread extends Thread {
