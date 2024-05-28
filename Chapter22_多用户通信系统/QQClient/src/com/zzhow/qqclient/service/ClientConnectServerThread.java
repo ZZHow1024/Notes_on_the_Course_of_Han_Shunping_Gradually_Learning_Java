@@ -35,7 +35,6 @@ public class ClientConnectServerThread extends Thread {
         while (true) {
             //若服务器没有发送 Message 对象，线程会阻塞在这里
             try {
-                System.out.println("等待接收服务器端的数据");
                 ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
                 Message message = (Message) ois.readObject();
 
@@ -47,6 +46,12 @@ public class ClientConnectServerThread extends Thread {
                         for (int i = 0; i < onlineUsers.length; i++) {
                             System.out.println((i + 1) + "\t\t" + onlineUsers[i]);
                         }
+                    }
+                    case MessageType.MESSAGE_COMMON -> {
+                        //展示消息
+                        System.out.println("\n###" + message.getSendTime() + "###");
+                        System.out.println("用户 " + message.getSender() + " 发来一条私聊消息：");
+                        System.out.println(message.getContent());
                     }
                     case null, default -> System.out.println("暂不处理");
                 }

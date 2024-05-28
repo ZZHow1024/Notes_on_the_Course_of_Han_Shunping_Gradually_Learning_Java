@@ -1,5 +1,6 @@
 package com.zzhow.qqclient.view;
 
+import com.zzhow.qqclient.service.MessageClientService;
 import com.zzhow.qqclient.service.UserClientService;
 import com.zzhow.qqclient.utils.Utility;
 
@@ -7,13 +8,14 @@ import com.zzhow.qqclient.utils.Utility;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 1.0
+ * @Version 2.0
  * 客户端界面
  */
 public class QQView {
     private boolean loop = true;
     private String userID;
-    private UserClientService userClientService = new UserClientService(); //用于用户登录注册的对象
+    private final UserClientService userClientService = new UserClientService(); //用于用户登录注册的对象
+    private final MessageClientService messageClientService = new MessageClientService(); //用于私聊和群聊的对象
 
     //显示主菜单
     public void mainMenu() {
@@ -68,7 +70,12 @@ public class QQView {
                     System.out.println("群发消息");
                 }
                 case "3" -> {
-                    System.out.println("私聊消息");
+                    System.out.println("---私聊消息---");
+                    System.out.print("请输入想要私聊的用户名（在线）：");
+                    String receiver = Utility.readString(50);
+                    System.out.print("请输入要发送的消息：");
+                    String content = Utility.readString(500);
+                    messageClientService.sendMessage(userID, receiver, content);
                 }
                 case "4" -> {
                     System.out.println("发送文件");
