@@ -12,7 +12,7 @@ import java.net.Socket;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 1.0
+ * @Version 2.0
  * 与客户端保持通信的线程
  */
 public class ServerConnectClientThread extends Thread {
@@ -26,6 +26,7 @@ public class ServerConnectClientThread extends Thread {
 
     @Override
     public void run() {
+        loop:
         while (true) {
             try {
                 System.out.println("等待接收客户端的数据");
@@ -34,7 +35,7 @@ public class ServerConnectClientThread extends Thread {
 
                 switch (message.getMessageType()) {
                     case MessageType.MESSAGE_GET_FRIEND -> {
-                        System.out.println("客户端 " + message.getSender() + " 请求拉取在线用户列表");
+                        System.out.println("用户 " + message.getSender() + " 请求拉取在线用户列表");
 
                         //构建 Message 对象
                         Message onlineUsersListMessage = new Message();
@@ -46,10 +47,20 @@ public class ServerConnectClientThread extends Thread {
                         ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
                         objectOutputStream.writeObject(onlineUsersListMessage);
                     }
+                    case MessageType.MESSAGE_CLIENT_LOGOUT -> {
+                        //将当前用户线程从集合中移除
+                        ManageServerConnectClientThread.removeServerConnectClientThread(message.getSender());
+                        //关闭 socket 连接
+                        socket.close();
+                        System.out.println("用户 " + message.getSender() + " 登出");
+                        //退出当前线程
+                        break loop;
+                    }
                     case null, default -> System.out.println("暂不处理");
                 }
             } catch (IOException | ClassNotFoundException e) {
-                System.out.println("异常信息：" + e.getMessage());
+                System.out.println("用户 " + userID + " 发生异常，异常信息：" + e.getMessage());
+                ManageServerConnectClientThread.removeServerConnectClientThread(userID);
                 break;
             }
         }

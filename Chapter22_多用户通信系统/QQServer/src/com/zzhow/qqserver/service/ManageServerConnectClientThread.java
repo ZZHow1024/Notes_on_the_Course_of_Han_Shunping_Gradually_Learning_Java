@@ -2,14 +2,12 @@ package com.zzhow.qqserver.service;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 1.0
+ * @Version 2.0
  * 管理服务器端连接客户端的线程
  */
 public class ManageServerConnectClientThread {
@@ -19,6 +17,11 @@ public class ManageServerConnectClientThread {
     //添加线程
     public static void addServerConnectClientThread(String userID, ServerConnectClientThread serverConnectClientThread) {
         hashMap.put(userID, serverConnectClientThread);
+    }
+
+    //移除线程
+    public static void removeServerConnectClientThread(String userID) {
+        hashMap.remove(userID);
     }
 
     //获取线程
