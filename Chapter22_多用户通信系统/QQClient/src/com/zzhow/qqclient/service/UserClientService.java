@@ -23,6 +23,7 @@ public class UserClientService {
     public User user; //用户对象
     public Socket socket;
 
+    //连接服务器
     public boolean connectServer() {
         try {
             socket = new Socket(InetAddress.getByName(IP), PORT);
@@ -32,6 +33,25 @@ public class UserClientService {
         }
 
         return false;
+    }
+
+    //请求在线用户列表
+    public void onlineFriend() {
+        //构建 Message 对象
+        Message message = new Message();
+        message.setSender(user.getUserID());
+        message.setMessageType(MessageType.MESSAGE_GET_FRIEND);
+
+        //发送给服务器端
+        ClientConnectServerThread clientConnectServerThread
+                = ManageClientConnectServerThread.getClientConnectServerThread(user.getUserID());
+        try {
+            ObjectOutputStream objectOutputStream
+                    = new ObjectOutputStream(clientConnectServerThread.getSocket().getOutputStream());
+            objectOutputStream.writeObject(message);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     public boolean checkUser(String userID, String password) {
