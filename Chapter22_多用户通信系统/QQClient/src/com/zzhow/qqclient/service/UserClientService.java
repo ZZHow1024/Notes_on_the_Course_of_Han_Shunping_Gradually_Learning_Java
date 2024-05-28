@@ -54,6 +54,24 @@ public class UserClientService {
         }
     }
 
+    //客户端登出
+    public void logout() {
+        //构建 Message 对象
+        Message logoutMessage = new Message();
+        logoutMessage.setSender(user.getUserID());
+        logoutMessage.setMessageType(MessageType.MESSAGE_CLIENT_LOGOUT);
+
+        //发送给服务器端
+        try {
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
+            objectOutputStream.writeObject(logoutMessage);
+            System.exit(0);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    //验证登录
     public boolean checkUser(String userID, String password) {
         //创建用户对象
         user = new User(userID, password);

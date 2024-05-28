@@ -74,7 +74,8 @@ public class QQView {
                     System.out.println("发送文件");
                 }
                 case "9" -> {
-                    System.out.println("退出");
+                    userClientService.logout();
+                    System.out.println("客户端退出");
                     loop = false;
                 }
                 case null, default -> System.out.println("无此选项");
