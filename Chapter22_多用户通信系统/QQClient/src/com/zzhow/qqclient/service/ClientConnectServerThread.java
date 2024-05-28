@@ -1,6 +1,7 @@
 package com.zzhow.qqclient.service;
 
 import com.zzhow.qqcommon.Message;
+import com.zzhow.qqcommon.MessageType;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -37,8 +38,21 @@ public class ClientConnectServerThread extends Thread {
                 System.out.println("等待接收服务器端的数据");
                 ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
                 Message message = (Message) ois.readObject();
+
+                switch (message.getMessageType()) {
+                    case MessageType.MESSAGE_RES_FRIEND -> {
+                        String[] onlineUsers = message.getContent().split(",");
+                        System.out.println("\n---在线用户列表---");
+                        System.out.println("序号\t\t用户名");
+                        for (int i = 0; i < onlineUsers.length; i++) {
+                            System.out.println((i + 1) + "\t\t" + onlineUsers[i]);
+                        }
+                    }
+                    case null, default -> System.out.println("暂不处理");
+                }
             } catch (IOException | ClassNotFoundException e) {
                 System.out.println("异常信息：" + e.getMessage());
+                System.exit(-1);
             }
         }
     }
