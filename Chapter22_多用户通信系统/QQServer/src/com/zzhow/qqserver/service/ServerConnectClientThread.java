@@ -61,11 +61,34 @@ public class ServerConnectClientThread extends Thread {
                         break loop;
                     }
                     case MessageType.MESSAGE_COMMON -> {
-                        //根据 message 中的 receiver 获取对应的通信线程
-                        Socket receiverSocket = ManageServerConnectClientThread.getServerConnectClientThread(message.getReceiver()).getSocket();
-                        ObjectOutputStream objectOutputStream = new ObjectOutputStream(receiverSocket.getOutputStream());
-                        objectOutputStream.writeObject(message);
-                        System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送了一个私聊消息");
+                        Message reminderMessage = new Message();
+                        reminderMessage.setMessageType(MessageType.MESSAGE_SERVER_REMINDER);
+
+                        Message forwardMessage = new Message();
+                        forwardMessage.setMessageType(MessageType.MESSAGE_COMMON);
+                        forwardMessage.setSender(message.getSender());
+                        forwardMessage.setContent(message.getContent());
+                        forwardMessage.setSendTime(message.getSendTime());
+
+                        //判断指定用户是否在线
+                        if (ManageServerConnectClientThread.isOnline(message.getReceiver())) {
+                            //根据 message 中的 receiver 获取对应的通信线程
+                            Socket receiverSocket = ManageServerConnectClientThread.getServerConnectClientThread(message.getReceiver()).getSocket();
+                            ObjectOutputStream receiverObjectOutputStream = new ObjectOutputStream(receiverSocket.getOutputStream());
+                            receiverObjectOutputStream.writeObject(forwardMessage);
+
+                            //构建提醒消息
+                            reminderMessage.setContent("发送成功");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送了一个私聊消息");
+                        } else {
+                            //构建提醒消息
+                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不在线，发送失败");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送的私聊消息失败，接收方不在线");
+                        }
+
+                        //回复客户端发送状态
+                        ObjectOutputStream senderObjectOutputStream = new ObjectOutputStream(socket.getOutputStream());
+                        senderObjectOutputStream.writeObject(reminderMessage);
                     }
                     case null, default -> System.out.println("暂不处理");
                 }

@@ -33,7 +33,7 @@ public class MessageClientService {
         message.setMessageType(MessageType.MESSAGE_COMMON);
         message.setSendTime(simpleDateFormat.format(new Date())); //发送时间
 
-        //发送给接收者
+        //发送给服务器
         Socket socket = ManageClientConnectServerThread.getClientConnectServerThread(sender).getSocket();
         try {
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());

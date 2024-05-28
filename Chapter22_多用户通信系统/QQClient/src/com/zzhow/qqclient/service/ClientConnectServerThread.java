@@ -53,6 +53,9 @@ public class ClientConnectServerThread extends Thread {
                         System.out.println("用户 " + message.getSender() + " 发来一条私聊消息：");
                         System.out.println(message.getContent());
                     }
+                    case MessageType.MESSAGE_SERVER_REMINDER -> {
+                        System.out.println("\n" + message.getContent());
+                    }
                     case null, default -> System.out.println("暂不处理");
                 }
             } catch (IOException | ClassNotFoundException e) {

@@ -29,6 +29,11 @@ public class ManageServerConnectClientThread {
         return hashMap.get(userID);
     }
 
+    //确认用户是否在线
+    public static boolean isOnline(String userID) {
+        return hashMap.containsKey(userID);
+    }
+
     //获取在线用户列表(用,分割)
     public static String getOnlineUsersList() {
         StringBuilder onlineUsersList = new StringBuilder();
