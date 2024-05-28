@@ -12,7 +12,7 @@ import java.net.Socket;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 2.0
+ * @Version 3.0
  * 与客户端保持通信的线程
  */
 public class ServerConnectClientThread extends Thread {
@@ -22,6 +22,10 @@ public class ServerConnectClientThread extends Thread {
     public ServerConnectClientThread(Socket socket, String userID) {
         this.socket = socket;
         this.userID = userID;
+    }
+
+    public Socket getSocket() {
+        return socket;
     }
 
     @Override
@@ -55,6 +59,13 @@ public class ServerConnectClientThread extends Thread {
                         System.out.println("用户 " + message.getSender() + " 登出");
                         //退出当前线程
                         break loop;
+                    }
+                    case MessageType.MESSAGE_COMMON -> {
+                        //根据 message 中的 receiver 获取对应的通信线程
+                        Socket receiverSocket = ManageServerConnectClientThread.getServerConnectClientThread(message.getReceiver()).getSocket();
+                        ObjectOutputStream objectOutputStream = new ObjectOutputStream(receiverSocket.getOutputStream());
+                        objectOutputStream.writeObject(message);
+                        System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送了一个私聊消息");
                     }
                     case null, default -> System.out.println("暂不处理");
                 }
