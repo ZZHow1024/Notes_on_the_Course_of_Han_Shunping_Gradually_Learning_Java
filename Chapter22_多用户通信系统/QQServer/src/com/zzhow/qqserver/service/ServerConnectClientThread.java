@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.HashMap;
+import java.util.Iterator;
 
 /**
  * 2024/5/27
@@ -89,6 +91,17 @@ public class ServerConnectClientThread extends Thread {
                         //回复客户端发送状态
                         ObjectOutputStream senderObjectOutputStream = new ObjectOutputStream(socket.getOutputStream());
                         senderObjectOutputStream.writeObject(reminderMessage);
+                    }
+                    case MessageType.MESSAGE_TO_ALL -> {
+                        HashMap<String, ServerConnectClientThread> hashMap = ManageServerConnectClientThread.getHashMap();
+                        Iterator<String> iterator = hashMap.keySet().iterator();
+                        while (iterator.hasNext()) {
+                            String key = iterator.next();
+                            if (!key.equals(message.getSender())) {
+                                ObjectOutputStream objectOutputStream = new ObjectOutputStream(hashMap.get(key).getSocket().getOutputStream());
+                                objectOutputStream.writeObject(message);
+                            }
+                        }
                     }
                     case null, default -> System.out.println("暂不处理");
                 }

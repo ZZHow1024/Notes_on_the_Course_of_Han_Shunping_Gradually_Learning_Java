@@ -8,7 +8,7 @@ import com.zzhow.qqclient.utils.Utility;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 2.0
+ * @Version 3.0
  * 客户端界面
  */
 public class QQView {
@@ -67,7 +67,10 @@ public class QQView {
                     userClientService.onlineFriend();
                 }
                 case "2" -> {
-                    System.out.println("群发消息");
+                    System.out.println("---群发消息---");
+                    System.out.print("请输入要发送的消息：");
+                    String content = Utility.readString(500);
+                    messageClientService.sendMessageToAll(userID, content);
                 }
                 case "3" -> {
                     System.out.println("---私聊消息---");
@@ -75,7 +78,7 @@ public class QQView {
                     String receiver = Utility.readString(50);
                     System.out.print("请输入要发送的消息：");
                     String content = Utility.readString(500);
-                    messageClientService.sendMessage(userID, receiver, content);
+                    messageClientService.sendMessageToOne(userID, receiver, content);
                 }
                 case "4" -> {
                     System.out.println("发送文件");

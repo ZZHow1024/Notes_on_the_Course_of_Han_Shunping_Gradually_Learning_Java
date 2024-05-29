@@ -7,7 +7,7 @@ import java.util.Iterator;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 2.0
+ * @Version 3.0
  * 管理服务器端连接客户端的线程
  */
 public class ManageServerConnectClientThread {
@@ -48,5 +48,10 @@ public class ManageServerConnectClientThread {
         }
 
         return onlineUsersList.toString();
+    }
+
+    //hashMap 读取器
+    public static HashMap<String, ServerConnectClientThread> getHashMap() {
+        return hashMap;
     }
 }
