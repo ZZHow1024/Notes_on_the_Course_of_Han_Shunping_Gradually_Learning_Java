@@ -26,6 +26,8 @@ public class QQServer {
     private static ConcurrentHashMap<String, User> validUser = new ConcurrentHashMap<>();
 
     static {
+        validUser.put("a", new User("a", "a"));
+        validUser.put("b", new User("b", "b"));
         validUser.put("test", new User("test", "test"));
         validUser.put("admin", new User("admin", "admin"));
         validUser.put("101", new User("101", "1234"));
@@ -54,6 +56,9 @@ public class QQServer {
         try {
             serverSocket = new ServerSocket(PORT);
             System.out.println("服务器端已启动，正在" + PORT + "端口监听");
+
+            //启动新闻推送服务
+            new SendNewsToAll().start();
 
             while (true) {
                 //如果没有客户端连接就会阻塞

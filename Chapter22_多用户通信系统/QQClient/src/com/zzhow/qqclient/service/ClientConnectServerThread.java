@@ -54,7 +54,8 @@ public class ClientConnectServerThread extends Thread {
                         System.out.println("用户 " + message.getSender() + " 发来一条私聊消息：");
                         System.out.println(message.getContent());
                     }
-                    case MessageType.MESSAGE_SERVER_REMINDER -> System.out.println("\n" + message.getContent());
+                    case MessageType.MESSAGE_SERVER_REMINDER ->
+                            System.out.println("\n服务器消息：" + message.getContent());
                     case MessageType.MESSAGE_TO_ALL -> {
                         System.out.println("\n###" + message.getSendTime() + "###");
                         System.out.println("用户 " + message.getSender() + " 发来群发消息：");
