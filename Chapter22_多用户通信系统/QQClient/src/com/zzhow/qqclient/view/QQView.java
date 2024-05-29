@@ -1,5 +1,6 @@
 package com.zzhow.qqclient.view;
 
+import com.zzhow.qqclient.service.FileClientServer;
 import com.zzhow.qqclient.service.MessageClientService;
 import com.zzhow.qqclient.service.UserClientService;
 import com.zzhow.qqclient.utils.Utility;
@@ -8,7 +9,7 @@ import com.zzhow.qqclient.utils.Utility;
  * 2024/5/27
  *
  * @author ZZHow
- * @Version 3.0
+ * @Version 3.1
  * 客户端界面
  */
 public class QQView {
@@ -16,6 +17,7 @@ public class QQView {
     private String userID;
     private final UserClientService userClientService = new UserClientService(); //用于用户登录注册的对象
     private final MessageClientService messageClientService = new MessageClientService(); //用于私聊和群聊的对象
+    private final FileClientServer fileClientServer = new FileClientServer(); //用于文件传输
 
     //显示主菜单
     public void mainMenu() {
@@ -81,7 +83,13 @@ public class QQView {
                     messageClientService.sendMessageToOne(userID, receiver, content);
                 }
                 case "4" -> {
-                    System.out.println("发送文件");
+                    System.out.print("请输入想要发送文件的用户名（在线）：");
+                    String receiver = Utility.readString(50);
+                    System.out.print("请输入要发送的文件路径：");
+                    String src = Utility.readString(500);
+                    System.out.print("请输入要对方保存的文件路径：");
+                    String dest = Utility.readString(500);
+                    fileClientServer.sendFileToOne(src, dest, userID, receiver);
                 }
                 case "9" -> {
                     userClientService.logout();

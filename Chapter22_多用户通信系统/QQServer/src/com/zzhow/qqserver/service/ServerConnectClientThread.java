@@ -103,6 +103,30 @@ public class ServerConnectClientThread extends Thread {
                             }
                         }
                     }
+                    case MessageType.MESSAGE_FILE -> {
+                        //服务器端提醒消息
+                        Message reminderMessage = new Message();
+                        reminderMessage.setMessageType(MessageType.MESSAGE_SERVER_REMINDER);
+
+                        //判断指定用户是否在线
+                        if (ManageServerConnectClientThread.isOnline(message.getReceiver())) {
+                            //根据 receiver 获取对应的线程，将 message 对象转发
+                            Socket receiverSocket = ManageServerConnectClientThread.getServerConnectClientThread(message.getReceiver()).getSocket();
+                            ObjectOutputStream receiverObjectOutputStream = new ObjectOutputStream(receiverSocket.getOutputStream());
+                            receiverObjectOutputStream.writeObject(message);
+
+                            //构建提醒消息
+                            reminderMessage.setContent("发送成功");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送了一个文件");
+                        } else {
+                            //构建提醒消息
+                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不在线，发送失败");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送的文件失败，接收方不在线");
+                        }
+                        //回复客户端发送状态
+                        ObjectOutputStream senderObjectOutputStream = new ObjectOutputStream(socket.getOutputStream());
+                        senderObjectOutputStream.writeObject(reminderMessage);
+                    }
                     case null, default -> System.out.println("暂不处理");
                 }
             } catch (IOException | ClassNotFoundException e) {

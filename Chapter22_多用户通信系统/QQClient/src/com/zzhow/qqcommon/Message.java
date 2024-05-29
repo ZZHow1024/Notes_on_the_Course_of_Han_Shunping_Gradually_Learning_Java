@@ -7,7 +7,7 @@ import java.io.Serializable;
  * 2024/5/27
  *
  * @author ZZHow
- * @version 1.0
+ * @version 2.0
  * 消息对象
  */
 public class Message implements Serializable {
@@ -18,6 +18,13 @@ public class Message implements Serializable {
     private String content; //消息内容
     private String sendTime; //发送时间
     private String messageType; //消息类型[在接口中定义消息类型]
+
+    //文件消息相关属性
+    private String fileName; //文件名
+    private byte[] file; //文件内容
+    private int fileLength = 0; //文件大小
+    private String dest; //文件接收路径
+
 
     public Message() {
     }
@@ -60,5 +67,37 @@ public class Message implements Serializable {
 
     public void setMessageType(String messageType) {
         this.messageType = messageType;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public byte[] getFile() {
+        return file;
+    }
+
+    public void setFile(byte[] file) {
+        this.file = file;
+    }
+
+    public int getFileLength() {
+        return fileLength;
+    }
+
+    public void setFileLength(int fileLength) {
+        this.fileLength = fileLength;
+    }
+
+    public String getDest() {
+        return dest;
+    }
+
+    public void setDest(String dest) {
+        this.dest = dest;
     }
 }

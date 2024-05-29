@@ -3,6 +3,7 @@ package com.zzhow.qqclient.service;
 import com.zzhow.qqcommon.Message;
 import com.zzhow.qqcommon.MessageType;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.Socket;
@@ -59,10 +60,20 @@ public class ClientConnectServerThread extends Thread {
                         System.out.println("用户 " + message.getSender() + " 发来群发消息：");
                         System.out.println(message.getContent());
                     }
+                    case MessageType.MESSAGE_FILE -> {
+                        System.out.println("\n###" + message.getSendTime() + "###");
+                        System.out.println("用户 " + message.getSender() + " 发来文件 " + message.getFileName());
+
+                        try (FileOutputStream fileOutputStream = new FileOutputStream(message.getDest())) {
+                            fileOutputStream.write(message.getFile());
+                            System.out.println("文件 " + message.getFileName() + " 成功保存至 " + message.getDest());
+                        } catch (IOException e) {
+                            System.out.println("文件写出异常：" + e.getMessage());
+                        }
+                    }
                     case null, default -> System.out.println("暂不处理");
                 }
             } catch (IOException | ClassNotFoundException e) {
-                System.out.println("异常信息：" + e.getMessage());
                 System.exit(-1);
             }
         }
