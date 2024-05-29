@@ -76,14 +76,14 @@ public class QQView {
                 }
                 case "3" -> {
                     System.out.println("---私聊消息---");
-                    System.out.print("请输入想要私聊的用户名（在线）：");
+                    System.out.print("请输入想要私聊的用户名：");
                     String receiver = Utility.readString(50);
                     System.out.print("请输入要发送的消息：");
                     String content = Utility.readString(500);
                     messageClientService.sendMessageToOne(userID, receiver, content);
                 }
                 case "4" -> {
-                    System.out.print("请输入想要发送文件的用户名（在线）：");
+                    System.out.print("请输入想要发送文件的用户名：");
                     String receiver = Utility.readString(50);
                     System.out.print("请输入要发送的文件路径：");
                     String src = Utility.readString(500);

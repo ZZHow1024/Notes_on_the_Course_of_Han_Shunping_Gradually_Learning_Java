@@ -7,8 +7,11 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+
+import static com.zzhow.qqserver.data.OfflineMessages.*;
 
 /**
  * 2024/5/27
@@ -32,6 +35,23 @@ public class ServerConnectClientThread extends Thread {
 
     @Override
     public void run() {
+        //推送离线消息
+        if (hasOfflineMessages(userID)) {
+            //取出当前用户的离线消息集合
+            ArrayList<Message> messages = getOfflineMessages(userID);
+
+            for (Message message : messages) {
+                try {
+                    ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
+                    objectOutputStream.writeObject(message);
+                } catch (IOException e) {
+                    System.out.println("异常信息：" + e.getMessage());
+                }
+            }
+
+            System.out.println("用户 " + userID + " 的 " + messages.size() + " 条离线消息已推送完毕");
+        }
+
         loop:
         while (true) {
             try {
@@ -72,7 +92,7 @@ public class ServerConnectClientThread extends Thread {
                         forwardMessage.setContent(message.getContent());
                         forwardMessage.setSendTime(message.getSendTime());
 
-                        //判断指定用户是否在线
+                        //判断指定用户是否在线 && 已注册
                         if (ManageServerConnectClientThread.isOnline(message.getReceiver())) {
                             //根据 message 中的 receiver 获取对应的通信线程
                             Socket receiverSocket = ManageServerConnectClientThread.getServerConnectClientThread(message.getReceiver()).getSocket();
@@ -82,10 +102,17 @@ public class ServerConnectClientThread extends Thread {
                             //构建提醒消息
                             reminderMessage.setContent("发送成功");
                             System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送了一个私聊消息");
-                        } else {
+                        } else if (!QQServer.isRegister(message.getReceiver())) {
                             //构建提醒消息
-                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不在线，发送失败");
-                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送的私聊消息失败，接收方不在线");
+                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不存在，发送私聊消息失败");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送私聊消息失败，接收方不存在");
+                        } else {
+                            //存储离线消息
+                            storingOfflineMessages(message.getReceiver(), message);
+
+                            //构建提醒消息
+                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不在线，将在该用户上线时推送离线消息");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送私聊消息，但接收方不在线，已存储为离线消息");
                         }
 
                         //回复客户端发送状态
@@ -108,7 +135,7 @@ public class ServerConnectClientThread extends Thread {
                         Message reminderMessage = new Message();
                         reminderMessage.setMessageType(MessageType.MESSAGE_SERVER_REMINDER);
 
-                        //判断指定用户是否在线
+                        //判断指定用户是否在线 && 已注册
                         if (ManageServerConnectClientThread.isOnline(message.getReceiver())) {
                             //根据 receiver 获取对应的线程，将 message 对象转发
                             Socket receiverSocket = ManageServerConnectClientThread.getServerConnectClientThread(message.getReceiver()).getSocket();
@@ -118,10 +145,17 @@ public class ServerConnectClientThread extends Thread {
                             //构建提醒消息
                             reminderMessage.setContent("发送成功");
                             System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送了一个文件");
-                        } else {
+                        } else if (!QQServer.isRegister(message.getReceiver())) {
                             //构建提醒消息
-                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不在线，发送失败");
-                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送的文件失败，接收方不在线");
+                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不存在，发送文件失败");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送文件失败，接收方不存在");
+                        } else {
+                            //存储离线消息
+                            storingOfflineMessages(message.getReceiver(), message);
+
+                            //构建提醒消息
+                            reminderMessage.setContent("用户 " + message.getReceiver() + " 不在线，将在该用户上线时推送离线消息");
+                            System.out.println("用户 " + message.getSender() + " 对用户 " + message.getReceiver() + " 发送文件，但接收方不在线，已存储为离线消息");
                         }
                         //回复客户端发送状态
                         ObjectOutputStream senderObjectOutputStream = new ObjectOutputStream(socket.getOutputStream());

@@ -37,19 +37,6 @@ public class QQServer {
         validUser.put("105", new User("105", "5678"));
     }
 
-    //验证用户方法
-    private boolean checkUser(String userID, String password) {
-        User user = validUser.get(userID);
-
-        if (user == null)
-            return false;
-
-        if (password.equals(user.getPassword()))
-            return true;
-
-        return false;
-    }
-
     public QQServer() {
         System.out.println("===网络通讯系统（服务器端）===");
 
@@ -102,5 +89,23 @@ public class QQServer {
                 System.out.println(e.getMessage());
             }
         }
+    }
+
+    //验证用户方法
+    private boolean checkUser(String userID, String password) {
+        User user = validUser.get(userID);
+
+        if (user == null)
+            return false;
+
+        if (password.equals(user.getPassword()))
+            return true;
+
+        return false;
+    }
+
+    //判断用户是否注册
+    public static boolean isRegister(String userID) {
+        return validUser.containsKey(userID);
     }
 }
