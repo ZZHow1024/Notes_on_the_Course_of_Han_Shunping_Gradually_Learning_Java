@@ -81,5 +81,5 @@ GitHub仓库更新日志：
 - 2024年6月21日
     - 整理 **Chapter23**
 
-[https://www.bilibili.com/video/BV1fh411y7R8/?p=1]
+[https://www.bilibili.com/video/BV1fh411y7R8]
 ![1705558195302.png](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4b165318-6383-451c-8845-110b786c9f0a%2F215c7826-8f8e-456f-a6b4-62891fafca9e%2F1705558195302.png?table=block&id=8d67b0e0-92a9-4dc0-99e1-8cc6bda8aeca&t=8d67b0e0-92a9-4dc0-99e1-8cc6bda8aeca)
